@@ -6,10 +6,10 @@
     "node": ">=23.0.0"
   },
   "type": "module",
-  "main": "src/main.ts",
+  "main": "src/main.mts",
   "scripts": {
     "build": "tsc",
-    "start": "node src/main.ts",
+    "start": "node src/main.mts",
     "test": "vitest run --coverage",
     "fmt": "prettier --write ."
   },

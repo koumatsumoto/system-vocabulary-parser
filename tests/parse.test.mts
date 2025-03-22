@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { extractWordsAndDescriptions } from "../src/parse";
+import { extractWordsAndDescriptions } from "../src/parse.mts";
 
 describe("extractWordsAndDescriptions", () => {
   test("extracts single word entry correctly", () => {
@@ -12,7 +12,7 @@ This is a description`;
     expect(result[0]).toEqual({
       word_number: "3.1",
       word: "test word",
-      description: "This is a description"
+      description: "This is a description",
     });
   });
 
@@ -29,12 +29,12 @@ This is second description`;
     expect(result[0]).toEqual({
       word_number: "3.1",
       word: "first word",
-      description: "This is first description"
+      description: "This is first description",
     });
     expect(result[1]).toEqual({
       word_number: "3.2",
       word: "second word",
-      description: "This is second description"
+      description: "This is second description",
     });
   });
 
@@ -66,7 +66,7 @@ Note 1 to entry: Additional note`;
     const result = extractWordsAndDescriptions(input);
     expect(result).toHaveLength(1);
     expect(result[0].description).toBe(
-      "Basic description\ncf. Reference note\nEXAMPLE: This is an example\nNote 1 to entry: Additional note"
+      "Basic description\ncf. Reference note\nEXAMPLE: This is an example\nNote 1 to entry: Additional note",
     );
   });
 
@@ -80,7 +80,7 @@ Third line adds more detail`;
     const result = extractWordsAndDescriptions(input);
     expect(result).toHaveLength(1);
     expect(result[0].description).toBe(
-      "First line of description Second line continues here Third line adds more detail"
+      "First line of description Second line continues here Third line adds more detail",
     );
   });
 
