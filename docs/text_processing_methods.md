@@ -5,6 +5,7 @@ data/input.txt のテキストを以下の手順で処理する。
 1. テキストの行分割とトリム
 2. 単語エントリの抽出
 3. 説明文の処理
+4. 最終データの出力
 
 それぞれの手順について以下に詳細を記述する。
 
@@ -74,6 +75,7 @@ interface WordDescription {
   - "cf. " は "confer" フィールドに保存
   - "EXAMPLE: " は "example" フィールドに保存
   - "Note 1 to entry: " は "note" フィールドに保存
+- "1. " についてはプレフィックスも本文に含める。それ以外はプレフィックスを削除して本文に保存する。
 
 2. Alias の行
 
@@ -85,3 +87,18 @@ interface WordDescription {
 3. その他の行
 
 - 上記以外の行は、文章の途中ものとして扱う。これらは、前の行とスペースで結合する
+
+## 4. 最終データの出力
+
+上記で処理した `WordEntry`, `WordDescription` を合成して、最終データに変換する。
+最終的な出力 `Output` は以下となる。
+
+```ts
+type Output = Word[];
+
+interface Word {
+  number: WordEntry["number"];
+  name: WordEntry["name"];
+  description: WordDescription;
+}
+```

@@ -1,34 +1,85 @@
 /**
- * Interface representing a word entry with its number, name and description
+ * Interface representing a word entry with its number, name and description lines
  */
 interface WordEntry {
-  word_number: string;
-  word: string;
-  description: string;
+  number: string;
+  name: string;
+  descriptionLines: string[];
 }
 
 /**
- * Process description lines according to joining rules.
- *
- * @param descriptionLines - Array of description lines to process
- * @returns Processed description string with appropriate line joining
+ * Interface representing processed word description
  */
-function processDescriptionLines(descriptionLines: string[]): string {
-  const specialPrefixes = ["cf. ", "EXAMPLE: ", "Note 1 to entry: "];
+interface WordDescription {
+  definition?: string;
+  alias?: string;
+  confer?: string;
+  example?: string;
+  note?: string;
+}
 
-  return descriptionLines.reduce((processedDescription: string, line: string) => {
-    // Check if line starts with any special prefix
-    const hasSpecialPrefix = specialPrefixes.some((prefix) => line.startsWith(prefix));
+/**
+ * Interface representing final output word data
+ */
+interface Word {
+  number: WordEntry["number"];
+  name: WordEntry["name"];
+  description: WordDescription;
+}
 
-    // Add newline for special prefixes, space for normal lines
-    if (processedDescription === "") {
-      return line;
-    } else if (hasSpecialPrefix) {
-      return `${processedDescription}\n${line}`;
+/**
+ * Combine WordEntry and WordDescription into final Word format
+ */
+function combineWordData(entry: WordEntry, description: WordDescription): Word {
+  return {
+    number: entry.number,
+    name: entry.name,
+    description,
+  };
+}
+
+/**
+ * Process description lines according to new schema
+ *
+ * @param lines - Array of description lines to process
+ * @returns Processed description object
+ */
+function processDescriptionLines(lines: string[]): WordDescription {
+  const result: WordDescription = {};
+  let currentSection: keyof WordDescription | null = null;
+  let aliasLines: string[] = [];
+
+  for (const line of lines) {
+    if (line.startsWith("1. ")) {
+      result.definition = line; // "1. " を含めて保存
+      currentSection = "definition";
+    } else if (line.startsWith("cf. ")) {
+      result.confer = line.substring(4); // プレフィックスを削除
+      currentSection = "confer";
+    } else if (line.startsWith("EXAMPLE: ")) {
+      result.example = line.substring(9); // プレフィックスを削除
+      currentSection = "example";
+    } else if (line.startsWith("Note 1 to entry: ")) {
+      result.note = line.substring(17); // プレフィックスを削除
+      currentSection = "note";
+    } else if (!currentSection) {
+      // Lines before any special prefix are aliases
+      aliasLines.push(line);
     } else {
-      return `${processedDescription} ${line}`;
+      // Append to current section with a space if currentSection exists
+      if (currentSection && typeof result[currentSection] === "string") {
+        const currentValue = result[currentSection] as string;
+        result[currentSection] = currentValue ? `${currentValue} ${line}` : line;
+      }
     }
-  }, "");
+  }
+
+  // Join aliases with spaces if any exist
+  if (aliasLines.length > 0) {
+    result.alias = aliasLines.join(" ");
+  }
+
+  return result;
 }
 
 /**
@@ -44,11 +95,14 @@ function processDescriptionLines(descriptionLines: string[]): string {
  * ...
  *
  * @param text - Input text to parse
- * @returns Array of WordEntry objects containing word_number, word, and description
+ * @returns Tuple of WordEntry array and WordDescription array
  */
-export function extractWordsAndDescriptions(text: string): WordEntry[] {
-  const result: WordEntry[] = [];
-  const lines = text.split("\n");
+export function extractWordsAndDescriptions(text: string): Word[] {
+  const words: Word[] = [];
+  const lines = text
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0);
 
   let currentWordNumber: string | null = null;
   let currentWord: string | null = null;
@@ -57,57 +111,50 @@ export function extractWordsAndDescriptions(text: string): WordEntry[] {
   // Regex pattern for word numbers (e.g., "3.1", "3.2", etc.)
   const wordNumberPattern = /^3\.\d+$/;
 
-  let i = 0;
-  while (i < lines.length) {
-    const line = lines[i]?.trim() ?? "";
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]!;
 
     // Check if line matches word number pattern
     if (wordNumberPattern.test(line)) {
       // Save previous entry if exists
       if (currentWordNumber && currentWord && currentDescriptionLines.length > 0) {
-        result.push({
-          word_number: currentWordNumber,
-          word: currentWord,
-          description: processDescriptionLines(currentDescriptionLines),
-        });
+        const entry = {
+          number: currentWordNumber,
+          name: currentWord,
+          descriptionLines: currentDescriptionLines,
+        };
+        const description = processDescriptionLines(currentDescriptionLines);
+        words.push(combineWordData(entry, description));
       }
 
       // Start new entry
       currentWordNumber = line;
       currentDescriptionLines = [];
 
-      // Get word from next non-empty line
-      i++;
-      while (i < lines.length) {
-        const nextLine = lines[i]?.trim() ?? "";
+      // Get word from next line if available
+      if (i + 1 < lines.length) {
+        const nextLine = lines[++i];
         if (nextLine) {
           currentWord = nextLine;
-          break;
-        }
-        i++;
-      }
-      i++;
-    } else {
-      // Add to current description if we have both number and word
-      if (currentWordNumber && currentWord) {
-        // Only add non-empty lines to description
-        if (line) {
-          currentDescriptionLines.push(line);
         }
       }
-      i++;
+    } else if (currentWordNumber && currentWord) {
+      // Add to current description
+      currentDescriptionLines.push(line);
     }
   }
 
-  // Add last entry if exists - only consider non-empty description lines
+  // Add last entry if exists
   if (currentWordNumber && currentWord && currentDescriptionLines.length > 0) {
-    result.push({
-      word_number: currentWordNumber,
-      word: currentWord,
-      description: processDescriptionLines(currentDescriptionLines),
-    });
+    const entry = {
+      number: currentWordNumber,
+      name: currentWord,
+      descriptionLines: currentDescriptionLines,
+    };
+    const description = processDescriptionLines(currentDescriptionLines);
+    words.push(combineWordData(entry, description));
   }
 
-  console.log(`\nExtracted ${result.length} words`);
-  return result;
+  console.log(`\nExtracted ${words.length} words`);
+  return words;
 }

@@ -23,19 +23,21 @@ describe("main function", () => {
 
   test("processes files and saves output correctly", async () => {
     // Mock input data and processing result
-    const mockInput = "3.1\nword1\ndescription1";
-    const mockResult = [
+    const mockInput = "3.1\nword1\n1. definition1";
+    const mockWords = [
       {
-        word_number: "3.1",
-        word: "word1",
-        description: "description1",
+        number: "3.1",
+        name: "word1",
+        description: {
+          definition: "1. definition1",
+        },
       },
     ];
 
     // Setup mocks
     vi.mocked(readTextFile).mockResolvedValue(mockInput);
     vi.mocked(writeJsonFile).mockResolvedValue();
-    vi.mocked(extractWordsAndDescriptions).mockReturnValue(mockResult);
+    vi.mocked(extractWordsAndDescriptions).mockReturnValue(mockWords);
     const consoleSpy = vi.spyOn(console, "log");
 
     // Execute main
@@ -43,7 +45,7 @@ describe("main function", () => {
 
     // Verify file operations
     expect(readTextFile).toHaveBeenCalledWith(expect.stringContaining("input.txt"));
-    expect(writeJsonFile).toHaveBeenCalledWith(expect.stringContaining("output.json"), mockResult);
+    expect(writeJsonFile).toHaveBeenCalledWith(expect.stringContaining("output.json"), mockWords);
     expect(extractWordsAndDescriptions).toHaveBeenCalledWith(mockInput);
     expect(consoleSpy).toHaveBeenCalledWith("Successfully processed 1 words and saved to output.json");
   });

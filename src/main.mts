@@ -8,12 +8,12 @@ export async function main(): Promise<void> {
     const inputText = await readTextFile(path.join("data", "input.txt"));
 
     // Process the text
-    const result = extractWordsAndDescriptions(inputText);
+    const words = extractWordsAndDescriptions(inputText);
 
     // Write output to JSON file
-    await writeJsonFile(path.join("data", "output.json"), result);
+    await writeJsonFile(path.join("data", "output.json"), words);
 
-    console.log(`Successfully processed ${result.length} words and saved to output.json`);
+    console.log(`Successfully processed ${words.length} words and saved to output.json`);
   } catch (error) {
     console.error("Error processing file:", error);
     throw error;
