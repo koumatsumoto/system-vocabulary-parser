@@ -8,14 +8,22 @@ interface WordEntry {
 }
 
 /**
+ * Interface representing a definition with text and optional reference
+ */
+interface WordDefinition {
+  text: string;
+  reference?: string | undefined;
+}
+
+/**
  * Interface representing processed word description
  */
 interface WordDescription {
   definition?: string;
-  alias?: string;
-  confer?: string;
-  example?: string;
-  note?: string;
+  alias?: string | undefined;
+  confer?: string | undefined;
+  example?: string | undefined;
+  note?: string | undefined;
 }
 
 /**
@@ -24,17 +32,63 @@ interface WordDescription {
 interface Word {
   number: WordEntry["number"];
   name: WordEntry["name"];
-  description: WordDescription;
+  alias?: string | undefined;
+  definitions: WordDefinition[];
+  confer?: string | undefined;
+  example?: string | undefined;
+  note?: string | undefined;
+}
+
+/**
+ * Process definition text to extract definitions and references
+ */
+function processDefinitionText(definitionText: string): WordDefinition[] {
+  const definitions: WordDefinition[] = [];
+  
+  // 最初の定義を検出
+  if (!definitionText.startsWith("1. ")) {
+    return [];
+  }
+
+  // 定義を分割（最初の定義は特別扱い）
+  const parts = definitionText.split(/ (?=\d+\. )/);
+  
+  for (const part of parts) {
+    const trimmedPart = part.trim();
+    if (!trimmedPart) continue;
+
+    let text = trimmedPart;
+    let reference: string | undefined;
+
+    // Extract reference if exists
+    const referenceMatch = text.match(/\[([^\]]+)\]$/);
+    if (referenceMatch) {
+      reference = referenceMatch[1];
+      text = text.substring(0, text.length - referenceMatch[0].length).trim();
+    }
+
+    definitions.push({ text, reference });
+  }
+
+  return definitions;
 }
 
 /**
  * Combine WordEntry and WordDescription into final Word format
  */
 function combineWordData(entry: WordEntry, description: WordDescription): Word {
+  const definitions = description.definition 
+    ? processDefinitionText(description.definition)
+    : [];
+
   return {
     number: entry.number,
     name: entry.name,
-    description,
+    alias: description.alias,
+    definitions,
+    confer: description.confer,
+    example: description.example,
+    note: description.note,
   };
 }
 
@@ -45,13 +99,24 @@ function combineWordData(entry: WordEntry, description: WordDescription): Word {
  * @returns Processed description object
  */
 function processDescriptionLines(lines: string[]): WordDescription {
-  const result: WordDescription = {};
+  const result = {} as WordDescription;
   let currentSection: keyof WordDescription | null = null;
   let aliasLines: string[] = [];
+  let definitionLines: string[] = [];
 
   for (const line of lines) {
-    if (line.startsWith("1. ")) {
-      result.definition = line; // "1. " を含めて保存
+    if (line.startsWith("1. ") || /^\s*\d+\.\s/.test(line)) {
+      // 定義行の開始
+      if (definitionLines.length > 0) {
+        // 前の定義行があれば結合して保存
+        result.definition = (result.definition || "") + " " + definitionLines.join(" ");
+        definitionLines = [];
+      }
+      if (!result.definition) {
+        result.definition = line;
+      } else {
+        result.definition = result.definition + " " + line;
+      }
       currentSection = "definition";
     } else if (line.startsWith("cf. ")) {
       result.confer = line.substring(4); // プレフィックスを削除
@@ -65,13 +130,21 @@ function processDescriptionLines(lines: string[]): WordDescription {
     } else if (!currentSection) {
       // Lines before any special prefix are aliases
       aliasLines.push(line);
+    } else if (currentSection === "definition") {
+      // 定義の継続行を収集
+      definitionLines.push(line);
     } else {
-      // Append to current section with a space if currentSection exists
-      if (currentSection && typeof result[currentSection] === "string") {
+      // その他のセクションの継続行
+      if (typeof result[currentSection] === "string") {
         const currentValue = result[currentSection] as string;
         result[currentSection] = currentValue ? `${currentValue} ${line}` : line;
       }
     }
+  }
+
+  // 残っている定義行を処理
+  if (definitionLines.length > 0 && result.definition) {
+    result.definition = result.definition + " " + definitionLines.join(" ");
   }
 
   // Join aliases with spaces if any exist

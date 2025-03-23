@@ -9,7 +9,7 @@ cf. assembly language
 3.3
 3D
 1. three-dimensional [ISO/IEC/IEEE 23026:2015 Systems and software engineering — Engineering and
-management of websites for systems, software, and services information
+management of websites for systems, software, and services information]
 3.4
 3GL
 1. third-generation languag

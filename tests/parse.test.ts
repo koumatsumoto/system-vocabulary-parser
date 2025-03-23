@@ -12,9 +12,9 @@ test word
     expect(words[0]).toEqual({
       number: "3.1",
       name: "test word",
-      description: {
-        definition: "1. This is a description",
-      },
+      definitions: [
+        { text: "1. This is a description" }
+      ],
     });
   });
 
@@ -31,16 +31,16 @@ second word
     expect(words[0]).toEqual({
       number: "3.1",
       name: "first word",
-      description: {
-        definition: "1. This is first description",
-      },
+      definitions: [
+        { text: "1. This is first description" }
+      ],
     });
     expect(words[1]).toEqual({
       number: "3.2",
       name: "second word",
-      description: {
-        definition: "1. This is second description",
-      },
+      definitions: [
+        { text: "1. This is second description" }
+      ],
     });
   });
 
@@ -72,9 +72,13 @@ Note 1 to entry: Additional note`;
 
     const words = extractWordsAndDescriptions(input);
     expect(words).toHaveLength(1);
-    expect(words[0].description).toEqual({
-      definition: "1. Basic description",
+    expect(words[0]).toEqual({
+      number: "3.1",
+      name: "test word",
       alias: "alternative name",
+      definitions: [
+        { text: "1. Basic description" }
+      ],
       confer: "Reference note",
       example: "This is an example",
       note: "Additional note",
@@ -92,9 +96,13 @@ Third line adds more detail`;
 
     const words = extractWordsAndDescriptions(input);
     expect(words).toHaveLength(1);
-    expect(words[0].description).toEqual({
-      definition: "1. First line of definition Second line continues definition Third line adds more detail",
+    expect(words[0]).toEqual({
+      number: "3.1",
+      name: "test word",
       alias: "alternative name 1 alternative name 2",
+      definitions: [
+        { text: "1. First line of definition Second line continues definition Third line adds more detail" }
+      ],
     });
   });
 
@@ -108,5 +116,35 @@ some text
 more text`;
     const invalidWords = extractWordsAndDescriptions(invalidInput);
     expect(invalidWords).toHaveLength(0);
+  });
+
+  test("handles multiple definitions correctly", () => {
+    const input = `3.1
+test word
+1. First definition
+ 2. Second definition
+ 3. Third definition`;
+
+    const words = extractWordsAndDescriptions(input);
+    expect(words).toHaveLength(1);
+    expect(words[0].definitions).toEqual([
+      { text: "1. First definition" },
+      { text: "2. Second definition" },
+      { text: "3. Third definition" }
+    ]);
+  });
+
+  test("extracts references from definitions correctly", () => {
+    const input = `3.1
+test word
+1. Definition with reference [REF1]
+ 2. Another definition [REF2]`;
+
+    const words = extractWordsAndDescriptions(input);
+    expect(words).toHaveLength(1);
+    expect(words[0].definitions).toEqual([
+      { text: "1. Definition with reference", reference: "REF1" },
+      { text: "2. Another definition", reference: "REF2" }
+    ]);
   });
 });

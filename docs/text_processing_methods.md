@@ -5,7 +5,8 @@ data/input.txt のテキストを以下の手順で処理する。
 1. テキストの行分割とトリム
 2. 単語エントリの抽出
 3. 説明文の処理
-4. 最終データの出力
+4. 定義文の処理
+5. 最終データの出力
 
 それぞれの手順について以下に詳細を記述する。
 
@@ -88,9 +89,39 @@ interface WordDescription {
 
 - 上記以外の行は、文章の途中ものとして扱う。これらは、前の行とスペースで結合する
 
-## 4. 最終データの出力
+## 4. 定義文の処理
 
-上記で処理した `WordEntry`, `WordDescription` を合成して、最終データに変換する。
+上記処理で取得した `WordDescription.definition` の文字列を処理して、以下のデータに変換する。
+
+```ts
+type WordDefinition = {
+  text: string;
+  reference?: string;
+}[];
+```
+
+### 定義文の形式
+
+定義文は、"1. " から始まる。単一の定義のみの場合もあれば、複数の定義がある場合もある。
+複数の定義がある場合は、" 2. " のように、前の単語のスペースの後に数字とピリオドとカンマがある。
+定義の最後には参照元となった文献の記載がある場合がある。この参照元は `[]` で囲まれた文字列で表現されている。
+
+### 処理手順
+
+上記の形式を踏まえて、以下の手順で処理をする。
+
+1. 定義文全体を、ナンバリングされた定義に分割する
+
+- "1. " で開始するもの
+- " x. " で開始するもの（xは整数値）
+
+2. 各定義の参照を抽出する
+
+- 定義の文字列のうち "[]" で囲まれた部分のみを抽出する
+
+## 5. 最終データの出力
+
+上記で処理した `WordEntry`, `WordDescription`, `WordDefinition` を合成して、最終データに変換する。
 最終的な出力 `Output` は以下となる。
 
 ```ts
@@ -99,6 +130,10 @@ type Output = Word[];
 interface Word {
   number: WordEntry["number"];
   name: WordEntry["name"];
-  description: WordDescription;
+  alias?: string;
+  definitions: WordDefinition[];
+  confer?: string;
+  example?: string;
+  note?: string;
 }
 ```
