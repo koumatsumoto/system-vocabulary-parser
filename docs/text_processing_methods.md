@@ -58,7 +58,7 @@ interface WordEntry {
 ```ts
 interface WordContent {
   definition: string;
-  alias?: string;
+  alias?: string[];
   confer?: string;
   example?: string;
   note?: string;
@@ -81,8 +81,9 @@ interface WordContent {
 2. Alias の行
 
 - 最初の特別なプレフィックスが見つかるまでの間にある行は、Alias の行である
-- 単語エントリによっては存在しないものがある
-- 複数行存在する場合もある。複数行の場合は、スペースで結合する
+- Alias は単語エントリによって存在しないものがある。その場合は alias フィールドを設けない。
+- Alias が一つある場合は `alias: ["a"]` のように一つの値の配列となる
+- Alias が複数ある場合は `alias: ["a", "b"]` のように複数の値の配列となる
 - Alias は "alias" フィールドに保存する
 
 3. その他の行
@@ -136,10 +137,9 @@ type Output = Word[];
 interface Word {
   number: WordEntry["number"];
   name: WordEntry["name"];
-  alias?: string;
+  alias?: string[];
   definitions: WordDefinition[];
   confer?: string;
   example?: string;
   note?: string;
 }
-```

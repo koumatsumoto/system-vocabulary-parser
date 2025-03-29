@@ -180,11 +180,14 @@
   {
     "number": "3.19",
     "name": "absolute address",
-    "alias": "explicit address specific address",
     "definitions": [
       {
         "text": "address that is permanently assigned to a device or storage location and that identifies the device or location without the need for translation or calculation"
       }
+    ],
+    "alias": [
+      "explicit address",
+      "specific address"
     ],
     "confer": "relative address, relocatable address, symbolic address, absolute assembler, absolute code, absolute instruction"
   },
@@ -201,11 +204,13 @@
   {
     "number": "3.21",
     "name": "absolute code",
-    "alias": "specific code",
     "definitions": [
       {
         "text": "code in which all addresses are absolute addresses"
       }
+    ],
+    "alias": [
+      "specific code"
     ],
     "confer": "relocatable code"
   },
@@ -532,7 +537,6 @@
   {
     "number": "3.51",
     "name": "acquirer",
-    "alias": "owner purchaser",
     "definitions": [
       {
         "text": "stakeholder that acquires or procures a product or service from a supplier",
@@ -546,6 +550,10 @@
         "text": "individual or organization that acquires or procures a system, software product or software service from a supplier",
         "reference": "ISO/IEC 25040:2011 Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Evaluation process, 4.1"
       }
+    ],
+    "alias": [
+      "owner",
+      "purchaser"
     ],
     "note": "The acquirer can be internal or external to the supplier organization. Acquisition of a software product can involve, but does not necessarily require, a legal contract or a financial transaction between the acquirer and supplier."
   },
@@ -897,12 +905,14 @@
   {
     "number": "3.81",
     "name": "actual cost (AC)",
-    "alias": "actual cost of work performed (ACWP)",
     "definitions": [
       {
         "text": "the realized cost incurred for the work performed on an activity during a specific time period",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "actual cost of work performed (ACWP)"
     ],
     "confer": "earned value management, earned value technique",
     "example": "1"
@@ -1063,11 +1073,13 @@
   {
     "number": "3.97",
     "name": "address field",
-    "alias": "address part",
     "definitions": [
       {
         "text": "field of a computer instruction that contains addresses, information necessary to derive addresses, or values of operands"
       }
+    ],
+    "alias": [
+      "address part"
     ],
     "confer": "operation field"
   },
@@ -1477,11 +1489,13 @@
   {
     "number": "3.135",
     "name": "alternate flow",
-    "alias": "alternate path",
     "definitions": [
       {
         "text": "part of a use case that describes its alternative implementations"
       }
+    ],
+    "alias": [
+      "alternate path"
     ],
     "note": "It is also used to describe error conditions, since errors can be considered a kind of alternative."
   },
@@ -1678,11 +1692,13 @@
   {
     "number": "3.154",
     "name": "annual equivalent",
-    "alias": "AE(i)",
     "definitions": [
       {
         "text": "representation of a cash flow as a series of equal annual payments (at a stated interest rate) over the planning horizon."
       }
+    ],
+    "alias": [
+      "AE(i)"
     ],
     "confer": "future worth, present worth"
   },
@@ -1779,11 +1795,13 @@
   {
     "number": "3.164",
     "name": "aperiodic task",
-    "alias": "asynchronous task",
     "definitions": [
       {
         "text": "task activated on demand"
       }
+    ],
+    "alias": [
+      "asynchronous task"
     ]
   },
   {
@@ -1809,7 +1827,6 @@
   {
     "number": "3.167",
     "name": "application",
-    "alias": "application system",
     "definitions": [
       {
         "text": "system for collecting, saving, processing, and presenting data by means of a computer",
@@ -1823,6 +1840,9 @@
         "text": "cohesive collection of automated procedures and data supporting a business objective, consisting of one or more components, modules, or subsystems",
         "reference": "ISO/IEC 20926:2009 Software and systems engineering — Software measurement — IFPUG functional size measurement method 2009, 3.2"
       }
+    ],
+    "alias": [
+      "application system"
     ],
     "confer": "information system EXAMPLE accounts payable, accounts receivable, payroll, procurement, shop production, assembly line control, air search radar, target tracking, weapons firing, flight line scheduling and passenger reservations",
     "note": "The term application is generally used when referring to a component of software that can be executed. It consists of one or more components, modules, or subsystems."
@@ -2361,12 +2381,14 @@
   {
     "number": "3.217",
     "name": "architecture description (AD)",
-    "alias": "architectural description",
     "definitions": [
       {
         "text": "work product used to express an architecture",
         "reference": "ISO/IEC/IEEE 42010:2011 Systems and software engineering — Architecture description, 3.3"
       }
+    ],
+    "alias": [
+      "architectural description"
     ]
   },
   {
@@ -2443,12 +2465,14 @@
   {
     "number": "3.224",
     "name": "argument sort",
-    "alias": "input sort",
     "definitions": [
       {
         "text": "sort of an argument of an operator",
         "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.23.1"
       }
+    ],
+    "alias": [
+      "input sort"
     ]
   },
   {
@@ -2670,22 +2694,28 @@
   {
     "number": "3.245",
     "name": "assembly code",
-    "alias": "assembler code",
     "definitions": [
       {
         "text": "computer instructions and data definitions expressed in a form that can be recognized and processed by an assembler"
       }
+    ],
+    "alias": [
+      "assembler code"
     ],
     "confer": "compiler code, interpretive code, machine code"
   },
   {
     "number": "3.246",
     "name": "assembly language",
-    "alias": "assembler language low-level language second-generation language",
     "definitions": [
       {
         "text": "programming language that corresponds closely to the instruction set of a given computer, allows symbolic naming of operations and addresses, and usually results in a one-to-one translation of program instructions int machine instructions"
       }
+    ],
+    "alias": [
+      "assembler language",
+      "low-level language",
+      "second-generation language"
     ],
     "confer": "fifth-generation language, fourth-generation language, high order language, machine language"
   },
@@ -3110,22 +3140,26 @@
   {
     "number": "3.286",
     "name": "asynchronous message communication",
-    "alias": "loosely coupled message communication",
     "definitions": [
       {
         "text": "communication in which a producer task sends a message to a consumer task and does not wait for a response"
       }
+    ],
+    "alias": [
+      "loosely coupled message communication"
     ],
     "note": "A message queue could build up between the tasks."
   },
   {
     "number": "3.287",
     "name": "atomic type",
-    "alias": "primitive type",
     "definitions": [
       {
         "text": "data type, each of whose members consists of a single, nondecomposable data item"
       }
+    ],
+    "alias": [
+      "primitive type"
     ],
     "confer": "composite type"
   },
@@ -3386,12 +3420,18 @@
   {
     "number": "3.308",
     "name": "automated systems process",
-    "alias": "assisted process assisted software process assisted systems process automated process automated software process",
     "definitions": [
       {
         "text": "systems or software process that is performed either fully or partially supported by CASE tools",
         "reference": "ISO/IEC 15940:2013 Systems and software engineering — Software Engineering Environment Services, 2.9"
       }
+    ],
+    "alias": [
+      "assisted process",
+      "assisted software process",
+      "assisted systems process",
+      "automated process",
+      "automated software process"
     ]
   },
   {
@@ -3660,12 +3700,14 @@
   {
     "number": "3.333",
     "name": "base functional component (BFC)",
-    "alias": "functional service",
     "definitions": [
       {
         "text": "an elementary unit of functional user requirements defined by and used by an FSM method for measurement purposes",
         "reference": "ISO/IEC 14143-1:2007 Information technology — Software measurement — Functional size measurement; Part 1: Definition of concepts, 3.1; ISO/IEC 19761:2011 Software engineering — COSMIC: a functional size measurement method, 2.1; ISO/IEC 20926:2009 Software and systems engineering — Software measurement — IFPUG functional size measurement method 2009, 3.8"
       }
+    ],
+    "alias": [
+      "functional service"
     ],
     "example": "A functional user requirement \"Maintain Customers\" consists of the following BFCs: \"Add a new customer\", \"Report Customer Purchases\", and \"Change Customer Details\". A collection of logically related business data is maintained by the software as \"Customer Details\"."
   },
@@ -3713,12 +3755,14 @@
   {
     "number": "3.338",
     "name": "base value",
-    "alias": "base choice",
     "definitions": [
       {
         "text": "input parameter value used in base choice testing that is normally selected based on being a representative or typical value for the parameter",
         "reference": "ISO/IEC/IEEE 29119-4:2015 Software and systems engineering — Software testing — Part 4: Test techniques, 4.3"
       }
+    ],
+    "alias": [
+      "base choice"
     ]
   },
   {
@@ -3797,22 +3841,27 @@
   {
     "number": "3.344",
     "name": "basic engineering object",
-    "alias": "BEO",
     "definitions": [
       {
         "text": "engineering object that requires the support of a distributed infrastructure",
         "reference": "ISO/IEC 10746-3:2009 Information technology — Open Distributed Processing — Reference Model: Architecture, 8.1.1"
       }
+    ],
+    "alias": [
+      "BEO"
     ]
   },
   {
     "number": "3.345",
     "name": "basic flow",
-    "alias": "basic path happy day scenario",
     "definitions": [
       {
         "text": "part of a use case that describes its most common implementation"
       }
+    ],
+    "alias": [
+      "basic path",
+      "happy day scenario"
     ],
     "note": "The basic flow is written assuming that no errors or alternatives exist."
   },
@@ -4297,11 +4346,13 @@
   {
     "number": "3.389",
     "name": "bit steering",
-    "alias": "immediate control",
     "definitions": [
       {
         "text": "microprogramming technique in which the meaning of a field in a microinstruction is dependent on the value of another field in the microinstruction"
       }
+    ],
+    "alias": [
+      "immediate control"
     ],
     "confer": "residual control, two-level encodin"
   },
@@ -4334,7 +4385,6 @@
   {
     "number": "3.392",
     "name": "block diagram",
-    "alias": "configuration diagram system resources chart",
     "definitions": [
       {
         "text": "diagram of a system in which the principal parts or functions are represented by blocks connected by lines that show the relationships of the blocks",
@@ -4343,6 +4393,10 @@
       {
         "text": "diagram of a system, computer, or device in which the principal parts are represented by suitably annotated geometrical figures to show both the functions of the parts and their functional relationships"
       }
+    ],
+    "alias": [
+      "configuration diagram",
+      "system resources chart"
     ],
     "confer": "box diagram, bubble chart, flowchart, graph, input-process-output chart, structure cha"
   },
@@ -4575,11 +4629,14 @@
   {
     "number": "3.414",
     "name": "box diagram",
-    "alias": "Chapin chart Nassi-Shneiderman char",
     "definitions": [
       {
         "text": "control flow diagram consisting of a rectangle that is subdivided to show sequential steps, if-then-els conditions, repetition, and case conditions"
       }
+    ],
+    "alias": [
+      "Chapin chart",
+      "Nassi-Shneiderman char"
     ],
     "confer": "block diagram, bubble chart, flowchart, graph, input-process-output chart, program structure diagram structure chart"
   },
@@ -4825,11 +4882,13 @@
   {
     "number": "3.435",
     "name": "built-in read only memory",
-    "alias": "built-in RO",
     "definitions": [
       {
         "text": "read-only memory embedded in a microcontroller unit (MCU) chi"
       }
+    ],
+    "alias": [
+      "built-in RO"
     ]
   },
   {
@@ -5116,11 +5175,14 @@
   {
     "number": "3.461",
     "name": "call by reference",
-    "alias": "call by address call by location",
     "definitions": [
       {
         "text": "a method for passing parameters, in which the calling module provides to the called module the address of the parameter to be passed"
       }
+    ],
+    "alias": [
+      "call by address",
+      "call by location"
     ],
     "confer": "call by name, call by value",
     "note": "With this method, the called module has the ability to change the value of the parameter stored by the calling module."
@@ -5139,11 +5201,14 @@
   {
     "number": "3.463",
     "name": "call graph",
-    "alias": "call tree, tier chart",
     "definitions": [
       {
         "text": "diagram that identifies the modules in a system or computer program and shows which modules call one another"
       }
+    ],
+    "alias": [
+      "call tree,",
+      "tier chart"
     ],
     "confer": "structure chart, control flow diagram, data flow diagram, data structure diagram, state diagram",
     "note": "The result is not necessarily the same as that shown in a structure chart."
@@ -5352,7 +5417,6 @@
   {
     "number": "3.483",
     "name": "case",
-    "alias": "multiple exclusive selective construct",
     "definitions": [
       {
         "text": "single-entry, single-exit multiple-way branch that defines a control expression, specifies the processing to performed for each value of the control expression, and returns control in all instances to the statement immediately following the overall construct"
@@ -5361,6 +5425,9 @@
         "text": "Computer Aided Software Engineering",
         "reference": "ISO/IEC 14102:2008 Information Technology - Guideline for the evaluation and selection of CASE tools, 4"
       }
+    ],
+    "alias": [
+      "multiple exclusive selective construct"
     ],
     "confer": "go to, jump, if-then-else. multiple inclusive selective constru"
   },
@@ -5491,12 +5558,14 @@
   {
     "number": "3.495",
     "name": "cause and effect diagram",
-    "alias": "fishbone diagram",
     "definitions": [
       {
         "text": "a decomposition technique that helps trace an undesirable effect back to its root cause",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "fishbone diagram"
     ]
   },
   {
@@ -5999,11 +6068,13 @@
   {
     "number": "3.541",
     "name": "change dump",
-    "alias": "differential dump",
     "definitions": [
       {
         "text": "selective dump of those storage locations whose contents have changed since some specified time or event"
       }
+    ],
+    "alias": [
+      "differential dump"
     ],
     "confer": "dynamic dump, memory dump, postmortem dump, selective dump, snapshot dump, static dump"
   },
@@ -6094,7 +6165,6 @@
   {
     "number": "3.550",
     "name": "channel",
-    "alias": "distribution channel",
     "definitions": [
       {
         "text": "approach to distributing products and services from the original supplier to the end-user organization",
@@ -6104,6 +6174,9 @@
         "text": "configuration of stubs, binders, protocol objects and interceptors providing a binding between a set of interfaces to basic engineering objects, through which interaction can occur",
         "reference": "ISO/IEC 10746-3:2009 Information technology — Open Distributed Processing — Reference Model: Architecture, 8.1.8"
       }
+    ],
+    "alias": [
+      "distribution channel"
     ],
     "note": "Typical channels for software include direct, VAR, OEM, reseller, and educational reseller. Bindings that require channels are referred to as distributed bindings in the engineering language; bindings between engineering objects that do not require channels (e.g. between engineering objects in the same cluster) are referred to as local bindings."
   },
@@ -6595,12 +6668,14 @@
   {
     "number": "3.596",
     "name": "closed term",
-    "alias": "ground term",
     "definitions": [
       {
         "text": "term comprising constants and operators but no variables",
         "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.24.1"
       }
+    ],
+    "alias": [
+      "ground term"
     ]
   },
   {
@@ -6666,23 +6741,27 @@
   {
     "number": "3.603",
     "name": "CM service",
-    "alias": "configuration management service",
     "definitions": [
       {
         "text": "abstract description of work done by CM tools",
         "reference": "ISO/IEC TR 18018:2010 Information technology — Systems and software engineering — Guide for configuration management tool capabilities, 3.8"
       }
+    ],
+    "alias": [
+      "configuration management service"
     ]
   },
   {
     "number": "3.604",
     "name": "CM tool",
-    "alias": "configuration management tool",
     "definitions": [
       {
         "text": "software product that can assist software engineers by providing automated support for configuration management activities",
         "reference": "ISO/IEC TR 18018:2010 Information technology — Systems and software engineering — Guide for configuration management tool capabilities, 3.9"
       }
+    ],
+    "alias": [
+      "configuration management tool"
     ]
   },
   {
@@ -6795,11 +6874,13 @@
   {
     "number": "3.615",
     "name": "code breakpoint",
-    "alias": "control breakpoint",
     "definitions": [
       {
         "text": "breakpoint that is initiated upon execution of a given computer instruction"
       }
+    ],
+    "alias": [
+      "control breakpoint"
     ],
     "confer": "data breakpoint, dynamic breakpoint, epilog breakpoint, programmable breakpoint, prolog breakpoint, static breakpoint"
   },
@@ -6897,7 +6978,6 @@
   {
     "number": "3.625",
     "name": "cohesion",
-    "alias": "module strength",
     "definitions": [
       {
         "text": "manner and degree to which the tasks performed by a single software module are related to one another"
@@ -6905,6 +6985,9 @@
       {
         "text": "in software design, a measure of the strength of association of the elements within a module [ISO/IEC TR 19759:2016, Software Engineering — Guide to the Software Engineering Body of Knowledge (SWEBOK)], 2.1.4"
       }
+    ],
+    "alias": [
+      "module strength"
     ],
     "confer": "coupling",
     "note": "Types include coincidental, communicational, functional, logical, procedural, sequential, and temporal."
@@ -7005,12 +7088,14 @@
   {
     "number": "3.635",
     "name": "collection-valued property",
-    "alias": "collection property",
     "definitions": [
       {
         "text": "property that maps to a collection class",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.35"
       }
+    ],
+    "alias": [
+      "collection property"
     ],
     "confer": "scalar-valued propert"
   },
@@ -7088,12 +7173,14 @@
   {
     "number": "3.643",
     "name": "commercial-off-the-shelf software product",
-    "alias": "COTS software product",
     "definitions": [
       {
         "text": "software product defined by a market-driven need, commercially available, and whose fitness for use has been demonstrated by a broad spectrum of commercial users",
         "reference": "ISO/IEC 25040:2011 Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Evaluation process, 4.6"
       }
+    ],
+    "alias": [
+      "COTS software product"
     ]
   },
   {
@@ -7178,11 +7265,13 @@
   {
     "number": "3.652",
     "name": "common cause",
-    "alias": "random cause",
     "definitions": [
       {
         "text": "source of variation of a process that exists because of normal and expected interactions among components of a process"
       }
+    ],
+    "alias": [
+      "random cause"
     ],
     "confer": "special cause",
     "note": "On a control chart, it appears as part of the random process variation (i.e., variation from a process that would be considered normal or not unusual), and is indicated by a random pattern of points within the control limits."
@@ -7190,22 +7279,27 @@
   {
     "number": "3.653",
     "name": "common storage",
-    "alias": "common area common block",
     "definitions": [
       {
         "text": "portion of main storage that can be accessed by two or more modules in a software system"
       }
+    ],
+    "alias": [
+      "common area",
+      "common block"
     ],
     "confer": "global data"
   },
   {
     "number": "3.654",
     "name": "common-environment coupling",
-    "alias": "common coupling",
     "definitions": [
       {
         "text": "type of coupling in which two software modules access a common data area"
       }
+    ],
+    "alias": [
+      "common coupling"
     ],
     "confer": "content coupling, control coupling, data coupling, hybrid coupling, pathological coupling"
   },
@@ -7451,12 +7545,14 @@
   {
     "number": "3.678",
     "name": "competent assessor",
-    "alias": "lead assessor",
     "definitions": [
       {
         "text": "assessor who has demonstrated the competencies to conduct an assessment and to monitor and verify the conformance of a process assessment [ISO/IEC 29110-2-1:2015 — Software engineering — Lifecycle profiles for Very Small Entities (VSEs) — Part 2-1: Framework and taxonomy, 4.19],",
         "reference": "ISO/IEC 33001:2015 Information technology — Process assessment — Concepts and terminology, 3.2.12"
       }
+    ],
+    "alias": [
+      "lead assessor"
     ]
   },
   {
@@ -7510,11 +7606,14 @@
   {
     "number": "3.684",
     "name": "compiler generator",
-    "alias": "compiler compiler metacompiler",
     "definitions": [
       {
         "text": "translator or interpreter used to construct part or all of a compiler"
       }
+    ],
+    "alias": [
+      "compiler compiler",
+      "metacompiler"
     ]
   },
   {
@@ -7806,12 +7905,14 @@
   {
     "number": "3.710",
     "name": "computation data use",
-    "alias": "c-us",
     "definitions": [
       {
         "text": "use of the value of a variable in any type of statement",
         "reference": "ISO/IEC/IEEE 29119-4:2015 Software and systems engineering — Software testing — Part 4: Test techniques, 4.4"
       }
+    ],
+    "alias": [
+      "c-us"
     ]
   },
   {
@@ -7890,12 +7991,14 @@
   {
     "number": "3.718",
     "name": "computer center",
-    "alias": "data processing center",
     "definitions": [
       {
         "text": "facility that includes personnel, hardware, and software, organized to provide information processing services",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "data processing center"
     ]
   },
   {
@@ -8051,18 +8154,19 @@
   {
     "number": "3.733",
     "name": "computer software configuration item (CSCI)",
-    "alias": "software configuration item (SWCI)",
     "definitions": [
       {
         "text": "aggregation of software that is designated for configuration management and treated as a single entity in the configuration management process"
       }
+    ],
+    "alias": [
+      "software configuration item (SWCI)"
     ],
     "confer": "computer software component, hardware configuration item, configuration item, software configuration item, software item"
   },
   {
     "number": "3.734",
     "name": "computer system",
-    "alias": "computing system",
     "definitions": [
       {
         "text": "system containing one or more computers and associated software"
@@ -8071,6 +8175,9 @@
         "text": "system containing one or more components and elements such as computers (hardware), associated software, and data",
         "reference": "ISO/IEC 25024:2015 Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Measurement of data, 4.3"
       }
+    ],
+    "alias": [
+      "computing system"
     ],
     "confer": "data processing system"
   },
@@ -8202,12 +8309,14 @@
   {
     "number": "3.747",
     "name": "concept of operations",
-    "alias": "ConOps",
     "definitions": [
       {
         "text": "verbal and/or graphic statement, in broad outline, of an organization's assumptions or intent in regard to an operation or series of operations",
         "reference": "ISO/IEC TS 24748-1:2016 Systems and software engineering — Life cycle management — Part 1: Guide for life cycle management, 2.12; ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.1.11; ISO/IEC/IEEE 29148:2011 Systems and software engineering — Life cycle processes — Requirements engineering, 4.1.4"
       }
+    ],
+    "alias": [
+      "ConOps"
     ],
     "confer": "operational concept",
     "note": "It provides the basis for bounding the operating space, system capabilities, interfaces and operating environment. The concept of operations frequently is embodied in long-range strategic plans and annual operational plans. In the latter case, the concept of operations in the plan covers a series of connected operations to be carried out simultaneously or in succession. The concept is designed to give an overall picture of the organization operations."
@@ -9470,7 +9579,6 @@
   {
     "number": "3.856",
     "name": "control flow",
-    "alias": "flow of control",
     "definitions": [
       {
         "text": "sequence in which operations are performed during the execution of a computer program"
@@ -9479,6 +9587,9 @@
         "text": "sequence in which operations are performed during the execution of a test item",
         "reference": "ISO/IEC/IEEE 29119-4:2015 Software and systems engineering — Software testing — Part 4: Test techniques, 4.7"
       }
+    ],
+    "alias": [
+      "flow of control"
     ],
     "confer": "data flow"
   },
@@ -9531,12 +9642,14 @@
   {
     "number": "3.861",
     "name": "control loopback",
-    "alias": "feedback",
     "definitions": [
       {
         "text": "loopback of output from one function to be control for another function in the same diagram",
         "reference": "IEEE 1320.1-1998 (R2004) IEEE Standard for Functional Modeling Language  Syntax and Semantics for IDEF0, 2.1.34"
       }
+    ],
+    "alias": [
+      "feedback"
     ]
   },
   {
@@ -9562,12 +9675,14 @@
   {
     "number": "3.864",
     "name": "control risks",
-    "alias": "monitor and control risks",
     "definitions": [
       {
         "text": "the process of implementing risk response plans, tracking identified risks, monitoring residual risks, identifying new risks, and evaluating risk process effectiveness throughout the project",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "monitor and control risks"
     ]
   },
   {
@@ -9919,11 +10034,13 @@
   {
     "number": "3.898",
     "name": "cost basis",
-    "alias": "acquisition cost",
     "definitions": [
       {
         "text": "entire cost to acquire an asset"
       }
+    ],
+    "alias": [
+      "acquisition cost"
     ],
     "note": "includes the purchase price, delivery, installation, and any other costs to put the asset into service"
   },
@@ -10512,11 +10629,13 @@
   {
     "number": "3.955",
     "name": "cross-reference generator",
-    "alias": "cross-reference",
     "definitions": [
       {
         "text": "software tool that accepts as input the source code of a computer program and produces as output a listing that identifies each of the program's variables, labels, and other identifiers and indicates which statements in the program define, set, or use each one"
       }
+    ],
+    "alias": [
+      "cross-reference"
     ]
   },
   {
@@ -10569,11 +10688,13 @@
   {
     "number": "3.961",
     "name": "CSCI",
-    "alias": "SWCI",
     "definitions": [
       {
         "text": "computer software configuration item"
       }
+    ],
+    "alias": [
+      "SWCI"
     ]
   },
   {
@@ -10658,7 +10779,6 @@
   {
     "number": "3.970",
     "name": "customer",
-    "alias": "beneficiary purchaser",
     "definitions": [
       {
         "text": "organization or person that receives a product or service",
@@ -10676,6 +10796,10 @@
         "text": "person or organization that could or does receive a product or a service that is intended for or required by this person or organization",
         "reference": "ISO/IEC TR 29110-1:2016 Software engineering — Lifecycle profiles for Very Small Entities (VSEs) — Part 1: Overview, 3.22"
       }
+    ],
+    "alias": [
+      "beneficiary",
+      "purchaser"
     ],
     "confer": "acquirer, buyer, stakeholder, user",
     "example": "consumer, client, end-user, retailer, receiver or product or service from an internal process, an organization within the same company as the developing organization (e.g., System Management), a company or entity external to the developing company, a higher -level project, or some combination of thes",
@@ -10888,11 +11012,13 @@
   {
     "number": "3.990",
     "name": "data breakpoint",
-    "alias": "storage breakpoint",
     "definitions": [
       {
         "text": "breakpoint that is initiated when a specified data item is accessed"
       }
+    ],
+    "alias": [
+      "storage breakpoint"
     ],
     "confer": "code breakpoint, dynamic breakpoint, epilog breakpoint, programmable breakpoint, prolog breakpoint, static breakpoint"
   },
@@ -10928,23 +11054,28 @@
   {
     "number": "3.994",
     "name": "data coupling",
-    "alias": "input-output couplin",
     "definitions": [
       {
         "text": "type of coupling in which output from one software module serves as input to another module"
       }
+    ],
+    "alias": [
+      "input-output couplin"
     ],
     "confer": "common-environment coupling, content coupling, control coupling, hybrid coupling, pathological couplin"
   },
   {
     "number": "3.995",
     "name": "data date",
-    "alias": "as-of dat time-now dat",
     "definitions": [
       {
         "text": "a point in time when the status of the project is recorded",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "as-of dat",
+      "time-now dat"
     ]
   },
   {
@@ -10959,12 +11090,14 @@
   {
     "number": "3.997",
     "name": "data definition",
-    "alias": "variable definition",
     "definitions": [
       {
         "text": "statement where a variable is assigned a value",
         "reference": "ISO/IEC/IEEE 29119-4:2015 Software and systems engineering — Software testing — Part 4: Test techniques, 4.9"
       }
+    ],
+    "alias": [
+      "variable definition"
     ]
   },
   {
@@ -11010,12 +11143,14 @@
   {
     "number": "3.1002",
     "name": "data element",
-    "alias": "data item",
     "definitions": [
       {
         "text": "unique, user-recognizable, non-repeated field in a BFC",
         "reference": "ISO/IEC 29881:2010 Information technology — Softwar and systems engineering — FiSMA 1.1 functional size measurement method, 3.3"
       }
+    ],
+    "alias": [
+      "data item"
     ],
     "note": "A data element can be a character string, or a digital or graphical element in a BFC. When 'data elements' are indicated for a BFC, the number of data elements is always greater than 0."
   },
@@ -11070,11 +11205,14 @@
   {
     "number": "3.1007",
     "name": "data flow diagram (DFD)",
-    "alias": "data flowchart data flow graph",
     "definitions": [
       {
         "text": "diagram that depicts data sources, data sinks, data storage, and processes performed on data as nodes, and logical flow of data as links between the nodes"
       }
+    ],
+    "alias": [
+      "data flowchart",
+      "data flow graph"
     ],
     "confer": "control flow diagram, data structure diagram"
   },
@@ -11130,7 +11268,6 @@
   {
     "number": "3.1012",
     "name": "data group",
-    "alias": "data group type",
     "definitions": [
       {
         "text": "a distinct, non-empty, non-ordered and non-redundant set of data elements",
@@ -11140,6 +11277,9 @@
         "text": "a distinct, non-empty, non-ordered and non-redundant set of data attributes where each included data attribute describes complementary aspect of the same object of interest",
         "reference": "ISO/IEC 14143-1:2007 Information technology — Software measurement — Functional size measurement; Part 1: Definition of concepts; ISO/IEC 19761:2011 Software engineering — COSMIC: a functional size measurement method, 2.5"
       }
+    ],
+    "alias": [
+      "data group type"
     ],
     "confer": "object of interest",
     "note": "Each included data element describes a complementary aspect of the same object of interest. A data group is characterized by its persistence."
@@ -11177,12 +11317,14 @@
   {
     "number": "3.1016",
     "name": "data item",
-    "alias": "field",
     "definitions": [
       {
         "text": "smallest identifiable unit of data within a certain context for which the definition, identification, permissible values, and other information is specified by means of a set of properties",
         "reference": "ISO/IEC 25024:2015 Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Measurement of data, 4.9"
       }
+    ],
+    "alias": [
+      "field"
     ],
     "note": "Data item is a physical object 'container' of data values."
   },
@@ -11252,12 +11394,14 @@
   {
     "number": "3.1022",
     "name": "data processing (DP)",
-    "alias": "automatic data processing (ADP)",
     "definitions": [
       {
         "text": "systematic performance of operations upon data",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "automatic data processing (ADP)"
     ],
     "example": "arithmetic or logic operations upon data, merging or sorting of data, assembling or compiling of programs, or operations on text, such as editing, sorting, merging, storing, retrieving, displaying, or printing",
     "note": "The term data processing is not a synonym for information processing."
@@ -11449,11 +11593,13 @@
   {
     "number": "3.1040",
     "name": "data-sensitive fault",
-    "alias": "pattern-sensitive faul",
     "definitions": [
       {
         "text": "fault that causes a failure in response to some particular pattern of data"
       }
+    ],
+    "alias": [
+      "pattern-sensitive faul"
     ],
     "confer": "program-sensitive faul"
   },
@@ -12214,12 +12360,14 @@
   {
     "number": "3.1111",
     "name": "dependent entity",
-    "alias": "identifier-dependent entit",
     "definitions": [
       {
         "text": "entity for which the unique identification of an instance depends upon its relationship to another entity",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.46"
       }
+    ],
+    "alias": [
+      "identifier-dependent entit"
     ],
     "confer": "independent entity [key style]",
     "note": "Expressed in terms of the foreign key, an entity is said to be dependent if any foreign key is wholly contained in its primary key."
@@ -12249,12 +12397,14 @@
   {
     "number": "3.1114",
     "name": "deployment package",
-    "alias": "DP",
     "definitions": [
       {
         "text": "set of artifacts developed to facilitate the implementation of a set of practices of the selected framework in a very small entity",
         "reference": "ISO/IEC TR 29110-1:2016 Software engineering — Lifecycle profiles for Very Small Entities (VSEs) — Part 1: Overview, 2.8"
       }
+    ],
+    "alias": [
+      "DP"
     ]
   },
   {
@@ -12296,12 +12446,15 @@
   {
     "number": "3.1118",
     "name": "derived property",
-    "alias": "derived attribute derived participant party",
     "definitions": [
       {
         "text": "designation given to a property whose value is determined by computation",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.50"
       }
+    ],
+    "alias": [
+      "derived attribute",
+      "derived participant party"
     ],
     "note": "The typical case of a derived property is as a derived attribute although there is nothing to prohibit other kinds of derived property."
   },
@@ -12483,11 +12636,14 @@
   {
     "number": "3.1133",
     "name": "design description",
-    "alias": "design document design specification",
     "definitions": [
       {
         "text": "document that describes the design of a system or component"
       }
+    ],
+    "alias": [
+      "design document",
+      "design specification"
     ],
     "confer": "product specification, requirements specification",
     "note": "Typical contents include system or component architecture, control logic, data structures, input/output formats, interface descriptions, and algorithm."
@@ -12674,12 +12830,15 @@
   {
     "number": "3.1151",
     "name": "design subject",
-    "alias": "software under design system under design",
     "definitions": [
       {
         "text": "software item or system for which a system design description (SDD) will be prepared",
         "reference": "IEEE 1016-2009 IEEE standard for Information Technology-Systems Design-Software Design Descriptions, 3.10"
       }
+    ],
+    "alias": [
+      "software under design",
+      "system under design"
     ]
   },
   {
@@ -12717,8 +12876,11 @@
   {
     "number": "3.1155",
     "name": "design-to-cost",
-    "alias": "cost as an independent variable (CAIV) 1.approach to managing a system or software project so as to hold the project to a predetermined cost",
     "definitions": [],
+    "alias": [
+      "cost as an independent variable (CAIV)",
+      "1.approach to managing a system or software project so as to hold the project to a predetermined cost"
+    ],
     "note": "Actual and projected costs are closely tracked, and actions such as deleting or postponing lower priority requirements are taken if costs threaten to exceed targets."
   },
   {
@@ -12734,12 +12896,14 @@
   {
     "number": "3.1157",
     "name": "desirable consequence",
-    "alias": "positive consequence",
     "definitions": [
       {
         "text": "consequence associated with a benefit or gain or avoiding an adverse consequence",
         "reference": "ISO/IEC 15026-1:2013 Systems and software engineering — Systems and software assurance — Part 1: Concepts and vocabulary, 3.4.3"
       }
+    ],
+    "alias": [
+      "positive consequence"
     ]
   },
   {
@@ -12812,11 +12976,13 @@
   {
     "number": "3.1164",
     "name": "detailed design description",
-    "alias": "detailed design specification",
     "definitions": [
       {
         "text": "document that describes the exact detailed configuration of a computer program"
       }
+    ],
+    "alias": [
+      "detailed design specification"
     ],
     "note": "It identifies the input, output, control logic, algorithms, and data structure of each individual low-level component of the software product and is the primary product of the detailed design phase."
   },
@@ -13055,8 +13221,12 @@
   {
     "number": "3.1186",
     "name": "deviation",
-    "alias": "1.departure from a specified requirement 2. written authorization, granted prior to the manufacture of an item, to depart from a particular performance or design requirement for a specific number of units or a specific period of time",
-    "definitions": []
+    "definitions": [],
+    "alias": [
+      "1.departure from a specified requirement 2. written authorization, granted prior to the manufacture of an item, to",
+      "depart from a particular performance or design requirement for a specific number of units or a specific period of",
+      "time"
+    ]
   },
   {
     "number": "3.1187",
@@ -13256,12 +13426,14 @@
   {
     "number": "3.1205",
     "name": "digit numeric character",
-    "alias": "numeric character",
     "definitions": [
       {
         "text": "character that represents a nonnegative integer",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "numeric character"
     ],
     "example": "one of the characters 0, 1 …, F in the hexadecimal numeration system"
   },
@@ -13335,11 +13507,13 @@
   {
     "number": "3.1213",
     "name": "direct address",
-    "alias": "one-level addres",
     "definitions": [
       {
         "text": "address that identifies the storage location of an operand"
       }
+    ],
+    "alias": [
+      "one-level addres"
     ],
     "confer": "immediate data, indirect address, n-level address, direct instructio"
   },
@@ -13433,11 +13607,13 @@
   {
     "number": "3.1223",
     "name": "directed graph",
-    "alias": "digraph",
     "definitions": [
       {
         "text": "graph in which direction is implied in the internode connections"
       }
+    ],
+    "alias": [
+      "digraph"
     ],
     "confer": "undirected graph"
   },
@@ -13544,12 +13720,16 @@
   {
     "number": "3.1234",
     "name": "discretionary dependency",
-    "alias": "preferential logic preferred logic soft logic",
     "definitions": [
       {
         "text": "a relationship that is established based on knowledge of best practices within a particular application area or an aspect of the project where a specific sequence is desired",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "preferential logic",
+      "preferred logic",
+      "soft logic"
     ]
   },
   {
@@ -13566,7 +13746,6 @@
   {
     "number": "3.1236",
     "name": "discriminator",
-    "alias": ":category discriminator",
     "definitions": [
       {
         "text": "property of a superclass, associated with a cluster of that superclass, whose value identifies to which subclass a specific instance belongs",
@@ -13575,6 +13754,9 @@
       {
         "text": "attribute in the generic entity (or a generic ancestor entity) of a category cluster whose values indicate which category entity in the category cluster contains a specific instance of the generic entity [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.51] Syn"
       }
+    ],
+    "alias": [
+      ":category discriminator"
     ],
     "note": "Since the value of the discriminator (when a discriminator has been declared) is equivalent to the identity of the subclass to which the instance belongs, there is no requirement for a discriminator in identity-style modeling"
   },
@@ -13918,7 +14100,6 @@
   {
     "number": "3.1266",
     "name": "domain architecture",
-    "alias": "product line architecture reference architecture",
     "definitions": [
       {
         "text": "generic, organizational structure or design for software systems in a domain.",
@@ -13929,17 +14110,23 @@
         "reference": "ISO/IEC 26550:2015 Software and systems engineering — Reference model for product line engineering and management, 3.10"
       }
     ],
+    "alias": [
+      "product line architecture",
+      "reference architecture"
+    ],
     "note": "The domain architecture contains the designs that are intended to satisfy requirements specified in the domain model. The domain architecture documents design, whereas the domain model documents requirements. A domain architecture: 1) can be adapted to create designs for software systems within a domain, and 2) provides a framework for configuring assets within individual software systems. The term \"architecture\" has been deliberately redefined to more properly convey its meaning in the software reuse context."
   },
   {
     "number": "3.1267",
     "name": "domain asset",
-    "alias": "core asset",
     "definitions": [
       {
         "text": "output of domain engineering life cycle processes that can be reused in producing products during application engineering",
         "reference": "ISO/IEC 26550:2015 Software and systems engineering — Reference model for product line engineering and management, 3.11"
       }
+    ],
+    "alias": [
+      "core asset"
     ],
     "example": "domain features, domain models, domain requirements specification, domain architecture, domain components, domain test cases, domain process description"
   },
@@ -14307,12 +14494,14 @@
   {
     "number": "3.1302",
     "name": "dumb terminal",
-    "alias": "nonprogrammable terminal",
     "definitions": [
       {
         "text": "user terminal that has no independent data processing capability",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "nonprogrammable terminal"
     ]
   },
   {
@@ -14603,23 +14792,27 @@
   {
     "number": "3.1330",
     "name": "early-failure period",
-    "alias": "burn-in perio",
     "definitions": [
       {
         "text": "period of time in the life cycle of a system or component during which hardware failures occur at a decreasing rate as problems are detected and repaired"
       }
+    ],
+    "alias": [
+      "burn-in perio"
     ],
     "confer": "constant-failure period, wearout-failure period, bathtub cur"
   },
   {
     "number": "3.1331",
     "name": "earned value (EV)",
-    "alias": "budgeted cost of work performed (BCWP)",
     "definitions": [
       {
         "text": "the measure of work performed expressed in terms of the budget authorized for that work",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "budgeted cost of work performed (BCWP)"
     ]
   },
   {
@@ -14985,11 +15178,13 @@
   {
     "number": "3.1364",
     "name": "embedded computer system",
-    "alias": "embedded system",
     "definitions": [
       {
         "text": "computer system that is part of a larger system and performs some of the requirements of that system"
       }
+    ],
+    "alias": [
+      "embedded system"
     ],
     "example": "a computer system used in an aircraft or rapid transit system",
     "note": "The hardware and software of an embedded system are usually minimized and optimized for specific functions. The embedded system includes at least one microcontroller, microprocessor or digital signal processor. The embedded system designed to optimize reliability, cost, size and power saving for applications."
@@ -15455,12 +15650,14 @@
   {
     "number": "3.1405",
     "name": "Ent creator",
-    "alias": "entitlement schema creator",
     "definitions": [
       {
         "text": "entity that initially creates an Ent",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.10"
       }
+    ],
+    "alias": [
+      "entitlement schema creator"
     ],
     "note": "This entity can be part of the organization that created or published the software to which the Ent relates, in which case the Ent creator and software creator will be the same. The Ent creator can also be a separate organization which holds the licensing rights or even a third-party organization unrelated to the software creator (such as in the case where Ents are created for legacy software by a consultant or tool developer)."
   },
@@ -15487,12 +15684,15 @@
   {
     "number": "3.1408",
     "name": "entitlement schema",
-    "alias": "Ent software entitlement schema",
     "definitions": [
       {
         "text": "information structure containing a digital encapsulation of a licensing transaction and its associated entitlement information",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.11"
       }
+    ],
+    "alias": [
+      "Ent",
+      "software entitlement schema"
     ],
     "note": "A single transaction does not necessarily encapsulate a full (or effective) entitlement. An effective entitlement can be determined by an analysis of multiple licensing transactions, of a full license and then of upgrades and/or maintenance transactions assessed together with it."
   },
@@ -15583,11 +15783,13 @@
   {
     "number": "3.1414",
     "name": "entity-relationship (E-R) diagram",
-    "alias": "entity-relationship ma",
     "definitions": [
       {
         "text": "a diagram that depicts a set of real-world entities and the logical relationships among the"
       }
+    ],
+    "alias": [
+      "entity-relationship ma"
     ],
     "confer": "data structure diagram"
   },
@@ -15626,7 +15828,6 @@
   {
     "number": "3.1418",
     "name": "entry point",
-    "alias": "entrance entry",
     "definitions": [
       {
         "text": "point in a software module at which execution of the module can begin"
@@ -15635,6 +15836,10 @@
         "text": "point in a test item at which execution of the test item can begin",
         "reference": "ISO/IEC/IEEE 29119-4:2015 Software and systems engineering — Software testing — Part 4: Test techniques, 4.18"
       }
+    ],
+    "alias": [
+      "entrance",
+      "entry"
     ],
     "confer": "exit, reentry point",
     "note": "An entry point is an executable statement within a test item that can be selected by an external process as the starting point for one or more paths through the test item. It is most commonly the first executable statement within the test item."
@@ -15729,11 +15934,13 @@
   {
     "number": "3.1426",
     "name": "epilog breakpoint",
-    "alias": "postamble breakpoint",
     "definitions": [
       {
         "text": "breakpoint that is initiated upon exit from a given program or routine"
       }
+    ],
+    "alias": [
+      "postamble breakpoint"
     ],
     "confer": "prolog breakpoint, code breakpoint, data breakpoint, dynamic breakpoint, programmable breakpoint, static breakpoint"
   },
@@ -15921,11 +16128,13 @@
   {
     "number": "3.1444",
     "name": "error model",
-    "alias": "error prediction model",
     "definitions": [
       {
         "text": "in software evaluation, a model used to estimate or predict the number of remaining faults, required test time, and similar characteristics of a system"
       }
+    ],
+    "alias": [
+      "error prediction model"
     ]
   },
   {
@@ -15950,11 +16159,14 @@
   {
     "number": "3.1447",
     "name": "error seeding",
-    "alias": "bug seeding fault seeding",
     "definitions": [
       {
         "text": "process of intentionally adding known faults to those already in a computer program for the purpose of monitoring the rate of detection and removal, and estimating the number of faults remaining in the program"
       }
+    ],
+    "alias": [
+      "bug seeding",
+      "fault seeding"
     ],
     "confer": "indigenous error"
   },
@@ -16308,12 +16520,14 @@
   {
     "number": "3.1481",
     "name": "evaluation technology",
-    "alias": "technology used for evaluation",
     "definitions": [
       {
         "text": "techniques, processes, tools, measures and relevant technical information used for evaluation",
         "reference": "ISO/IEC 25001:2014 Systems and software engineering — Systems and software product Quality Requirements and Evaluation (SQuaRE) — Planning and management, 4.4"
       }
+    ],
+    "alias": [
+      "technology used for evaluation"
     ],
     "example": "internal, external or quality in use measures or specific evaluation processes designed for developers, acquirers or independent evaluators"
   },
@@ -16597,11 +16811,14 @@
   {
     "number": "3.1506",
     "name": "execution trace",
-    "alias": "code trace control flow trace",
     "definitions": [
       {
         "text": "record of the sequence of instructions executed during the execution of a computer program"
       }
+    ],
+    "alias": [
+      "code trace",
+      "control flow trace"
     ],
     "confer": "retrospective trace, subroutine trace, symbolic trace, variable trace",
     "note": "often takes the form of a list of code labels encountered as the program executes"
@@ -16650,12 +16867,14 @@
   {
     "number": "3.1511",
     "name": "Exit",
-    "alias": "exit type",
     "definitions": [
       {
         "text": "point in a software module at which execution of the module can terminate2. data movement that moves a data group from a functional process across the boundary to the functional user that requires it",
         "reference": "ISO/IEC 19761:2011 Software engineering — COSMIC: a functional size measurement method, 2.9"
       }
+    ],
+    "alias": [
+      "exit type"
     ],
     "confer": "entry point, return",
     "note": "An exit is considered to account for certain associated data manipulations (e.g. formatting and routing associated with the data to be exited)."
@@ -16724,11 +16943,13 @@
   {
     "number": "3.1518",
     "name": "expected value",
-    "alias": "50-50 estimat",
     "definitions": [
       {
         "text": "estimated outcome that is as likely to be exceeded as not"
       }
+    ],
+    "alias": [
+      "50-50 estimat"
     ],
     "note": "the mean of the probability distribution, the point where the cumulative probability function equals 0.5"
   },
@@ -16817,11 +17038,13 @@
   {
     "number": "3.1527",
     "name": "extendability",
-    "alias": "extensibility",
     "definitions": [
       {
         "text": "ease with which a system or component can be modified to increase its storage or functional capacity cf.: expandability, flexibility, maintainability"
       }
+    ],
+    "alias": [
+      "extensibility"
     ]
   },
   {
@@ -16887,12 +17110,14 @@
   {
     "number": "3.1534",
     "name": "extensional set",
-    "alias": "current extent",
     "definitions": [
       {
         "text": "set containing the currently existing instances of a class",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.61"
       }
+    ],
+    "alias": [
+      "current extent"
     ],
     "note": "The instances in the extensional set correspond to the database and data modeling notion of instance."
   },
@@ -17219,11 +17444,13 @@
   {
     "number": "3.1563",
     "name": "failure rate",
-    "alias": "failure ratio",
     "definitions": [
       {
         "text": "ratio of the number of failures of a given category to a given unit of measure"
       }
+    ],
+    "alias": [
+      "failure ratio"
     ],
     "example": "failures per unit of time, failures per number of transactions, failures per number of computer runs"
   },
@@ -17280,7 +17507,6 @@
   {
     "number": "3.1569",
     "name": "fault",
-    "alias": "bug",
     "definitions": [
       {
         "text": "manifestation of an error in software"
@@ -17297,6 +17523,9 @@
         "text": "defect in a hardware device or component5. defect in a system or a representation of a system that if executed/activated could potentially result in an error",
         "reference": "ISO/IEC 15026-1:2013 Systems and software engineering — Systems and software assurance — Part 1: Concepts and vocabulary, 3.4.5"
       }
+    ],
+    "alias": [
+      "bug"
     ],
     "note": "A fault, if encountered, can cause a failure. Faults can occur in specifications when they are not correct."
   },
@@ -17797,7 +18026,6 @@
   {
     "number": "3.1617",
     "name": "flash memory",
-    "alias": "NVRAM non-volatile random access memory",
     "definitions": [
       {
         "text": "larger and faster programmable ROM which allows data to be electrically erased from memory and rewritten many times"
@@ -17810,28 +18038,36 @@
         "reference": "ISO/IEC 25010:2011 Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models, 4.1.5.2"
       }
     ],
+    "alias": [
+      "NVRAM",
+      "non-volatile random access memory"
+    ],
     "confer": "adaptability, extendability, maintainability",
     "note": "Flexibility enables products to take account of circumstances, opportunities and individual preferences that had not been anticipated in advance. If a product is not designed for flexibility, it might not be safe to use the product in unintended contexts. Flexibility can be measured either as the extent to which a product can be used by additional types of users to achieve additional types of goals with effectiveness, efficiency, freedom from risk and satisfaction in additional types of contexts of use, or by a capability to be modified to support adaptation for new types of users, tasks and environments, and suitability for individualization."
   },
   {
     "number": "3.1618",
     "name": "flip-flop",
-    "alias": "latch",
     "definitions": [
       {
         "text": "electronic circuit with one or two stable states"
       }
+    ],
+    "alias": [
+      "latch"
     ],
     "note": "can be used to store 0 or 1 as digital data"
   },
   {
     "number": "3.1619",
     "name": "float",
-    "alias": "slack",
     "definitions": [
       {
         "text": "amount of unscheduled time between sequential activities not on the critical path, which can be used to delay the completion of the earlier activity or advance the start of the later activity"
       }
+    ],
+    "alias": [
+      "slack"
     ],
     "confer": "free float, total float"
   },
@@ -17850,7 +18086,6 @@
   {
     "number": "3.1621",
     "name": "flowchart",
-    "alias": "flow diagram",
     "definitions": [
       {
         "text": "graphical representation of a process or the step-by-step solution of a problem, using suitably annotate geometric figures connected by flowlines for the purpose of designing or documenting a process or program",
@@ -17867,6 +18102,9 @@
         "text": "the depiction in a diagram format of the inputs, process actions, and outputs of one or more processes within a system",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "flow diagram"
     ],
     "confer": "block diagram, box diagram, bubble chart, graph, input-process-output chart, structure cha"
   },
@@ -17973,12 +18211,14 @@
   {
     "number": "3.1632",
     "name": "foreign key",
-    "alias": "migrated key",
     "definitions": [
       {
         "text": "attribute, or combination of attributes, of a child or category entity instance whose values match those in the primary key of a related parent or generic entity instance",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.62"
       }
+    ],
+    "alias": [
+      "migrated key"
     ],
     "note": "A foreign key results from the migration of the parent or generic entity's primary key through a generalization structure or a relationship. [key style]"
   },
@@ -18034,12 +18274,14 @@
   {
     "number": "3.1638",
     "name": "formal language",
-    "alias": "artificial language",
     "definitions": [
       {
         "text": "language whose rules are explicitly established prior to its use",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "artificial language"
     ],
     "confer": "natural language",
     "example": "programming languages and mathematical languages"
@@ -18067,11 +18309,13 @@
   {
     "number": "3.1641",
     "name": "formal requirements language",
-    "alias": "verifiable requirements language",
     "definitions": [
       {
         "text": "artificial language used to represent a software requirement"
       }
+    ],
+    "alias": [
+      "verifiable requirements language"
     ],
     "note": "The resulting formal requirements can be proven \"correct\" through proof-of-correctness methods"
   },
@@ -18734,12 +18978,14 @@
   {
     "number": "3.1700",
     "name": "functional manager",
-    "alias": "line manager",
     "definitions": [
       {
         "text": "someone with management authority over an organizational unit within a functional organization. The manager of any group that actually makes a product or performs a service. Sometimes called a line manager",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "line manager"
     ]
   },
   {
@@ -18755,7 +19001,6 @@
   {
     "number": "3.1702",
     "name": "functional process",
-    "alias": "functional process type transactional process",
     "definitions": [
       {
         "text": "elementary component of a set of functional user requirements, comprising a unique, cohesive and independently executable set of data movements",
@@ -18765,6 +19010,10 @@
         "text": "an elementary component of a set of Functional User Requirements, comprising a unique, cohesive and independently executable set of data or data movements (functional services)",
         "reference": "ISO/IEC 29881:2010 Information technology — Software and systems engineering — FiSMA 1.1 functional size measurement method, A.11"
       }
+    ],
+    "alias": [
+      "functional process type",
+      "transactional process"
     ],
     "note": "It is triggered by a data movement (an Entry) from a functional user that informs the piece of software that the functional user has identified a triggering event, and is complete when it has executed all that is required to be done in response to the triggering event."
   },
@@ -18809,12 +19058,14 @@
   {
     "number": "3.1706",
     "name": "functional size",
-    "alias": "FS",
     "definitions": [
       {
         "text": "size of the software derived by quantifying the functional user requirements",
         "reference": "ISO/IEC 14143-1:2007 Information technology — Software measurement — Functional size measurement; Part 1: Definition of concepts, 3.6; ISO/IEC 20926:2009 Software and systems engineering — Software measurement — IFPUG functional size measurement method 2009, 3.33"
       }
+    ],
+    "alias": [
+      "FS"
     ]
   },
   {
@@ -18830,12 +19081,14 @@
   {
     "number": "3.1708",
     "name": "functional size measurement method (FSMM)",
-    "alias": "FSM method",
     "definitions": [
       {
         "text": "specific implementation of FSM defined by a set of rules",
         "reference": "ISO/IEC 19761:2011 Software engineering — COSMIC: a functional size measurement method, 2.12"
       }
+    ],
+    "alias": [
+      "FSM method"
     ]
   },
   {
@@ -18872,7 +19125,6 @@
   {
     "number": "3.1712",
     "name": "functional testing",
-    "alias": "black-box testing",
     "definitions": [
       {
         "text": "testing that ignores the internal mechanism of a system or component and focuses solely on the outputs generated in response to selected inputs and execution conditions"
@@ -18880,13 +19132,19 @@
       {
         "text": "testing conducted to evaluate the compliance of a system or component with specified functional requirements"
       }
+    ],
+    "alias": [
+      "black-box testing"
     ]
   },
   {
     "number": "3.1713",
     "name": "functional unit",
-    "alias": "1 entity of hardware or software, or both, capable of accomplishing a specified purpose [ISO/IEC 2382:2015, Information technology—Vocabulary]",
-    "definitions": []
+    "definitions": [],
+    "alias": [
+      "1 entity of hardware or software, or both, capable of accomplishing a specified purpose [ISO/IEC 2382:2015,",
+      "Information technology—Vocabulary]"
+    ]
   },
   {
     "number": "3.1714",
@@ -19056,12 +19314,15 @@
   {
     "number": "3.1730",
     "name": "generalization taxonomy",
-    "alias": "generalization hierarchy generalization network",
     "definitions": [
       {
         "text": "set of generalization structures with a common generic ancestor",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.70"
       }
+    ],
+    "alias": [
+      "generalization hierarchy",
+      "generalization network"
     ],
     "note": "In a generalization taxonomy every instance is fully described by one or more of the classes in the taxonomy. The structuring of classes as a generalization taxonomy determines the inheritance of responsibilities among classes."
   },
@@ -19089,11 +19350,13 @@
   {
     "number": "3.1733",
     "name": "generated address",
-    "alias": "synthetic address",
     "definitions": [
       {
         "text": "address that has been calculated during the execution of a computer program"
       }
+    ],
+    "alias": [
+      "synthetic address"
     ],
     "confer": "absolute address, effective address, relative address, indirect address"
   },
@@ -19208,7 +19471,6 @@
   {
     "number": "3.1744",
     "name": "glass box",
-    "alias": "white box",
     "definitions": [
       {
         "text": "system or component whose internal contents or implementation are known"
@@ -19216,6 +19478,9 @@
       {
         "text": "pertaining to an approach that treats a system or component as in (1)"
       }
+    ],
+    "alias": [
+      "white box"
     ],
     "confer": "black box"
   },
@@ -19242,11 +19507,13 @@
   {
     "number": "3.1747",
     "name": "global data",
-    "alias": "common data",
     "definitions": [
       {
         "text": "data that can be accessed by two or more non-nested modules of computer program without being explicitly passed as parameters between the modules"
       }
+    ],
+    "alias": [
+      "common data"
     ],
     "confer": "local data"
   },
@@ -19360,11 +19627,13 @@
   {
     "number": "3.1758",
     "name": "Government-off-the-Shelf",
-    "alias": "GOTS",
     "definitions": [
       {
         "text": "software supplied by the government for reuse in another project"
       }
+    ],
+    "alias": [
+      "GOTS"
     ],
     "confer": "COTS"
   },
@@ -19631,11 +19900,13 @@
   {
     "number": "3.1783",
     "name": "hardware description language (HDL)",
-    "alias": "hardware design language",
     "definitions": [
       {
         "text": "software programming language used to design and model hardware, especially digital logic circuits"
       }
+    ],
+    "alias": [
+      "hardware design language"
     ],
     "example": "VHDL (IEEE 1076), Verilog (IEEE 1364)"
   },
@@ -19698,7 +19969,6 @@
   {
     "number": "3.1789",
     "name": "HCI",
-    "alias": "HWCI",
     "definitions": [
       {
         "text": "human computer interface",
@@ -19707,6 +19977,9 @@
       {
         "text": "hardware configuration item"
       }
+    ],
+    "alias": [
+      "HWCI"
     ]
   },
   {
@@ -19909,11 +20182,15 @@
   {
     "number": "3.1809",
     "name": "high-order language (HOL)",
-    "alias": "high-level language higher order language third-generation language",
     "definitions": [
       {
         "text": "programming language that requires little knowledge of the computer on which a program will run, can be translated into several different machine languages, allows symbolic naming of operations and addresses, provides features designed to facilitate expression of data structures and program logic, and usually results in several machine instructions for each program statement"
       }
+    ],
+    "alias": [
+      "high-level language",
+      "higher order language",
+      "third-generation language"
     ],
     "confer": "assembly language, fifth-generation language, fourth-generation language, machine langua",
     "example": "Ada, COBOL, FORTRAN, ALGOL, PASCAL"
@@ -20010,12 +20287,19 @@
   {
     "number": "3.1819",
     "name": "home page",
-    "alias": "center page front page index page main page start page top page",
     "definitions": [
       {
         "text": "page of a website through which users typically enter the website, and whose URL is typically published or linked as the main web address of the site or organization",
         "reference": "ISO/IEC/IEEE 23026:2015 Systems and software engineering — Engineering and management of websites for systems, software, and services information, 4.12"
       }
+    ],
+    "alias": [
+      "center page",
+      "front page",
+      "index page",
+      "main page",
+      "start page",
+      "top page"
     ]
   },
   {
@@ -20071,11 +20355,13 @@
   {
     "number": "3.1824",
     "name": "housekeeping operation",
-    "alias": "overhead operation",
     "definitions": [
       {
         "text": "computer operation that establishes or reestablishes a set of initial conditions to facilitate the execution of a computer program"
       }
+    ],
+    "alias": [
+      "overhead operation"
     ],
     "example": "initializing storage areas, clearing flags, rewinding tapes, opening and closing files"
   },
@@ -20132,12 +20418,14 @@
   {
     "number": "3.1830",
     "name": "human resource management plan",
-    "alias": "human resource plan",
     "definitions": [
       {
         "text": "a component of the project or program management plan that describes how the roles and responsibilities, reporting relationships and staff management will be addressed and structured",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "human resource plan"
     ]
   },
   {
@@ -20172,12 +20460,14 @@
   {
     "number": "3.1834",
     "name": "human-centered design",
-    "alias": "user-centered design",
     "definitions": [
       {
         "text": "approach to system design and development that aims to make interactive systems more usable by focusing on the use of the system; applying human factors, ergonomics and usability knowledge and techniques",
         "reference": "ISO/IEC 25063:2014 Systems and software engineering — Systems and software product Quality Requirements and Evaluation (SQuaRE) Common Industry Format (CIF) for usability: Context of use description, 3.6"
       }
+    ],
+    "alias": [
+      "user-centered design"
     ],
     "note": "The term \"human-centered design\" is used rather than \"user-centered design\" to emphasize that design impact a number of stakeholders, not just those typically considered as users. However, in practice, these terms are often used synonymously. Usable systems can provide a number of benefits including improved productivity, enhanced user well-being, avoidance of stress, increased accessibility, and reduced risk of harm."
   },
@@ -20254,11 +20544,13 @@
   {
     "number": "3.1842",
     "name": "I2C",
-    "alias": "IIC",
     "definitions": [
       {
         "text": "inter-integrated circuit bu"
       }
+    ],
+    "alias": [
+      "IIC"
     ]
   },
   {
@@ -20322,12 +20614,14 @@
   {
     "number": "3.1849",
     "name": "ICOM code",
-    "alias": "arrow reference",
     "definitions": [
       {
         "text": "expression in one diagram that unambiguously identifies an arrow segment in another diagram",
         "reference": "IEEE 1320.1- 1998 (R2004) IEEE Standard for Functional Modeling Language - Syntax and Semantics for IDEF0, 2.1.58"
       }
+    ],
+    "alias": [
+      "arrow reference"
     ],
     "note": "An ICOM code is used to associate a boundary arrow of a child diagram with an arrow attached to an ancestral box."
   },
@@ -20405,12 +20699,15 @@
   {
     "number": "3.1857",
     "name": "idea/mind mapping",
-    "alias": "idea mapping mind mapping",
     "definitions": [
       {
         "text": "technique used to consolidate ideas created through individual brainstorming sessions into a single map to reflect commonality and differences in understanding, and to generate new ideas",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "idea mapping",
+      "mind mapping"
     ]
   },
   {
@@ -20536,11 +20833,13 @@
   {
     "number": "3.1869",
     "name": "idle time",
-    "alias": "standby time",
     "definitions": [
       {
         "text": "period of time during which a system or component is operational and in service, but not in use"
       }
+    ],
+    "alias": [
+      "standby time"
     ],
     "confer": "busy time, down time, set-up time, up tim"
   },
@@ -21047,11 +21346,15 @@
   {
     "number": "3.1916",
     "name": "incremental compiler",
-    "alias": "conversational compiler interactive compiler online compiler",
     "definitions": [
       {
         "text": "compiler that completes as much of the translation of each source statement as possible during the input or scanning of the source statement"
       }
+    ],
+    "alias": [
+      "conversational compiler",
+      "interactive compiler",
+      "online compiler"
     ],
     "note": "Typically used for online computer program development and checkout."
   },
@@ -21117,12 +21420,14 @@
   {
     "number": "3.1923",
     "name": "independent entity",
-    "alias": "identifier-independent entit",
     "definitions": [
       {
         "text": "entity for which each instance can be uniquely identified without determining its relationship to another entity",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.84"
       }
+    ],
+    "alias": [
+      "identifier-independent entit"
     ],
     "confer": "dependent entity [key style]"
   },
@@ -21224,11 +21529,13 @@
   {
     "number": "3.1933",
     "name": "indirect address",
-    "alias": "multilevel address",
     "definitions": [
       {
         "text": "address that identifies the storage location of another address"
       }
+    ],
+    "alias": [
+      "multilevel address"
     ],
     "confer": "direct address, immediate data, indirect instruction, n-level addres",
     "note": "The designated storage location can contain the address of the desired operand or another indirect address; the chain of addresses eventually leads to the operand."
@@ -21428,12 +21735,14 @@
   {
     "number": "3.1952",
     "name": "information item type",
-    "alias": "generic document type",
     "definitions": [
       {
         "text": "group of information items consistent with a pre-arranged set of generic criteria",
         "reference": "ISO/IEC/IEEE 15289:2015 Systems and software engineering — Content of life-cycle information products (documentation), 5.14"
       }
+    ],
+    "alias": [
+      "generic document type"
     ],
     "example": "A 'plan' is the information item type for all plans and 'report' is the information item type for all reports."
   },
@@ -21584,23 +21893,27 @@
   {
     "number": "3.1966",
     "name": "information technology",
-    "alias": "IT",
     "definitions": [
       {
         "text": "resources required to acquire, process, store and disseminate information"
       }
+    ],
+    "alias": [
+      "IT"
     ],
     "note": "includes Communication Technology (CT) and the composite term Information and Communication Technology (ICT)"
   },
   {
     "number": "3.1967",
     "name": "information technology project",
-    "alias": "IT project",
     "definitions": [
       {
         "text": "temporary endeavor undertaken to create or change a unique information technology product, system, or service",
         "reference": "ISO/IEC 29155-1:2011 Systems and software engineering — Information technology project performance benchmarking framework — Part 1: Concepts and definitions, 2.7"
       }
+    ],
+    "alias": [
+      "IT project"
     ]
   },
   {
@@ -21627,11 +21940,13 @@
   {
     "number": "3.1970",
     "name": "infrastructure",
-    "alias": "ecosystem",
     "definitions": [
       {
         "text": "hardware and software environment to support computer system and software design, development, and modification"
       }
+    ],
+    "alias": [
+      "ecosystem"
     ]
   },
   {
@@ -21670,12 +21985,14 @@
   {
     "number": "3.1974",
     "name": "initial Ent",
-    "alias": "initial entitlement schema",
     "definitions": [
       {
         "text": "Ent that is referenced by later Ents",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.14"
       }
+    ],
+    "alias": [
+      "initial entitlement schema"
     ],
     "note": "The initial Ent is typically a record of the first transaction between software licensor and end customer. An initial Ent is a type of primary Ent."
   },
@@ -21692,11 +22009,13 @@
   {
     "number": "3.1976",
     "name": "initial investment",
-    "alias": "first cost",
     "definitions": [
       {
         "text": "investment required just to start an activity"
       }
+    ],
+    "alias": [
+      "first cost"
     ]
   },
   {
@@ -22142,11 +22461,13 @@
   {
     "number": "3.2016",
     "name": "instruction counter",
-    "alias": "program counter",
     "definitions": [
       {
         "text": "register that indicates the location of the next computer instruction to be executed"
       }
+    ],
+    "alias": [
+      "program counter"
     ]
   },
   {
@@ -22191,11 +22512,13 @@
   {
     "number": "3.2021",
     "name": "instruction set",
-    "alias": "instruction repertoire",
     "definitions": [
       {
         "text": "complete set of instructions recognized by a given computer or provided by a given programming language"
       }
+    ],
+    "alias": [
+      "instruction repertoire"
     ]
   },
   {
@@ -22258,12 +22581,15 @@
   {
     "number": "3.2028",
     "name": "integrated circuit (IC)",
-    "alias": "microchip chip",
     "definitions": [
       {
         "text": "small piece of semiconductive material that contains interconnected electronic elements",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "microchip",
+      "chip"
     ]
   },
   {
@@ -23044,7 +23370,6 @@
   {
     "number": "3.2097",
     "name": "Interrupt",
-    "alias": "interruption",
     "definitions": [
       {
         "text": "suspension of a process to handle an event external to the process"
@@ -23055,6 +23380,9 @@
       {
         "text": "loosely, an interrupt request"
       }
+    ],
+    "alias": [
+      "interruption"
     ],
     "confer": "interrupt latency, interrupt mask, interrupt priority, interrupt service routine, priority interrupt"
   },
@@ -23108,11 +23436,13 @@
   {
     "number": "3.2103",
     "name": "interrupt service routine",
-    "alias": "ISR",
     "definitions": [
       {
         "text": "routine that responds to interrupt requests by storing the contents of critical registers, performing the processing required by the interrupt request, restoring the register contents, and restarting the interrupted process"
       }
+    ],
+    "alias": [
+      "ISR"
     ]
   },
   {
@@ -23648,11 +23978,13 @@
   {
     "number": "3.2155",
     "name": "job stream",
-    "alias": "run stream",
     "definitions": [
       {
         "text": "sequence of programs or jobs set up so that a computer can proceed from one to the next without the need for operator intervention"
       }
+    ],
+    "alias": [
+      "run stream"
     ]
   },
   {
@@ -23787,7 +24119,6 @@
   {
     "number": "3.2168",
     "name": "kernel",
-    "alias": "resident control program",
     "definitions": [
       {
         "text": "that portion of an operating system that is kept in main memory at all times"
@@ -23795,6 +24126,9 @@
       {
         "text": "a software module that encapsulates an elementary function or functions of a system"
       }
+    ],
+    "alias": [
+      "resident control program"
     ],
     "confer": "nucleus"
   },
@@ -23937,12 +24271,14 @@
   {
     "number": "3.2181",
     "name": "language binding",
-    "alias": "language mapping",
     "definitions": [
       {
         "text": "means and conventions by which a programmer writing in a specific programming language accesses ORB capabilities",
         "reference": "ISO/IEC 19500-2:2012 Information technology — Object Management Group — Common Object Request Broker Architecture (CORBA) — Part 2: Interoperability, 3.2.20"
       }
+    ],
+    "alias": [
+      "language mapping"
     ]
   },
   {
@@ -24417,7 +24753,6 @@
   {
     "number": "3.2228",
     "name": "link",
-    "alias": "hyperlink",
     "definitions": [
       {
         "text": "to create a load module from two or more independently translated object modules or load modules by resolving cross-references among them"
@@ -24437,16 +24772,21 @@
         "reference": "ISO/IEC/IEEE 23026:2015 Systems and software engineering — Engineering and management of websites for systems, software, and services information, 4.15"
       }
     ],
+    "alias": [
+      "hyperlink"
+    ],
     "confer": "linkage editor"
   },
   {
     "number": "3.2229",
     "name": "linkage editor",
-    "alias": "linker",
     "definitions": [
       {
         "text": "computer program that creates a single load module from two or more independently translated object modules or load modules by resolving cross-references among the modules and, possibly, by relocating element"
       }
+    ],
+    "alias": [
+      "linker"
     ],
     "confer": "linking loader",
     "note": "can be part of a loader"
@@ -24786,23 +25126,27 @@
   {
     "number": "3.2261",
     "name": "log off",
-    "alias": "log out",
     "definitions": [
       {
         "text": "to end a session",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "log out"
     ]
   },
   {
     "number": "3.2262",
     "name": "log on",
-    "alias": "log in",
     "definitions": [
       {
         "text": "to initiate a session",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "log in"
     ]
   },
   {
@@ -24874,12 +25218,14 @@
   {
     "number": "3.2269",
     "name": "logical relationship",
-    "alias": "dependency",
     "definitions": [
       {
         "text": "a dependency between two activities, or between an activity and a milestone",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "dependency"
     ],
     "confer": "precedence relationship"
   },
@@ -24927,7 +25273,6 @@
   {
     "number": "3.2274",
     "name": "loop",
-    "alias": "iterative construct",
     "definitions": [
       {
         "text": "sequence of computer program statements that is executed repeatedly until a given condition is met or while a given condition is true"
@@ -24936,16 +25281,21 @@
         "text": "to execute a sequence of computer program statements as in (1)"
       }
     ],
+    "alias": [
+      "iterative construct"
+    ],
     "confer": "loop body, loop control, UNTIL, WHILE"
   },
   {
     "number": "3.2275",
     "name": "loop assertion",
-    "alias": "loop invariant",
     "definitions": [
       {
         "text": "logical expression specifying one or more conditions that must be met each time a particular point in a program loop is executed"
       }
+    ],
+    "alias": [
+      "loop invariant"
     ],
     "confer": "input assertion, output assertion, inductive assertion method"
   },
@@ -25155,11 +25505,14 @@
   {
     "number": "3.2297",
     "name": "machine language",
-    "alias": "first-generation language machine-oriented language",
     "definitions": [
       {
         "text": "language that can be recognized by the processing unit of a computer"
       }
+    ],
+    "alias": [
+      "first-generation language",
+      "machine-oriented language"
     ],
     "confer": "assembly language, fifth-generation language, fourth-generation language, high-order language, symbol language",
     "note": "Such a language usually consists of patterns of 1s and 0s, with no symbolic naming of operations or addresses."
@@ -25197,11 +25550,13 @@
   {
     "number": "3.2301",
     "name": "macro",
-    "alias": "macro definition",
     "definitions": [
       {
         "text": "in software engineering, a predefined sequence of computer instructions that is inserted into a program, usually during assembly or compilation, at each place that its corresponding macroinstruction appears in the program"
       }
+    ],
+    "alias": [
+      "macro definition"
     ],
     "confer": "macroinstruction, macrogenerator, open subroutine"
   },
@@ -25227,11 +25582,13 @@
   {
     "number": "3.2304",
     "name": "macrogenerator",
-    "alias": "macro-generating progra",
     "definitions": [
       {
         "text": "routine, often part of an assembler or compiler, that replaces each macroinstruction in a source program with the predefined sequence of instructions that the macroinstruction represents"
       }
+    ],
+    "alias": [
+      "macro-generating progra"
     ]
   },
   {
@@ -25265,11 +25622,13 @@
   {
     "number": "3.2308",
     "name": "magic number",
-    "alias": "magic string",
     "definitions": [
       {
         "text": "literal value that is used by a program directly rather than being embedded in a named constant or variable"
       }
+    ],
+    "alias": [
+      "magic string"
     ],
     "confer": "literal"
   },
@@ -25449,11 +25808,13 @@
   {
     "number": "3.2324",
     "name": "maintenance program",
-    "alias": "maintenance infrastructure",
     "definitions": [
       {
         "text": "organizational structure, responsibilities, procedures, processes, and resources used for implementing the maintenance plan"
       }
+    ],
+    "alias": [
+      "maintenance infrastructure"
     ]
   },
   {
@@ -25699,12 +26060,14 @@
   {
     "number": "3.2349",
     "name": "mandatory dependency",
-    "alias": "hard logic",
     "definitions": [
       {
         "text": "a relationship that is contractually required or inherent in the nature of the work",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "hard logic"
     ]
   },
   {
@@ -25892,12 +26255,14 @@
   {
     "number": "3.2368",
     "name": "material",
-    "alias": "materiel",
     "definitions": [
       {
         "text": "the aggregate of things used by an organization in any undertaking, such as equipment, apparatus, tools, machinery, gear, material, and supplies",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "materiel"
     ]
   },
   {
@@ -26406,7 +26771,6 @@
   {
     "number": "3.2412",
     "name": "memory compaction",
-    "alias": "garbage collection",
     "definitions": [
       {
         "text": "storage allocation technique in which the contents of all allocated storage areas are moved to the beginning of the storage space and the remaining storage blocks are combined into a single block"
@@ -26414,6 +26778,9 @@
       {
         "text": "storage allocation technique in which contiguous blocks of non-allocated storage are combined to form single block"
       }
+    ],
+    "alias": [
+      "garbage collection"
     ]
   },
   {
@@ -26517,8 +26884,10 @@
   {
     "number": "3.2422",
     "name": "meta\u00021. prefix to a concept to imply definition information about the concept [ISO/IEC 15474-1:2002 Information",
-    "alias": "technology — CDIF framework — Part 1: Overview, 4.2]",
     "definitions": [],
+    "alias": [
+      "technology — CDIF framework — Part 1: Overview, 4.2]"
+    ],
     "note": "Specifically, used to designate the location of an object in the three model layers."
   },
   {
@@ -26589,12 +26958,14 @@
   {
     "number": "3.2429",
     "name": "meta-object facility",
-    "alias": "MOF",
     "definitions": [
       {
         "text": "specification of the object management group for repositories of type information for arbitrary type systems",
         "reference": "ISO/IEC 14769:2001 Information technology — Open Distributed Processing — Type Repository Function, 3.3.1"
       }
+    ],
+    "alias": [
+      "MOF"
     ]
   },
   {
@@ -26847,11 +27218,13 @@
   {
     "number": "3.2450",
     "name": "microcontroller (unit) (MCU)",
-    "alias": "single chip microcomputer",
     "definitions": [
       {
         "text": "unit with application control function on a single chip"
       }
+    ],
+    "alias": [
+      "single chip microcomputer"
     ],
     "note": "It contains a processor, RAM, ROM, clock, register, and I/O control unit."
   },
@@ -27139,11 +27512,13 @@
   {
     "number": "3.2478",
     "name": "mixed mode",
-    "alias": "mixed type",
     "definitions": [
       {
         "text": "pertaining to an expression that contains two or more different data types"
       }
+    ],
+    "alias": [
+      "mixed type"
     ],
     "example": "Y = X + N, where X and Y are floating point variables and N is an integer variable"
   },
@@ -27287,8 +27662,11 @@
   {
     "number": "3.2490",
     "name": "model layers",
-    "alias": "1 different layers of definition (or abstraction) used in defining the CDIF family of standards [ISO/IEC 15474-1:2002 Information technology — CDIF framework — Part 1: Overview, 4.2]",
     "definitions": [],
+    "alias": [
+      "1 different layers of definition (or abstraction) used in defining the CDIF family of standards [ISO/IEC 15474-1:2002",
+      "Information technology — CDIF framework — Part 1: Overview, 4.2]"
+    ],
     "note": "The four model layers in CDIF are user data, model, metamodel, meta-metamodel. Any given model layer provides an accurate and complete definition of all the instances that occur one layer below the given layer. For example, the meta-metamodel provides a set of definitions that are used to construct and understand the metamodel; the metamodel provides a set of definitions that are used to construct and understand a model."
   },
   {
@@ -27441,11 +27819,13 @@
   {
     "number": "3.2505",
     "name": "modular decomposition",
-    "alias": "modularization",
     "definitions": [
       {
         "text": "process of breaking a system into components to facilitate design and development; an element of modular programming"
       }
+    ],
+    "alias": [
+      "modularization"
     ],
     "confer": "cohesion, coupling, demodularization, factoring, functional decomposition, hierarchical decomposition, packaging"
   },
@@ -27494,11 +27874,14 @@
   {
     "number": "3.2509",
     "name": "module data",
-    "alias": "instance data class data",
     "definitions": [
       {
         "text": "data that can be accessed by any routine within the module in which it is declared but not by routines in other modules"
       }
+    ],
+    "alias": [
+      "instance data",
+      "class data"
     ]
   },
   {
@@ -27534,7 +27917,6 @@
   {
     "number": "3.2513",
     "name": "monitor",
-    "alias": "execution monitor",
     "definitions": [
       {
         "text": "software tool or hardware device that operates concurrently with a system or component and supervises, records, analyzes, or verifies the operation of the system or component"
@@ -27543,6 +27925,9 @@
         "text": "collect project performance data with respect to a plan, produce performance measures, and report and disseminate performance information",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "execution monitor"
     ],
     "confer": "hardware monitor, software monitor"
   },
@@ -27733,11 +28118,13 @@
   {
     "number": "3.2533",
     "name": "multi-attribute decision",
-    "alias": "multiple-attribute decisio",
     "definitions": [
       {
         "text": "decision that considers more than just one criterion"
       }
+    ],
+    "alias": [
+      "multiple-attribute decisio"
     ],
     "example": "a decision based on price, delivery date, and quality all at the same time"
   },
@@ -27814,11 +28201,13 @@
   {
     "number": "3.2541",
     "name": "multiaddress instruction",
-    "alias": "multiple-address instructio",
     "definitions": [
       {
         "text": "computer instruction that contains more than one address field"
       }
+    ],
+    "alias": [
+      "multiple-address instructio"
     ],
     "confer": "one-address instructio"
   },
@@ -27868,12 +28257,14 @@
   {
     "number": "3.2546",
     "name": "multiple-criteria decision making (MCDM)",
-    "alias": "multi-attribute decision makin",
     "definitions": [
       {
         "text": "making preference decisions (e.g., evaluation, prioritization, and selection) of available alternatives characterized by multiple criteria",
         "reference": "ISO/IEC 33003:2015 Information technology — Process assessment — Requirements for process measurement frameworks, 3.9"
       }
+    ],
+    "alias": [
+      "multi-attribute decision makin"
     ],
     "note": "An MCDM with one alternative is the same as the development of a composite measure."
   },
@@ -27940,12 +28331,14 @@
   {
     "number": "3.2553",
     "name": "multiset cardinality",
-    "alias": "cardinality of a multiset",
     "definitions": [
       {
         "text": "sum of the multiplicities of each of the members of the multiset",
         "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.15.2"
       }
+    ],
+    "alias": [
+      "cardinality of a multiset"
     ]
   },
   {
@@ -28397,11 +28790,13 @@
   {
     "number": "3.2597",
     "name": "no-operation",
-    "alias": "do-nothing operatio",
     "definitions": [
       {
         "text": "computer operation whose execution has no effect except to advance the instruction counter to the next instruction"
       }
+    ],
+    "alias": [
+      "do-nothing operatio"
     ],
     "note": "used to reserve space in a program or, if executed repeatedly, to wait for a given event; often abbreviated no-op"
   },
@@ -28657,8 +29052,11 @@
   {
     "number": "3.2621",
     "name": "nonfunctional requirement",
-    "alias": "performance attribute 1 software requirement that describes not what the software will do but how the software will do it",
     "definitions": [],
+    "alias": [
+      "performance attribute",
+      "1 software requirement that describes not what the software will do but how the software will do it"
+    ],
     "confer": "design constraint, functional requirement, performance requirement, quality requirement",
     "example": "software performance requirements, software external interface requirements, software design constraints, and software quality attributes."
   },
@@ -28791,12 +29189,14 @@
   {
     "number": "3.2634",
     "name": "notebook computer",
-    "alias": "laptop computer",
     "definitions": [
       {
         "text": "battery-powered portable computer small and light enough to be operated anywhere",
         "reference": "ISO/IEC 2382:2015 Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "laptop computer"
     ]
   },
   {
@@ -28886,12 +29286,14 @@
   {
     "number": "3.2641",
     "name": "object identifier",
-    "alias": "OID",
     "definitions": [
       {
         "text": "some concrete representation for the identity of an object (instance)",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.128"
       }
+    ],
+    "alias": [
+      "OID"
     ],
     "note": "The object identifier (OID) is used to show examples of instances with identity, to formalize the notion of identity, and to support the notion in programming languages or database systems."
   },
@@ -28938,11 +29340,13 @@
   {
     "number": "3.2646",
     "name": "object program",
-    "alias": "target program",
     "definitions": [
       {
         "text": "computer program that is the output of an assembler or compiler"
       }
+    ],
+    "alias": [
+      "target program"
     ],
     "confer": "source program object module"
   },
@@ -29017,7 +29421,6 @@
   {
     "number": "3.2653",
     "name": "objective",
-    "alias": "purpose",
     "definitions": [
       {
         "text": "something toward which work is to be directed, a strategic position to be attained, or a purpose to be achieved, a result to be obtained, a product to be produced, or a service to be performed.",
@@ -29027,6 +29430,9 @@
         "text": "practical advantage or intended effect, expressed as preferences about future states.",
         "reference": "ISO/IEC 15414:2015 Information technology — Open distributed processing — Reference model — Enterprise language, 6.2.1"
       }
+    ],
+    "alias": [
+      "purpose"
     ],
     "note": "Some objectives are ongoing; some are achieved once met. Objectives can have different aspects (such as financial, health and safety, and environmental goals) and can apply at different levels (such as strategic, organization-wide, project, product and process). The enterprise language systematically uses the term objective, (rather than purpose) and emphasizes the need of expressing objective in measurable terms."
   },
@@ -29148,12 +29554,14 @@
   {
     "number": "3.2665",
     "name": "octet",
-    "alias": "8-bit byt",
     "definitions": [
       {
         "text": "byte that consists of eight bits",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "8-bit byt"
     ]
   },
   {
@@ -29209,12 +29617,14 @@
   {
     "number": "3.2671",
     "name": "ODP-RM",
-    "alias": "RM-OD",
     "definitions": [
       {
         "text": "Open Distributed Processing: Reference Model.",
         "reference": "ISO/IEC 14769:2001 Information technology — Open Distributed Processing — Type Repository Function, 4"
       }
+    ],
+    "alias": [
+      "RM-OD"
     ]
   },
   {
@@ -29265,7 +29675,6 @@
   {
     "number": "3.2676",
     "name": "offset",
-    "alias": "relocation factor",
     "definitions": [
       {
         "text": "difference between the loaded origin and the assembled origin of a computer program"
@@ -29273,6 +29682,9 @@
       {
         "text": "number that must be added to a relative address to determine the address of the storage location to be accessed"
       }
+    ],
+    "alias": [
+      "relocation factor"
     ]
   },
   {
@@ -29350,11 +29762,14 @@
   {
     "number": "3.2684",
     "name": "one-address instruction",
-    "alias": "single-address instructio single-operand instructio",
     "definitions": [
       {
         "text": "computer instruction that contains one address field"
       }
+    ],
+    "alias": [
+      "single-address instructio",
+      "single-operand instructio"
     ],
     "confer": "multiaddress instruction, two-address instruction, three-address instruction, four-address instruction, z address instruction",
     "example": "an instruction to load the contents of location A"
@@ -29468,11 +29883,13 @@
   {
     "number": "3.2695",
     "name": "open subroutine",
-    "alias": "direct insert subroutine",
     "definitions": [
       {
         "text": "subroutine that is copied into a computer program at each place that it is called"
       }
+    ],
+    "alias": [
+      "direct insert subroutine"
     ],
     "confer": "closed subroutine, inline code, macro"
   },
@@ -29593,11 +30010,13 @@
   {
     "number": "3.2705",
     "name": "operation code",
-    "alias": "op code",
     "definitions": [
       {
         "text": "character or set of characters that specifies a computer operation"
       }
+    ],
+    "alias": [
+      "op code"
     ],
     "example": "the code BNZ to designate the operation 'branch if not zero'."
   },
@@ -29614,11 +30033,14 @@
   {
     "number": "3.2707",
     "name": "operation field",
-    "alias": "function field operation part",
     "definitions": [
       {
         "text": "field of a computer instruction that specifies the operation to be performed"
       }
+    ],
+    "alias": [
+      "function field",
+      "operation part"
     ],
     "confer": "address field"
   },
@@ -29744,11 +30166,13 @@
   {
     "number": "3.2717",
     "name": "operator manual",
-    "alias": "operations manual",
     "definitions": [
       {
         "text": "document that provides the information necessary to initiate and operate a system or component"
       }
+    ],
+    "alias": [
+      "operations manual"
     ],
     "confer": "diagnostic manual, installation manual, programmer manual, support manual, user manual",
     "note": "Typically described are procedures for preparation, operation, monitoring, and recovery. An operator manual is distinguished from a user manual when a distinction is made between those who operate a computer system (mounting tapes, etc.) and those who use the system for its intended purpose."
@@ -30140,12 +30564,14 @@
   {
     "number": "3.2754",
     "name": "original equipment manufacturer license",
-    "alias": "OEM license",
     "definitions": [
       {
         "text": "license for products or components that are created or manufactured by one company and licensed by another company",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.17"
       }
+    ],
+    "alias": [
+      "OEM license"
     ]
   },
   {
@@ -30354,12 +30780,14 @@
   {
     "number": "3.2773",
     "name": "output sort",
-    "alias": "range sort",
     "definitions": [
       {
         "text": "sort of an output of an operator",
         "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.23.3"
       }
+    ],
+    "alias": [
+      "range sort"
     ]
   },
   {
@@ -30556,8 +30984,11 @@
   {
     "number": "3.2792",
     "name": "padding",
-    "alias": "1 technique of filling out a fixed-length block of data with dummy characters, words, or records 2. dummy characters, words, or records used to fill out a fixed-length block of dat",
-    "definitions": []
+    "definitions": [],
+    "alias": [
+      "1 technique of filling out a fixed-length block of data with dummy characters, words, or records 2. dummy",
+      "characters, words, or records used to fill out a fixed-length block of dat"
+    ]
   },
   {
     "number": "3.2793",
@@ -30662,8 +31093,15 @@
   {
     "number": "3.2802",
     "name": "paging",
-    "alias": "block allocation 1 storage allocation technique in which programs or data are divided into fixed-length blocks called pages, main storage is divided into blocks of the same length called page frames, and pages are stored in page frames, not necessarily contiguously or in logical order 2. storage allocation technique in which programs or data are divided into fixed-length blocks called pages, main storage is divided into blocks of the same length called page frames, and pages are transferred between main and auxiliary storage as needed 3. transfer of pages as in (2)",
     "definitions": [],
+    "alias": [
+      "block allocation",
+      "1 storage allocation technique in which programs or data are divided into fixed-length blocks called pages, main",
+      "storage is divided into blocks of the same length called page frames, and pages are stored in page frames, not",
+      "necessarily contiguously or in logical order 2. storage allocation technique in which programs or data are divided",
+      "into fixed-length blocks called pages, main storage is divided into blocks of the same length called page frames, and",
+      "pages are transferred between main and auxiliary storage as needed 3. transfer of pages as in (2)"
+    ],
     "confer": "contiguous allocation, page, page breakage, page frame, page swapping, page table, page zero, pager, working set"
   },
   {
@@ -30807,12 +31245,14 @@
   {
     "number": "3.2816",
     "name": "Pareto diagram",
-    "alias": "Pareto chart",
     "definitions": [
       {
         "text": "histogram, ordered by frequency of occurrence, that shows how many results were generated by each identified cause",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "Pareto chart"
     ]
   },
   {
@@ -30859,12 +31299,14 @@
   {
     "number": "3.2821",
     "name": "partial cluster",
-    "alias": "incomplete cluster",
     "definitions": [
       {
         "text": "subclass cluster in which an instance of the superclass exists without also being an instance of any of the subclasses",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.144"
       }
+    ],
+    "alias": [
+      "incomplete cluster"
     ],
     "confer": "total cluster, superclass"
   },
@@ -31366,12 +31808,14 @@
   {
     "number": "3.2869",
     "name": "performance measurement baseline",
-    "alias": "PMB",
     "definitions": [
       {
         "text": "an approved integrated scope-schedule-cost plan for the project work against which project execution i compared to measure and manage performance. The PMB includes contingency reserve, but excludes management reserve",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "PMB"
     ]
   },
   {
@@ -31961,12 +32405,14 @@
   {
     "number": "3.2926",
     "name": "planned value (PV)",
-    "alias": "budgeted cost of work scheduled (BCWS)",
     "definitions": [
       {
         "text": "the authorized budget assigned to scheduled work",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "budgeted cost of work scheduled (BCWS)"
     ]
   },
   {
@@ -32208,12 +32654,14 @@
   {
     "number": "3.2949",
     "name": "PNML document",
-    "alias": "Petri Net document",
     "definitions": [
       {
         "text": "XML document that contains one or more net graphs",
         "reference": "ISO/IEC 15909-2:2011 Software and system engineering — High-level Petri nets — Part 2: Transfer format, 4.1.10"
       }
+    ],
+    "alias": [
+      "Petri Net document"
     ]
   },
   {
@@ -32416,7 +32864,6 @@
   {
     "number": "3.2968",
     "name": "portability",
-    "alias": "transportability",
     "definitions": [
       {
         "text": "ease with which a system or component can be transferred from one hardware or software environment to another"
@@ -32433,6 +32880,9 @@
         "text": "property that the reference points of an object allow it to be adapted to a variety of configurations",
         "reference": "ISO/IEC 10746-2:2009 Information technology — Open Distributed Processing — Reference Model: Foundations, 15.4.1"
       }
+    ],
+    "alias": [
+      "transportability"
     ],
     "confer": "machine-independen"
   },
@@ -32598,12 +33048,14 @@
   {
     "number": "3.2984",
     "name": "precedence diagramming method (PDM)",
-    "alias": "activity-on-node (AON)",
     "definitions": [
       {
         "text": "a technique used for constructing a schedule model in which activities are represented by nodes and are graphically linked by one or more logical relationships to show the sequence in which the activities are to be performed",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "activity-on-node (AON)"
     ]
   },
   {
@@ -32680,12 +33132,14 @@
   {
     "number": "3.2991",
     "name": "predicate data use",
-    "alias": "p-us",
     "definitions": [
       {
         "text": "data use associated with the decision outcome of the predicate portion of a decision statement",
         "reference": "ISO/IEC/IEEE 29119-4:2015 Software and systems engineering — Software testing — Part 4: Test techniques, 4.25"
       }
+    ],
+    "alias": [
+      "p-us"
     ]
   },
   {
@@ -32871,12 +33325,14 @@
   {
     "number": "3.3008",
     "name": "primary Ent",
-    "alias": "primary entitlement schema",
     "definitions": [
       {
         "text": "entitlement schema (Ent) which encapsulates basic information about an entitlement",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.19"
       }
+    ],
+    "alias": [
+      "primary entitlement schema"
     ],
     "note": "Primary Ents have an <entType> of Initial, Consolidation, AllocationReceived, or TransferReceived. These are base Ents which allow for initial population of an Ent into an Ent library (with the exception of Consolidation, which can be used to replace several previous Ents if desired). Other Ents (called supplemental Ents) can extend the data in these base type Ents."
   },
@@ -33093,12 +33549,14 @@
   {
     "number": "3.3028",
     "name": "problem definition",
-    "alias": "problem description",
     "definitions": [
       {
         "text": "statement of a problem, which can include a description of the data, the method, the procedures, and algorithms used to solve it",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "problem description"
     ]
   },
   {
@@ -33115,11 +33573,14 @@
   {
     "number": "3.3030",
     "name": "problem state",
-    "alias": "slave state user state",
     "definitions": [
       {
         "text": "in the operation of a computer system, a state in which programs other than the supervisory program can execute"
       }
+    ],
+    "alias": [
+      "slave state",
+      "user state"
     ],
     "confer": "supervisor state"
   },
@@ -33146,11 +33607,13 @@
   {
     "number": "3.3033",
     "name": "procedural language",
-    "alias": "procedure-oriented language",
     "definitions": [
       {
         "text": "programming language in which the user states a specific set of instructions that the computer must perform in a given sequence"
       }
+    ],
+    "alias": [
+      "procedure-oriented language"
     ],
     "confer": "nonprocedural language, algebraic language, algorithmic language, list processing language, logic programming language",
     "note": "All widely-used programming languages are of this type."
@@ -33338,12 +33801,14 @@
   {
     "number": "3.3047",
     "name": "process attribute (PA)",
-    "alias": "process quality attribute",
     "definitions": [
       {
         "text": "measurable property of a process quality characteristic",
         "reference": "ISO/IEC 33001:2015 Information technology — Process assessment — Concepts and terminology, 3.4.3"
       }
+    ],
+    "alias": [
+      "process quality attribute"
     ]
   },
   {
@@ -33857,12 +34322,15 @@
   {
     "number": "3.3094",
     "name": "product baseline",
-    "alias": "product configuration baseline production configuration",
     "definitions": [
       {
         "text": "description of the detailed design at a specific point in time, for production, fielding/deployment, and operations and support",
         "reference": "IEEE 15288.1:2014 IEEE Standard for Application of Systems Engineering on Defense Programs, 3.1"
       }
+    ],
+    "alias": [
+      "product configuration baseline",
+      "production configuration"
     ],
     "confer": "allocated baseline, developmental configuration, functional baseline, product configuration identification",
     "example": "The product baseline prescribes all necessary physical (form, fit, or function) characteristics and selected functional characteristics designated for production acceptance testing and production test requirements."
@@ -33921,12 +34389,14 @@
   {
     "number": "3.3100",
     "name": "product line",
-    "alias": "product family",
     "definitions": [
       {
         "text": "set of products or services sharing explicitly defined and managed common and variable features and relying on the same domain architecture to meet the common and variable needs of specific markets",
         "reference": "ISO/IEC 26550:2015 Software and systems engineering — Reference model for product line engineering and management, 3.16"
       }
+    ],
+    "alias": [
+      "product family"
     ]
   },
   {
@@ -34143,7 +34613,6 @@
   {
     "number": "3.3122",
     "name": "profile group",
-    "alias": "PG",
     "definitions": [
       {
         "text": "collection of profiles which are related by composition of processes (i.e., activities, tasks) or by capability level, or both",
@@ -34153,6 +34622,9 @@
         "text": "collection of profiles which are related by composition of processes (i.e., activities, tasks), or by requirements sharing or composition",
         "reference": "ISO/IEC 29110-2-1:2015 — Software engineering — Lifecycle profiles for Very Small Entities (VSEs) — Part 2-1: Framework and taxonomy, 4.45"
       }
+    ],
+    "alias": [
+      "PG"
     ]
   },
   {
@@ -34366,12 +34838,14 @@
   {
     "number": "3.3143",
     "name": "programmable terminal",
-    "alias": "intelligent terminal",
     "definitions": [
       {
         "text": "user terminal that has built-in data processing capability",
         "reference": "ISO/IEC 2382:2015, Information technology Vocabulary"
       }
+    ],
+    "alias": [
+      "intelligent terminal"
     ]
   },
   {
@@ -34550,11 +35024,13 @@
   {
     "number": "3.3159",
     "name": "project file",
-    "alias": "project notebook",
     "definitions": [
       {
         "text": "central repository of material pertinent to a project"
       }
+    ],
+    "alias": [
+      "project notebook"
     ],
     "note": "Contents typically include memos, plans, technical reports, and related items."
   },
@@ -34745,7 +35221,6 @@
   {
     "number": "3.3178",
     "name": "project manager (PM)",
-    "alias": "PJM",
     "definitions": [
       {
         "text": "the person assigned by the performing organization to lead the team that is responsible for achieving the project objectives",
@@ -34755,6 +35230,9 @@
         "text": "person with overall responsibility for the management and running of a project",
         "reference": "ISO/IEC 26514:2008 Systems and software engineering — requirements for designers and developers of user documentation, 4.39"
       }
+    ],
+    "alias": [
+      "PJM"
     ]
   },
   {
@@ -34893,12 +35371,14 @@
   {
     "number": "3.3192",
     "name": "project schedule network diagram",
-    "alias": "activity network diagram",
     "definitions": [
       {
         "text": "a graphical display of the logical relationships among the project schedule activities",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "activity network diagram"
     ]
   },
   {
@@ -35007,11 +35487,13 @@
   {
     "number": "3.3203",
     "name": "prolog breakpoint",
-    "alias": "preamble breakpoint",
     "definitions": [
       {
         "text": "breakpoint that is initiated upon entry into a program or routine"
       }
+    ],
+    "alias": [
+      "preamble breakpoint"
     ],
     "confer": "epilog breakpoint, code breakpoint, data breakpoint, dynamic breakpoint, programmable breakpoint, static breakpoint"
   },
@@ -35266,11 +35748,15 @@
   {
     "number": "3.3227",
     "name": "pseudo instruction",
-    "alias": "pragma pseudo-o pseudo operation",
     "definitions": [
       {
         "text": "source language instruction that provides information or direction to the assembler or compiler and is not translated into a target language instruction"
       }
+    ],
+    "alias": [
+      "pragma",
+      "pseudo-o",
+      "pseudo operation"
     ],
     "example": "an instruction specifying the desired format of source code listings"
   },
@@ -35817,7 +36303,6 @@
   {
     "number": "3.3278",
     "name": "quality measure",
-    "alias": "QM",
     "definitions": [
       {
         "text": "measure that is defined as a measurement function of two or more values of quality measure elements",
@@ -35827,6 +36312,9 @@
         "text": "derived measure that is defined as a measurement function of two or more values of quality measure elements",
         "reference": "ISO/IEC 25021:2012 Software engineering — Software product Quality Requirements and Evaluation (SQuaRE) — Quality measure elements, 4.13"
       }
+    ],
+    "alias": [
+      "QM"
     ],
     "confer": "software quality measure"
   },
@@ -36239,7 +36727,6 @@
   {
     "number": "3.3317",
     "name": "Read",
-    "alias": "read type",
     "definitions": [
       {
         "text": "to access data from a storage device or data medium"
@@ -36248,6 +36735,9 @@
         "text": "data movement type that moves a data group from persistent storage within reach of the functional process which requires it",
         "reference": "ISO/IEC 19761:2011 Software engineering — COSMIC: a functional size measurement method, 2.23"
       }
+    ],
+    "alias": [
+      "read type"
     ],
     "confer": "destructive read, nondestructive read, write",
     "note": "A read is considered to include certain associated data manipulations necessary to achieve the read."
@@ -36574,11 +37064,13 @@
   {
     "number": "3.3347",
     "name": "reentrant",
-    "alias": "reenterable",
     "definitions": [
       {
         "text": "pertaining to a software module that can be entered as part of one process while also in execution as part of another process and still achieve the desired results"
       }
+    ],
+    "alias": [
+      "reenterable"
     ]
   },
   {
@@ -36789,12 +37281,14 @@
   {
     "number": "3.3368",
     "name": "registration identifier",
-    "alias": "regid",
     "definitions": [
       {
         "text": "unique identifier for an entity",
         "reference": "ISO/IEC 19770-5:2015 Information technology — IT asset management — Part 5: Overview and vocabulary, 3.27"
       }
+    ],
+    "alias": [
+      "regid"
     ]
   },
   {
@@ -37119,11 +37613,13 @@
   {
     "number": "3.3395",
     "name": "relocating loader",
-    "alias": "relative loader",
     "definitions": [
       {
         "text": "loader that reads relocatable code into main memory and adjusts the addresses in the code to reflect the storage locations into which the code has been loaded"
       }
+    ],
+    "alias": [
+      "relative loader"
     ],
     "confer": "absolute loader"
   },
@@ -37159,11 +37655,13 @@
   {
     "number": "3.3399",
     "name": "remote job entry (RJE)",
-    "alias": "remote batch entry",
     "definitions": [
       {
         "text": "submission of jobs through a remote input device connected to a computer through a data link"
       }
+    ],
+    "alias": [
+      "remote batch entry"
     ]
   },
   {
@@ -37179,11 +37677,13 @@
   {
     "number": "3.3401",
     "name": "repair",
-    "alias": "defect removal",
     "definitions": [
       {
         "text": "correction of defects that have resulted from errors in external design, internal design, or code"
       }
+    ],
+    "alias": [
+      "defect removal"
     ],
     "example": "missing functions that do not result in application failure (external design error) or errors resulting in a stop-run situation (code error"
   },
@@ -37459,7 +37959,6 @@
   {
     "number": "3.3425",
     "name": "request for proposal (RFP)",
-    "alias": "request for tender solicitation package",
     "definitions": [
       {
         "text": "collection of formal documents that includes a description of the desired form of response from a potential supplier, the relevant statement of work for the supplier, and required provisions in the supplier agreement"
@@ -37468,6 +37967,10 @@
         "text": "a type of procurement document used to request proposals from prospective sellers of products or services. In some application areas, it may have a narrower or more specific meaning.",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "request for tender",
+      "solicitation package"
     ]
   },
   {
@@ -37809,12 +38312,14 @@
   {
     "number": "3.3455",
     "name": "reserve",
-    "alias": "contingency allowance",
     "definitions": [
       {
         "text": "a provision in the project management plan to mitigate cost and/or schedule risk. Often used with a modifier (e.g., management reserve, contingency reserve) to provide further detail on what types of risk are meant to be mitigated",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "contingency allowance"
     ],
     "confer": "buffer"
   },
@@ -38094,11 +38599,13 @@
   {
     "number": "3.3481",
     "name": "restart point",
-    "alias": "rescue point",
     "definitions": [
       {
         "text": "point in a computer program at which execution can be restarted following a failure"
       }
+    ],
+    "alias": [
+      "rescue point"
     ]
   },
   {
@@ -38138,12 +38645,14 @@
   {
     "number": "3.3485",
     "name": "retesting",
-    "alias": "confirmation testing",
     "definitions": [
       {
         "text": "re-execution of test cases that previously returned a \"fail\" result, to evaluate the effectiveness of intervening corrective actions",
         "reference": "ISO/IEC/IEEE 29119-1:2013 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.34"
       }
+    ],
+    "alias": [
+      "confirmation testing"
     ]
   },
   {
@@ -38326,11 +38835,16 @@
   {
     "number": "3.3502",
     "name": "reversible execution",
-    "alias": "backward execution playback replay reverse execution",
     "definitions": [
       {
         "text": "debugging technique in which a history of program execution is recorded and then replayed under the user's control, in either the forward or backward direction"
       }
+    ],
+    "alias": [
+      "backward execution",
+      "playback",
+      "replay",
+      "reverse execution"
     ]
   },
   {
@@ -38354,12 +38868,15 @@
   {
     "number": "3.3504",
     "name": "review/audit output",
-    "alias": "audit output review output",
     "definitions": [
       {
         "text": "review or audit artifacts that are expected through conduct of the technical review or audit and that can be considered elements of exit criteria",
         "reference": "IEEE 15288.2:2014 IEEE Standard for Technical Reviews and Audits on Defense Programs, 3.1"
       }
+    ],
+    "alias": [
+      "audit output",
+      "review output"
     ]
   },
   {
@@ -39026,12 +39543,15 @@
   {
     "number": "3.3563",
     "name": "root arrow segment",
-    "alias": "root root segment",
     "definitions": [
       {
         "text": "arrow segment of a junction from which other arrow segments branch or to which other arrow segments join",
         "reference": "IEEE 1320.1-1998 (R2004) IEEE Standard for Functional Modeling Language - Syntax and Semantics for IDEF0, 2.1.99"
       }
+    ],
+    "alias": [
+      "root",
+      "root segment"
     ]
   },
   {
@@ -39176,7 +39696,6 @@
   {
     "number": "3.3577",
     "name": "run time",
-    "alias": "running time",
     "definitions": [
       {
         "text": "instant at which a computer program begins to execute"
@@ -39184,6 +39703,9 @@
       {
         "text": "period of time during which a computer program is executing"
       }
+    ],
+    "alias": [
+      "running time"
     ],
     "confer": "execution time"
   },
@@ -39365,12 +39887,14 @@
   {
     "number": "3.3595",
     "name": "SAM tool",
-    "alias": "software asset management tool",
     "definitions": [
       {
         "text": "software used to assist in and automate parts of the process of management of software assets",
         "reference": "ISO/IEC 19770- 3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.25"
       }
+    ],
+    "alias": [
+      "software asset management tool"
     ]
   },
   {
@@ -39502,20 +40026,27 @@
   {
     "number": "3.3607",
     "name": "scalar-valued property",
-    "alias": "scalar property",
     "definitions": [
       {
         "text": "property that maps to a scalar-valued class",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.174"
       }
     ],
+    "alias": [
+      "scalar property"
+    ],
     "confer": "collection-valued propert"
   },
   {
     "number": "3.3608",
     "name": "scale",
-    "alias": "1 ordered set of values, continuous or discrete, or a set of categories to which the attribute is mapped [ISO/IEC/IEEE 15939:2017 Systems and software engineering — Measurement process, 3.34; ISO/IEC 25000:2014 Systems and software Engineering — Systems and software product Quality Requirements and Evaluation (SQuaRE) — Guide to SQuaRE, 4.30]",
     "definitions": [],
+    "alias": [
+      "1 ordered set of values, continuous or discrete, or a set of categories to which the attribute is mapped [ISO/IEC/IEEE",
+      "15939:2017 Systems and software engineering — Measurement process, 3.34; ISO/IEC 25000:2014 Systems and",
+      "software Engineering — Systems and software product Quality Requirements and Evaluation (SQuaRE) — Guide to",
+      "SQuaRE, 4.30]"
+    ],
     "example": "a nominal scale which corresponds to a set of categories, an ordinal scale which corresponds to an ordered set of scale points, an interval scale which corresponds to an ordered scale with equidistant scale points, and a ratio scale which not only has equidistant scale points but also possesses an absolute zero",
     "note": "The type of scale depends on the nature of the relationship between values on the scale. Metrics using nominal or ordinal scales produce qualitative data, and metrics using interval and ratio scales produce quantitative data."
   },
@@ -39542,11 +40073,13 @@
   {
     "number": "3.3611",
     "name": "scenario",
-    "alias": "script",
     "definitions": [
       {
         "text": "step-by-step description of a series of events that occur concurrently or sequential"
       }
+    ],
+    "alias": [
+      "script"
     ],
     "confer": "use case",
     "note": "A scenario can be a user story, use case, operational concept, or sequence of events the software may encounter."
@@ -39644,12 +40177,15 @@
   {
     "number": "3.3621",
     "name": "schedule network analysis",
-    "alias": "network analysis schedule analysis",
     "definitions": [
       {
         "text": "the technique of identifying early and late start dates, as well as early and late finish dates, for the uncompleted portions of project schedule activities",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "network analysis",
+      "schedule analysis"
     ],
     "confer": "backward pass, critical path method, critical chain method, resource leveling"
   },
@@ -39786,11 +40322,13 @@
   {
     "number": "3.3634",
     "name": "screen capture",
-    "alias": "screen dump",
     "definitions": [
       {
         "text": "representation of what the user will see while using the software"
       }
+    ],
+    "alias": [
+      "screen dump"
     ]
   },
   {
@@ -40535,11 +41073,13 @@
   {
     "number": "3.3702",
     "name": "serial construct",
-    "alias": "sequential construct",
     "definitions": [
       {
         "text": "program construct consisting of a sequence of steps not involving a decision or loop"
       }
+    ],
+    "alias": [
+      "sequential construct"
     ]
   },
   {
@@ -41119,11 +41659,14 @@
   {
     "number": "3.3756",
     "name": "single-step operation",
-    "alias": "single-step executio step-by-step operati",
     "definitions": [
       {
         "text": "debugging technique in which a single computer instruction, or part of an instruction, is executed in response to an external signal"
       }
+    ],
+    "alias": [
+      "single-step executio",
+      "step-by-step operati"
     ]
   },
   {
@@ -41393,7 +41936,6 @@
   {
     "number": "3.3783",
     "name": "software",
-    "alias": "SW",
     "definitions": [
       {
         "text": "computer programs, procedures and possibly associated documentation and data pertaining to the operation of a computer system",
@@ -41407,6 +41949,9 @@
         "text": "program or set of programs used to run a computer",
         "reference": "ISO/IEC 26514:2008 Systems and software engineering — requirements for designers and developers of user documentation, 4.46"
       }
+    ],
+    "alias": [
+      "SW"
     ],
     "confer": "application software",
     "example": "command files, job control language, both executable and non-executable software, such as fonts, graphics, audio and video recordings, templates, dictionaries, and documents",
@@ -41584,11 +42129,13 @@
   {
     "number": "3.3800",
     "name": "software design notation",
-    "alias": "software design representation",
     "definitions": [
       {
         "text": "means of describing a software design"
       }
+    ],
+    "alias": [
+      "software design representation"
     ],
     "example": "structure charts and pseudocode",
     "note": "It can be diagrammatic, symbolic, or textual."
@@ -41626,22 +42173,29 @@
   {
     "number": "3.3804",
     "name": "software development file (SDF)",
-    "alias": "software development folder software development notebook unit development folder",
     "definitions": [
       {
         "text": "collection of material pertinent to the development of a given software unit or set of related units"
       }
+    ],
+    "alias": [
+      "software development folder",
+      "software development notebook",
+      "unit development folder"
     ],
     "note": "Contents typically include the requirements, design, technical reports, code listings, test plans, test results, problem reports, schedules, and notes for the units."
   },
   {
     "number": "3.3805",
     "name": "software development library",
-    "alias": "project library program support library",
     "definitions": [
       {
         "text": "software library containing computer readable and human readable information relevant to a software development effort"
       }
+    ],
+    "alias": [
+      "project library",
+      "program support library"
     ],
     "confer": "master library, production library, software repository, system library"
   },
@@ -41686,7 +42240,6 @@
   {
     "number": "3.3810",
     "name": "software engineering",
-    "alias": "SE SWE",
     "definitions": [
       {
         "text": "systematic application of scientific and technological knowledge, methods, and experience to the design, implementation, testing, and documentation of software",
@@ -41695,6 +42248,10 @@
       {
         "text": "application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software [ISO/IEC TR 19759:2016, Software Engineering — Guide to the Software Engineering Body of Knowledge (SWEBOK)"
       }
+    ],
+    "alias": [
+      "SE",
+      "SWE"
     ]
   },
   {
@@ -41769,7 +42326,6 @@
   {
     "number": "3.3817",
     "name": "software identification tag",
-    "alias": "SWID tag SWID",
     "definitions": [
       {
         "text": "information structure containing identification information about a software configuration item, which can be authoritative if provided by a software creator",
@@ -41779,6 +42335,10 @@
         "text": "set of structured data elements containing authoritative identification information about a software configuration item",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.31"
       }
+    ],
+    "alias": [
+      "SWID tag",
+      "SWID"
     ]
   },
   {
@@ -41804,7 +42364,6 @@
   {
     "number": "3.3819",
     "name": "software library",
-    "alias": "program library",
     "definitions": [
       {
         "text": "controlled collection of software and related documentation designed to aid in software development, use, or maintenance"
@@ -41813,6 +42372,9 @@
         "text": "controlled collection of SCIs to aid in development, operation and maintenance",
         "reference": "ISO/IEC TR 15846:1998 Information technology — Software life cycle processes — Configuration Management, 4.5"
       }
+    ],
+    "alias": [
+      "program library"
     ],
     "note": "Types include master library, production library, software development library, software repository, system library."
   },
@@ -42346,12 +42908,14 @@
   {
     "number": "3.3867",
     "name": "software version ID",
-    "alias": "software version identification",
     "definitions": [
       {
         "text": "explicit and immutable version identifier (name or number) inserted into each configuration item, including each individual release, that can be used to identify the exact version of the configuration item in any instance or repository",
         "reference": "IEEE 828-2012 IEEE Standard for Configuration Management in Systems and Software Engineering, 2.1"
       }
+    ],
+    "alias": [
+      "software version identification"
     ]
   },
   {
@@ -42592,11 +43156,13 @@
   {
     "number": "3.3891",
     "name": "special cause",
-    "alias": "assignable cause",
     "definitions": [
       {
         "text": "source of variation that is not inherent in the system, is not predictable, and is intermittent"
       }
+    ],
+    "alias": [
+      "assignable cause"
     ],
     "confer": "common cause",
     "example": "It can be assigned to a defect in the system. On a control chart, it is indicated by points beyond the control limits or non-random patterns within the control limits"
@@ -42698,12 +43264,15 @@
   {
     "number": "3.3900",
     "name": "specification-based testing",
-    "alias": "black-box testin closed-box testin",
     "definitions": [
       {
         "text": "testing in which the principal test basis is the external inputs and outputs of the test item, commonly based on a specification, rather than its implementation in source code or executable software",
         "reference": "ISO/IEC/IEEE 29119-1:2013 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.39"
       }
+    ],
+    "alias": [
+      "black-box testin",
+      "closed-box testin"
     ],
     "confer": "functional testing"
   },
@@ -43249,11 +43818,13 @@
   {
     "number": "3.3952",
     "name": "standby mode",
-    "alias": "sleep mode",
     "definitions": [
       {
         "text": "operating mode which saves power when a microcontroller unit is not in active use"
       }
+    ],
+    "alias": [
+      "sleep mode"
     ]
   },
   {
@@ -43603,11 +44174,13 @@
   {
     "number": "3.3983",
     "name": "status code",
-    "alias": "condition code",
     "definitions": [
       {
         "text": "code used to indicate the results of a computer program operation"
       }
+    ],
+    "alias": [
+      "condition code"
     ],
     "example": "a code indicating a carry, an overflow, or a parity error"
   },
@@ -43705,12 +44278,14 @@
   {
     "number": "3.3992",
     "name": "storage",
-    "alias": "storage device",
     "definitions": [
       {
         "text": "functional unit into which data can be placed, in which data can be retained, and from which data can be retrieved",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "storage device"
     ]
   },
   {
@@ -43879,11 +44454,14 @@
   {
     "number": "3.4009",
     "name": "structural testing",
-    "alias": "glass-box testin white-box testin",
     "definitions": [
       {
         "text": "testing that takes into account the internal mechanism of a system or component"
       }
+    ],
+    "alias": [
+      "glass-box testin",
+      "white-box testin"
     ],
     "confer": "functional testing (1), structure-based testin",
     "note": "Types include branch testing, path testing, statement testing."
@@ -43891,11 +44469,14 @@
   {
     "number": "3.4010",
     "name": "structure chart",
-    "alias": "hierarchy chart program structure chart",
     "definitions": [
       {
         "text": "diagram that identifies modules, activities, or other entities in a system or computer program and shows how larger or more general entities break down into smaller, more specific entities"
       }
+    ],
+    "alias": [
+      "hierarchy chart",
+      "program structure chart"
     ],
     "confer": "call graph",
     "note": "The result is not necessarily the same as that shown in a call graph."
@@ -44043,7 +44624,6 @@
   {
     "number": "3.4023",
     "name": "subclass cluster",
-    "alias": "category cluster",
     "definitions": [
       {
         "text": "set of one or more generalization structures in which the subclasses share the same superclass and in which an instance of the superclass is an instance of no more than one subclass",
@@ -44053,6 +44633,9 @@
         "text": "set of one or more mutually exclusive specializations of the same generic entity",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.187"
       }
+    ],
+    "alias": [
+      "category cluster"
     ],
     "note": "A cluster exists when an instance of the superclass can be an instance of only one of the subclasses in the set, and each instance of a subclass is an instance of the superclass."
   },
@@ -44206,31 +44789,40 @@
   {
     "number": "3.4038",
     "name": "subroutine trace",
-    "alias": "call trace",
     "definitions": [
       {
         "text": "record of all or selected subroutines or function calls performed during the execution of a computer program and, optionally, the values of parameters passed to and returned by each subroutine or function"
       }
+    ],
+    "alias": [
+      "call trace"
     ],
     "confer": "execution trace, retrospective trace, subroutine trace, symbolic trace, variable trace"
   },
   {
     "number": "3.4039",
     "name": "subscription-based license",
-    "alias": "service-based licens term-based licens",
     "definitions": [
       {
         "text": "license for an entitlement that is for a limited amount of time",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.39"
       }
     ],
+    "alias": [
+      "service-based licens",
+      "term-based licens"
+    ],
     "note": "It is not a perpetual license and requires renewal to remain in force."
   },
   {
     "number": "3.4040",
     "name": "substitutability",
-    "alias": "1.principle stating that, since each instance of a subclass is an instance of the superclass, an instance of the subclass is acceptable in any context where an instance of the superclass is acceptable [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.191]",
     "definitions": [],
+    "alias": [
+      "1.principle stating that, since each instance of a subclass is an instance of the superclass, an instance of the subclass",
+      "is acceptable in any context where an instance of the superclass is acceptable [IEEE 1320.2-1998 (R2004) IEEE",
+      "Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.191]"
+    ],
     "note": "Any request sent to an instance receives an acceptable response, regardless of whether the receiver is an instance of the subclass or the superclass."
   },
   {
@@ -44332,11 +44924,15 @@
   {
     "number": "3.4049",
     "name": "supervisor state",
-    "alias": "executive state master state privileged state",
     "definitions": [
       {
         "text": "in the operation of a computer system, a state in which the supervisory program is executing"
       }
+    ],
+    "alias": [
+      "executive state",
+      "master state",
+      "privileged state"
     ],
     "confer": "problem state",
     "note": "This state usually has higher priority than, and precludes the execution of, application programs."
@@ -44344,23 +44940,30 @@
   {
     "number": "3.4050",
     "name": "supervisory program",
-    "alias": "control program executive executive program supervisor",
     "definitions": [
       {
         "text": "computer program, usually part of an operating system, that controls the execution of other computer programs and regulates the flow of work in a computer system"
       }
+    ],
+    "alias": [
+      "control program",
+      "executive",
+      "executive program",
+      "supervisor"
     ],
     "confer": "supervisor state"
   },
   {
     "number": "3.4051",
     "name": "supplemental Ent",
-    "alias": "supplemental entitlement schema",
     "definitions": [
       {
         "text": "Ent which has an <entType> of Supplemental",
         "reference": "ISO/IEC 19770-3:2016, Information technology — IT asset management — Part 3: Entitlement schema, 3.1.40"
       }
+    ],
+    "alias": [
+      "supplemental entitlement schema"
     ],
     "note": "Supplemental Ents provide extended information about a primary Ent and are linked to primary Ents by the <linkedToPrimaryEntId> attribute."
   },
@@ -44377,7 +44980,6 @@
   {
     "number": "3.4053",
     "name": "supplier",
-    "alias": "contractor producer vendor",
     "definitions": [
       {
         "text": "organization or individual that enters into an agreement with the acquirer for the supply of a product or service",
@@ -44391,6 +44993,11 @@
         "text": "organization or part of an organization or individual that enters into an agreement with the application management organization for the supply of a product, service, materials, or human capacity",
         "reference": "ISO/IEC 16350-2015 Information technology — Systems and software engineering — Application management, 4.34"
       }
+    ],
+    "alias": [
+      "contractor",
+      "producer",
+      "vendor"
     ],
     "note": "The acquirer and the supplier sometimes are part of the same organization. The application management organization can have internal or external suppliers. A supplier can be another application management organization, but also IT infrastructure management organizations or consultants."
   },
@@ -44676,31 +45283,37 @@
   {
     "number": "3.4081",
     "name": "synchronous message communication",
-    "alias": "tightly coupled message communication",
     "definitions": [
       {
         "text": "form of communication in which a producer task sends a message to a consumer task and waits for acknowledgment"
       }
+    ],
+    "alias": [
+      "tightly coupled message communication"
     ]
   },
   {
     "number": "3.4082",
     "name": "synchronous message communication with reply",
-    "alias": "tightly coupled message communication with reply",
     "definitions": [
       {
         "text": "form of communication in which a producer (or client) task sends a message to a consumer (or server) task and waits for a reply"
       }
+    ],
+    "alias": [
+      "tightly coupled message communication with reply"
     ]
   },
   {
     "number": "3.4083",
     "name": "synchronous message communication without reply",
-    "alias": "tightly coupled message communication without reply",
     "definitions": [
       {
         "text": "a form of communication in which a producer task sends a message to a consumer task and waits for the consumer to accept the message"
       }
+    ],
+    "alias": [
+      "tightly coupled message communication without reply"
     ]
   },
   {
@@ -44727,11 +45340,13 @@
   {
     "number": "3.4086",
     "name": "syntactic error",
-    "alias": "syntax error",
     "definitions": [
       {
         "text": "violation of the structural or grammatical rules defined for a language"
       }
+    ],
+    "alias": [
+      "syntax error"
     ],
     "confer": "semantic error",
     "example": "in FORTRAN, using the statement B + C = A rather than the correct A = B + C"
@@ -44921,12 +45536,15 @@
   {
     "number": "3.4102",
     "name": "system follow-up",
-    "alias": "post-implementation revie post-development revie",
     "definitions": [
       {
         "text": "study of the effects of a system after it has reached a stabilized state of operational use",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "post-implementation revie",
+      "post-development revie"
     ]
   },
   {
@@ -45203,7 +45821,6 @@
   {
     "number": "3.4128",
     "name": "Systems Engineering Plan (SEP)",
-    "alias": "Systems Engineering Management Plan (SEMP)",
     "definitions": [
       {
         "text": "top level technical plan for managing the systems engineering effort which defines how the technical aspects of the project will be organized, structured, and conducted and how the systems engineering processes will be controlled to provide a product that satisfies stakeholder requirements",
@@ -45217,6 +45834,9 @@
         "text": "top-level technical planning document for a project which addresses technical management processes established by three principal sources: the project's contract or agreement, applicable organizational processes, and the systems engineering project team, as necessary to successfully accomplish the systems engineering-related tasks of the project",
         "reference": "ISO/IEC 29110-2-1:2015 — Software engineering — Lifecycle profiles for Very Small Entities (VSEs) — Part 2-1: Framework and taxonomy, 4.60"
       }
+    ],
+    "alias": [
+      "Systems Engineering Management Plan (SEMP)"
     ]
   },
   {
@@ -45424,11 +46044,13 @@
   {
     "number": "3.4149",
     "name": "target language",
-    "alias": "object language",
     "definitions": [
       {
         "text": "language in which the output from a machine-aided translation process is represente"
       }
+    ],
+    "alias": [
+      "object language"
     ],
     "confer": "source language",
     "example": "the language output by an assembler or compiler"
@@ -45769,12 +46391,15 @@
   {
     "number": "3.4180",
     "name": "technical contact",
-    "alias": "subject-matter expert SME",
     "definitions": [
       {
         "text": "person responsible for providing a documentation developer with technical information about a software product or for checking the technical accuracy of drafts of documentation",
         "reference": "ISO/IEC 26514:2008 Systems and software engineering — requirements for designers and developers of user documentation, 4.49"
       }
+    ],
+    "alias": [
+      "subject-matter expert",
+      "SME"
     ]
   },
   {
@@ -45912,7 +46537,6 @@
   {
     "number": "3.4193",
     "name": "template",
-    "alias": "<X> template",
     "definitions": [
       {
         "text": "asset with parameters or slots that can be used to construct an instantiated asset",
@@ -45926,6 +46550,9 @@
         "text": "specification of the common features of a collection of <X>s in sufficient detail that an <X> can be instantiated using it",
         "reference": "ISO/IEC 10746-2:2009 Information technology — Open Distributed Processing — Reference Model: Foundations, 9.13"
       }
+    ],
+    "alias": [
+      "<X> template"
     ],
     "confer": "construction"
   },
@@ -46124,11 +46751,14 @@
   {
     "number": "3.4211",
     "name": "test case generator",
-    "alias": "test data generator test generator",
     "definitions": [
       {
         "text": "software tool that accepts as input source code, test criteria, specifications, or data structure definitions; uses these inputs to generate test input data; and, sometimes, determines expected results"
       }
+    ],
+    "alias": [
+      "test data generator",
+      "test generator"
     ]
   },
   {
@@ -46166,12 +46796,14 @@
   {
     "number": "3.4215",
     "name": "test completion report",
-    "alias": "test summary report",
     "definitions": [
       {
         "text": "report that summarizes the testing that was performed",
         "reference": "ISO/IEC/IEEE 29119-1:2013 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.51"
       }
+    ],
+    "alias": [
+      "test summary report"
     ]
   },
   {
@@ -46201,12 +46833,14 @@
   {
     "number": "3.4218",
     "name": "test coverage item",
-    "alias": "coverage item",
     "definitions": [
       {
         "text": "attribute or combination of attributes that is derived from one or more test conditions by using a test design technique that enables the measurement of the thoroughness of the test execution",
         "reference": "ISO/IEC/IEEE 29119-1:2013 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.54"
       }
+    ],
+    "alias": [
+      "coverage item"
     ],
     "confer": "test item"
   },
@@ -46417,12 +47051,14 @@
   {
     "number": "3.4239",
     "name": "test item",
-    "alias": "test object",
     "definitions": [
       {
         "text": "work product that is an object of testing",
         "reference": "ISO/IEC/IEEE 29119-1:2013 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.68"
       }
+    ],
+    "alias": [
+      "test object"
     ],
     "example": "a system, a software item, a requirements document, a design specification, a user guide"
   },
@@ -46439,7 +47075,6 @@
   {
     "number": "3.4241",
     "name": "test level",
-    "alias": "test phase",
     "definitions": [
       {
         "text": "separate test effort that has its own documentation and resources"
@@ -46448,6 +47083,9 @@
         "text": "specific instantiation of a test sub-proces",
         "reference": "ISO/IEC/IEEE 29119-1:2013 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.69"
       }
+    ],
+    "alias": [
+      "test phase"
     ],
     "example": "component, component integration, system, and acceptance testing"
   },
@@ -46563,12 +47201,14 @@
   {
     "number": "3.4251",
     "name": "test policy",
-    "alias": "organizational test policy",
     "definitions": [
       {
         "text": "executive-level document that describes the purpose, goals, principles and scope of testing within an organizatio",
         "reference": "ISO/IEC/IEEE 29119-3:2013 Software and systems engineering — Software testing — Part 3: Test documentation, 4.26"
       }
+    ],
+    "alias": [
+      "organizational test policy"
     ]
   },
   {
@@ -46758,11 +47398,15 @@
   {
     "number": "3.4268",
     "name": "test traceability matrix",
-    "alias": "requirements test matrix requirements verification table verification cross reference matrix",
     "definitions": [
       {
         "text": "document, spreadsheet, or other automated tool used to identify related items in documentation and software, such as requirements with associated tests [ISO/IEC/IEEE 29119-1:2013 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.90"
       }
+    ],
+    "alias": [
+      "requirements test matrix",
+      "requirements verification table",
+      "verification cross reference matrix"
     ],
     "confer": "traceability matrix"
   },
@@ -46877,11 +47521,13 @@
   {
     "number": "3.4278",
     "name": "text editor",
-    "alias": "editor",
     "definitions": [
       {
         "text": "computer program, often part of a word processing system, that allows a user to enter, alter, and view text"
       }
+    ],
+    "alias": [
+      "editor"
     ]
   },
   {
@@ -46897,23 +47543,27 @@
   {
     "number": "3.4280",
     "name": "text processing",
-    "alias": "word processing",
     "definitions": [
       {
         "text": "data processing operations on text, such as entering, editing, merging, retrieving, storing, displaying, or printing",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "word processing"
     ]
   },
   {
     "number": "3.4281",
     "name": "texture",
-    "alias": "architectural texture",
     "definitions": [
       {
         "text": "collection of common development rules and constraints for realizing the applications of a product line",
         "reference": "ISO/IEC 26551:2016 Software and systems engineering — Tools and methods for product line requirements engineering, 3.19"
       }
+    ],
+    "alias": [
+      "architectural texture"
     ]
   },
   {
@@ -47459,7 +48109,6 @@
   {
     "number": "3.4334",
     "name": "top-down design",
-    "alias": "top-down decompositio",
     "definitions": [
       {
         "text": "design approach in which a system's functionality is decomposed from high-level concepts into lower-level piece"
@@ -47467,6 +48116,9 @@
       {
         "text": "process of designing a system by identifying its major components, decomposing them into their low-level components, and iterating until the desired level of detail is achieved"
       }
+    ],
+    "alias": [
+      "top-down decompositio"
     ]
   },
   {
@@ -47516,12 +48168,14 @@
   {
     "number": "3.4339",
     "name": "total cluster",
-    "alias": "complete cluster",
     "definitions": [
       {
         "text": "subclass cluster in which each instance of a superclass must be an instance of at least one of the subclasses of the cluster",
         "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.197"
       }
+    ],
+    "alias": [
+      "complete cluster"
     ],
     "confer": "incomplete cluster, partial cluster, superclass"
   },
@@ -47781,11 +48435,13 @@
   {
     "number": "3.4363",
     "name": "transaction analysis",
-    "alias": "transaction-centered desig",
     "definitions": [
       {
         "text": "software development technique in which the structure of a system is derived from analyzing the transactions that the system is required to process"
       }
+    ],
+    "alias": [
+      "transaction-centered desig"
     ],
     "confer": "data structure-centered design, input-process-output, modular decomposition, object-oriented design, ra prototyping, stepwise refinement, structured design, transform analysis"
   },
@@ -47892,11 +48548,14 @@
   {
     "number": "3.4373",
     "name": "transform analysis",
-    "alias": "transformation analysis transform-centered desig",
     "definitions": [
       {
         "text": "software development technique in which the structure of a system is derived from analyzing the flow of data through the system and the transformations that must be performed on the data"
       }
+    ],
+    "alias": [
+      "transformation analysis",
+      "transform-centered desig"
     ],
     "confer": "data structure-centered design, input-process-output, modular decomposition, object-oriented design, ra prototyping, stepwise refinement, structured design, transaction analysis"
   },
@@ -47950,12 +48609,14 @@
   {
     "number": "3.4378",
     "name": "transition occurrence",
-    "alias": "transition rule",
     "definitions": [
       {
         "text": "if a transition is enabled in a mode, it can occur in that mode.",
         "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.26.3"
       }
+    ],
+    "alias": [
+      "transition rule"
     ],
     "note": "On the occurrence of the transition, the following actions occur indivisibly 1. for each input place of the transition the enabling tokens of the input arc with respect to that mode are subtracted from the input place's marking, and 2. for each output place of the transition the multiset of tokens of the evaluated output arc expression is added to the marking of the output place. A place can be both an input place and an output place of the same transition."
   },
@@ -48035,12 +48696,14 @@
   {
     "number": "3.4386",
     "name": "triggering event",
-    "alias": "triggering event type",
     "definitions": [
       {
         "text": "event (something that happens) that causes a functional user of the piece of software to initiate (trigger) one or more functional processes",
         "reference": "ISO/IEC 19761:2011 Software engineering — COSMIC: a functional size measurement method, 2.25"
       }
+    ],
+    "alias": [
+      "triggering event type"
     ]
   },
   {
@@ -48167,11 +48830,13 @@
   {
     "number": "3.4399",
     "name": "two-address instruction",
-    "alias": "double-operand instructio",
     "definitions": [
       {
         "text": "computer instruction that contains two address fields."
       }
+    ],
+    "alias": [
+      "double-operand instructio"
     ],
     "confer": "one-address instruction, three-address instruction, four-address instruction, zero-address instruc",
     "example": "an instruction to add the contents of A to the contents of B"
@@ -48602,11 +49267,13 @@
   {
     "number": "3.4438",
     "name": "UNTIL",
-    "alias": "post-tested iteratio",
     "definitions": [
       {
         "text": "single-entry, single-exit loop, in which the loop control is executed after the loop bod"
       }
+    ],
+    "alias": [
+      "post-tested iteratio"
     ],
     "confer": "closed loop, WHILE, trailing decision"
   },
@@ -48815,12 +49482,14 @@
   {
     "number": "3.4458",
     "name": "usability test",
-    "alias": "fitness-for-use te",
     "definitions": [
       {
         "text": "test to determine whether an implemented system fulfils its functional purpose as determined by its users",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "fitness-for-use te"
     ],
     "confer": "usability testing"
   },
@@ -49071,12 +49740,14 @@
   {
     "number": "3.4477",
     "name": "user interface element",
-    "alias": "user interface object",
     "definitions": [
       {
         "text": "entity of the user interface that is presented to the user by the software",
         "reference": "ISO/IEC TR 25060:2010 Systems and software engineering — Systems and software product Quality Requirements and Evaluation (SQuaRE) — Common Industry Format (CIF) for usability: General framework for usability-related information, 2.24"
       }
+    ],
+    "alias": [
+      "user interface object"
     ],
     "example": "a visual representation or an interaction mechanism for a task object (such as a letter, a sales order, electronic parts, or a wiring diagram) or a system object (such as a printer, hard disk, or network connection); basic objects (such as window title bars, menu items, push buttons, image maps, and editable text fields) or containers (such as windows, grouping boxes, menu bars, menus, groups of mutually exclusive option buttons, and compound images that are made up of several smaller images); messages and action prompts",
     "note": "User interface elements can be interactive or not, and either entities relevant to the task or entities of the user interface"
@@ -49093,7 +49764,6 @@
   {
     "number": "3.4479",
     "name": "user manual",
-    "alias": "user guide",
     "definitions": [
       {
         "text": "document that presents the information necessary to employ a system or component to obtain desired results"
@@ -49102,6 +49772,9 @@
         "text": "document that describes how to use a functional unit, and that can include description of the rights and responsibilities of the user, the owner, and the supplier of the unit",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "user guide"
     ],
     "confer": "data input sheet, diagnostic manual, installation manual, operator manual, programmer manual, maintenance manual, support manual",
     "note": "Typically described are system or component capabilities, limitations, options, permitted inputs, expected outputs, possible error messages, and special instructions. A user manual is distinguished from an operator manual when a distinction is made between those who operate a computer system (mounting tapes, etc.) and those who use the system for its intended purpose."
@@ -49133,7 +49806,6 @@
   {
     "number": "3.4482",
     "name": "user requirements (UR)",
-    "alias": "usage requirements",
     "definitions": [
       {
         "text": "requirements for use that provide the basis for design and evaluation of interactive systems to meet identified user needs",
@@ -49147,6 +49819,9 @@
         "text": "expression of perceived need from individual or group that benefits from a system during its utilization",
         "reference": "ISO/IEC TR 24766:2009 Information technology — Systems and software engineering — Guide for requirements engineering tool capabilities, 3.10"
       }
+    ],
+    "alias": [
+      "usage requirements"
     ],
     "note": "User requirements specify the extent to which user needs and capabilities are to be met when using the system. They are not requirements on the users. User requirements are derived from user needs and capabilities in order to make use of the system in an effective, efficient, safe and satisfying manner. User requirements comprise two subsets: functional user requirements and non-functional user requirements. [ISO 25063:2014] In software-engineering terms, user requirement comprise both \"functional\" and \"non-functional\" requirements based on user needs and capabilities"
   },
@@ -49621,11 +50296,15 @@
   {
     "number": "3.4525",
     "name": "variable trace",
-    "alias": "data-flow trac data trace value trace",
     "definitions": [
       {
         "text": "record of the name and values of variables accessed or changed during the execution of a computer program"
       }
+    ],
+    "alias": [
+      "data-flow trac",
+      "data trace",
+      "value trace"
     ],
     "confer": "execution trace, retrospective trace, subroutine trace, symbolic trace"
   },
@@ -49955,12 +50634,15 @@
   {
     "number": "3.4553",
     "name": "video display terminal (VDT)",
-    "alias": "visual display terminal visual display unit (VDU)",
     "definitions": [
       {
         "text": "user terminal with a display screen and usually equipped with an input unit such as a keyboard",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       }
+    ],
+    "alias": [
+      "visual display terminal",
+      "visual display unit (VDU)"
     ]
   },
   {
@@ -50112,11 +50794,14 @@
   {
     "number": "3.4566",
     "name": "virtual storage",
-    "alias": "multilevel storage virtual memory",
     "definitions": [
       {
         "text": "storage allocation technique in which auxiliary storage can be addressed as though it were part of main storage"
       }
+    ],
+    "alias": [
+      "multilevel storage",
+      "virtual memory"
     ],
     "confer": "real storage, virtual address, paging (2)",
     "note": "Portions of a user's program and data are placed in auxiliary storage, and the operating system automatically swaps them in and out of main storage as needed."
@@ -50420,11 +51105,13 @@
   {
     "number": "3.4596",
     "name": "WHILE",
-    "alias": "pretested iteration",
     "definitions": [
       {
         "text": "single-entry, single-exit loop in which the loop control is executed before the loop bo"
       }
+    ],
+    "alias": [
+      "pretested iteration"
     ],
     "confer": "closed loop, UNTIL, leading decision"
   },
@@ -50572,12 +51259,15 @@
   {
     "number": "3.4610",
     "name": "work performance reports",
-    "alias": "performance reporting performance reports",
     "definitions": [
       {
         "text": "the physical or electronic representation of work performance information compiled in project documents, intended to generate decisions, actions, or awareness",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
+    ],
+    "alias": [
+      "performance reporting",
+      "performance reports"
     ]
   },
   {
@@ -50623,11 +51313,13 @@
   {
     "number": "3.4614",
     "name": "workflow board",
-    "alias": "kanban board",
     "definitions": [
       {
         "text": "in software development, a visual representation of work for developers who pull tasks from the task backlog; used for on-demand or resource-bound scheduling [Software Extension to the PMBOK® Guide Fifth Editio"
       }
+    ],
+    "alias": [
+      "kanban board"
     ]
   },
   {
@@ -50653,11 +51345,14 @@
   {
     "number": "3.4617",
     "name": "working space",
-    "alias": "working area working storage",
     "definitions": [
       {
         "text": "that portion of main storage that is assigned to a computer program for temporary storage of data"
       }
+    ],
+    "alias": [
+      "working area",
+      "working storage"
     ]
   },
   {
@@ -50694,7 +51389,6 @@
   {
     "number": "3.4621",
     "name": "write",
-    "alias": "write type",
     "definitions": [
       {
         "text": "to record data in a storage device or on a data medium"
@@ -50703,6 +51397,9 @@
         "text": "data movement that moves a data group lying inside the functional process to persistent storage",
         "reference": "ISO/IEC 19761:2011 Software engineering — COSMIC: a functional size measurement method, 2.28"
       }
+    ],
+    "alias": [
+      "write type"
     ],
     "confer": "read"
   },
@@ -50720,12 +51417,14 @@
   {
     "number": "3.4623",
     "name": "writer",
-    "alias": "author",
     "definitions": [
       {
         "text": "person designing or developing user documentation",
         "reference": "ISO/IEC/IEEE 26515: 2011 Systems and software engineering: Developing user documentation in an agile environment, 4.17"
       }
+    ],
+    "alias": [
+      "author"
     ]
   },
   {

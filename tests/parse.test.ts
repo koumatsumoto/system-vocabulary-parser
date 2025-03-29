@@ -75,7 +75,7 @@ Note 1 to entry: Additional note`;
     expect(words[0]).toEqual({
       number: "3.1",
       name: "test word",
-      alias: "alternative name",
+      alias: ["alternative name"],
       definitions: [
         { text: "Basic description" }
       ],
@@ -99,7 +99,7 @@ Third line adds more detail`;
     expect(words[0]).toEqual({
       number: "3.1",
       name: "test word",
-      alias: "alternative name 1 alternative name 2",
+      alias: ["alternative name 1", "alternative name 2"],
       definitions: [
         { text: "First line of definition Second line continues definition Third line adds more detail" }
       ],

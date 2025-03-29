@@ -20,7 +20,7 @@ interface WordDefinition {
  */
 interface WordContent {
   definition?: string;
-  alias?: string | undefined;
+  alias?: string[];
   confer?: string | undefined;
   example?: string | undefined;
   note?: string | undefined;
@@ -32,7 +32,7 @@ interface WordContent {
 interface Word {
   number: WordEntry["number"];
   name: WordEntry["name"];
-  alias?: string | undefined;
+  alias?: string[];
   definitions: WordDefinition[];
   confer?: string | undefined;
   example?: string | undefined;
@@ -80,15 +80,26 @@ function processDefinitionText(definitionText: string): WordDefinition[] {
 function combineWordData(entry: WordEntry, content: WordContent): Word {
   const definitions = content.definition ? processDefinitionText(content.definition) : [];
 
-  return {
+  const result: Word = {
     number: entry.number,
     name: entry.name,
-    alias: content.alias,
     definitions,
-    confer: content.confer,
-    example: content.example,
-    note: content.note,
   };
+
+  if (content.alias !== undefined) {
+    result.alias = content.alias;
+  }
+  if (content.confer !== undefined) {
+    result.confer = content.confer;
+  }
+  if (content.example !== undefined) {
+    result.example = content.example;
+  }
+  if (content.note !== undefined) {
+    result.note = content.note;
+  }
+
+  return result;
 }
 
 /**
@@ -98,7 +109,7 @@ function combineWordData(entry: WordEntry, content: WordContent): Word {
  * @returns Processed content object
  */
 function processContentLines(lines: string[]): WordContent {
-  const result = {} as WordContent;
+  const result: WordContent = {};
   let currentSection: keyof WordContent | null = null;
   let aliasLines: string[] = [];
   let definitionLines: string[] = [];
@@ -146,9 +157,9 @@ function processContentLines(lines: string[]): WordContent {
     result.definition = result.definition + " " + definitionLines.join(" ");
   }
 
-  // Join aliases with spaces if any exist
+  // Set aliases only if there are any
   if (aliasLines.length > 0) {
-    result.alias = aliasLines.join(" ");
+    result.alias = aliasLines;
   }
 
   return result;
