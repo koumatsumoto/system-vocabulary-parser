@@ -6199,7 +6199,7 @@ cf. design view
 3.1155
 design-to-cost
 cost as an independent variable (CAIV)
-1.approach to managing a system or software project so as to hold the project to a predetermined cost
+1. approach to managing a system or software project so as to hold the project to a predetermined cost
 Note 1 to entry: Actual and projected costs are closely tracked, and actions such as deleting or postponing lower
 priority requirements are taken if costs threaten to exceed targets.
 3.1156
@@ -6366,7 +6366,7 @@ cf. allocated baseline, functional baseline, product baseline
 Note 1 to entry: The developmental configuration is under the developer's control, and therefore is not called a baseline.
 3.1186
 deviation
-1.departure from a specified requirement 2. written authorization, granted prior to the manufacture of an item, to
+1. departure from a specified requirement 2. written authorization, granted prior to the manufacture of an item, to
 depart from a particular performance or design requirement for a specific number of units or a specific period of
 time
 3.1187
@@ -9198,7 +9198,7 @@ in response to selected inputs and execution conditions 2. testing conducted to 
 or component with specified functional requirements
 3.1713
 functional unit
-1 entity of hardware or software, or both, capable of accomplishing a specified purpose [ISO/IEC 2382:2015,
+1. entity of hardware or software, or both, capable of accomplishing a specified purpose [ISO/IEC 2382:2015,
 Information technology—Vocabulary]
 3.1714
 functional user
@@ -12791,7 +12791,8 @@ Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.110]
 cf. request
 Note 1 to entry: Message encompasses requests to meet responsibilities as well as simple informative communications.
 3.2422
-meta1. prefix to a concept to imply definition information about the concept [ISO/IEC 15474-1:2002 Information
+meta-
+1. prefix to a concept to imply definition information about the concept [ISO/IEC 15474-1:2002 Information
 technology — CDIF framework — Part 1: Overview, 4.2]
 Note 1 to entry: Specifically, used to designate the location of an object in the three model layers.
 3.2423
@@ -13144,7 +13145,7 @@ EXAMPLE: balance sheets, class diagrams, data flow diagrams, organization charts
 models
 3.2490
 model layers
-1 different layers of definition (or abstraction) used in defining the CDIF family of standards [ISO/IEC 15474-1:2002
+1. different layers of definition (or abstraction) used in defining the CDIF family of standards [ISO/IEC 15474-1:2002
 Information technology — CDIF framework — Part 1: Overview, 4.2]
 Note 1 to entry: The four model layers in CDIF are user data, model, metamodel, meta-metamodel. Any given model layer
 provides an accurate and complete definition of all the instances that occur one layer below the given layer. For example, the
@@ -13775,7 +13776,7 @@ cf. additive weighting, analytic hierarchy process, compensatory decision techni
 3.2621
 nonfunctional requirement
 performance attribute
-1 software requirement that describes not what the software will do but how the software will do it
+1. software requirement that describes not what the software will do but how the software will do it
 cf. design constraint, functional requirement, performance requirement, quality requirement
 EXAMPLE: software performance requirements, software external interface requirements, software design
 constraints, and software quality attributes.
@@ -14670,7 +14671,7 @@ packaging
 execution by a computer
 3.2792
 padding
-1 technique of filling out a fixed-length block of data with dummy characters, words, or records 2. dummy
+1. technique of filling out a fixed-length block of data with dummy characters, words, or records 2. dummy
 characters, words, or records used to fill out a fixed-length block of dat
 3.2793
 page
@@ -14717,7 +14718,7 @@ cf. paging
 3.2802
 paging
 block allocation
-1 storage allocation technique in which programs or data are divided into fixed-length blocks called pages, main
+1. storage allocation technique in which programs or data are divided into fixed-length blocks called pages, main
 storage is divided into blocks of the same length called page frames, and pages are stored in page frames, not
 necessarily contiguously or in logical order 2. storage allocation technique in which programs or data are divided
 into fixed-length blocks called pages, main storage is divided into blocks of the same length called page frames, and
@@ -18561,7 +18562,7 @@ risk metric
 1. objective measure associated with a risk factor to be mitigated
 3.3533
 risk mitigation
-2. a risk response strategy whereby the project team acts to reduce the probability of occurrence or impact of a risk
+1. a risk response strategy whereby the project team acts to reduce the probability of occurrence or impact of a risk
 [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
 Note 1 to entry: includes executing contingency plans when a risk metric crosses a predetermined threshold (when a risk
 becomes an issue or results in a problem)
@@ -18936,7 +18937,7 @@ Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.174]
 cf. collection-valued propert
 3.3608
 scale
-1 ordered set of values, continuous or discrete, or a set of categories to which the attribute is mapped [ISO/IEC/IEEE
+1. ordered set of values, continuous or discrete, or a set of categories to which the attribute is mapped [ISO/IEC/IEEE
 15939:2017 Systems and software engineering — Measurement process, 3.34; ISO/IEC 25000:2014 Systems and
 software Engineering — Systems and software product Quality Requirements and Evaluation (SQuaRE) — Guide to
 SQuaRE, 4.30]
@@ -21191,7 +21192,7 @@ IT asset management — Part 3: Entitlement schema, 3.1.39]
 Note 1 to entry: It is not a perpetual license and requires renewal to remain in force.
 3.4040
 substitutability
-1.principle stating that, since each instance of a subclass is an instance of the superclass, an instance of the subclass
+1. principle stating that, since each instance of a subclass is an instance of the superclass, an instance of the subclass
 is acceptable in any context where an instance of the superclass is acceptable [IEEE 1320.2-1998 (R2004) IEEE
 Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.191]
 Note 1 to entry: Any request sent to an instance receives an acceptable response, regardless of whether the receiver is an instance
