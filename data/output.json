@@ -4,7 +4,7 @@
     "name": "1GL",
     "definitions": [
       {
-        "text": "1. first-generation languag"
+        "text": "1. first-generation language"
       }
     ],
     "confer": "machine language"
@@ -14,7 +14,7 @@
     "name": "2GL",
     "definitions": [
       {
-        "text": "1. second-generation languag"
+        "text": "1. second-generation language"
       }
     ],
     "confer": "assembly language"
@@ -34,7 +34,7 @@
     "name": "3GL",
     "definitions": [
       {
-        "text": "1. third-generation languag"
+        "text": "1. third-generation language"
       }
     ],
     "confer": "high order language"
@@ -44,7 +44,7 @@
     "name": "4GL",
     "definitions": [
       {
-        "text": "1. fourth-generation languag"
+        "text": "1. fourth-generation language"
       }
     ]
   },
@@ -53,7 +53,7 @@
     "name": "5GL",
     "definitions": [
       {
-        "text": "1. fifth-generation languag"
+        "text": "1. fifth-generation language"
       }
     ]
   },
@@ -2681,13 +2681,13 @@
   {
     "number": "3.246",
     "name": "assembly language",
-    "alias": "assembler language low-level languag second-generation languag",
+    "alias": "assembler language low-level language second-generation language",
     "definitions": [
       {
         "text": "1. programming language that corresponds closely to the instruction set of a given computer, allows symbolic naming of operations and addresses, and usually results in a one-to-one translation of program instructions int machine instructions"
       }
     ],
-    "confer": "fifth-generation language, fourth-generation language, high order language, machine languag"
+    "confer": "fifth-generation language, fourth-generation language, high order language, machine language"
   },
   {
     "number": "3.247",
@@ -11827,7 +11827,7 @@
         "text": "1. nonprocedural language that permits the user to declare a set of facts and to express queries or problems that use these facts"
       }
     ],
-    "confer": "interactive language, rule-based languag"
+    "confer": "interactive language, rule-based language"
   },
   {
     "number": "3.1076",
@@ -18194,7 +18194,7 @@
         "text": "1. computer language designed to improve the productivity achieved by high-order (third-generation) language and, often, to make computing power available to non-programmer"
       }
     ],
-    "confer": "machine language, assembly language, high order language, fifth-generation languag",
+    "confer": "machine language, assembly language, high order language, fifth-generation language",
     "note": "Features typically include an integrated database management system, query language, report generator, screen definition facility, graphics generator, decision support function, financial modeling, spreadsheet capability, and statistical analysis functions."
   },
   {
@@ -19909,7 +19909,7 @@
   {
     "number": "3.1809",
     "name": "high-order language (HOL)",
-    "alias": "high-level languag higher order language third-generation languag",
+    "alias": "high-level language higher order language third-generation language",
     "definitions": [
       {
         "text": "1. programming language that requires little knowledge of the computer on which a program will run, can be translated into several different machine languages, allows symbolic naming of operations and addresses, provides features designed to facilitate expression of data structures and program logic, and usually results in several machine instructions for each program statement"
@@ -19953,10 +19953,10 @@
     "name": "HLL",
     "definitions": [
       {
-        "text": "1. high-level languag"
+        "text": "1. high-level language"
       }
     ],
-    "confer": "high-order languag"
+    "confer": "high-order language"
   },
   {
     "number": "3.1814",
@@ -20003,7 +20003,7 @@
     "name": "HOL",
     "definitions": [
       {
-        "text": "1. high-order languag"
+        "text": "1. high-order language"
       }
     ]
   },
@@ -22520,7 +22520,7 @@
         "text": "1. nonprocedural language in which a program is created as a result of interactive dialog between the user and the computer system"
       }
     ],
-    "confer": "declarative language, rule-based languag",
+    "confer": "declarative language, rule-based language",
     "note": "The system provides questions, forms, and so on, to aid the user in expressing the results to be achieved."
   },
   {
@@ -25155,7 +25155,7 @@
   {
     "number": "3.2297",
     "name": "machine language",
-    "alias": "first-generation languag machine-oriented languag",
+    "alias": "first-generation language machine-oriented language",
     "definitions": [
       {
         "text": "1. language that can be recognized by the processing unit of a computer"
@@ -28703,7 +28703,7 @@
         "text": "1. language in which the user states what is to be achieved without having to state specific instructions that the computer must execute in a given sequence"
       }
     ],
-    "confer": "procedural language, declarative language, interactive language, rule-based languag"
+    "confer": "procedural language, declarative language, interactive language, rule-based language"
   },
   {
     "number": "3.2626",
@@ -33146,7 +33146,7 @@
   {
     "number": "3.3033",
     "name": "procedural language",
-    "alias": "procedure-oriented languag",
+    "alias": "procedure-oriented language",
     "definitions": [
       {
         "text": "1. programming language in which the user states a specific set of instructions that the computer must perform in a given sequence"
@@ -43963,7 +43963,7 @@
         "text": "1. programming language that provides the structured program constructs, namely, single-entry-single-ex sequences, branches, and loops, and facilitates the development of structured programs"
       }
     ],
-    "confer": "block-structured languag"
+    "confer": "block-structured language"
   },
   {
     "number": "3.4017",

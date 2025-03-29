@@ -1,10 +1,10 @@
 3.1
 1GL
-1. first-generation languag
+1. first-generation language
 cf. machine language
 3.2
 2GL
-1. second-generation languag
+1. second-generation language
 cf. assembly language
 3.3
 3D
@@ -12,14 +12,14 @@ cf. assembly language
 management of websites for systems, software, and services information]
 3.4
 3GL
-1. third-generation languag
+1. third-generation language
 cf. high order language
 3.5
 4GL
-1. fourth-generation languag
+1. fourth-generation language
 3.6
 5GL
-1. fifth-generation languag
+1. fifth-generation language
 3.7
 <Viewpoint> language
 1. definitions of concepts and rules for the specification of an ODP system from the <viewpoint> viewpoint
@@ -1323,12 +1323,12 @@ cf. compiler code, interpretive code, machine code
 3.246
 assembly language
 assembler language
-low-level languag
-second-generation languag
+low-level language
+second-generation language
 1. programming language that corresponds closely to the instruction set of a given computer, allows symbolic
 naming of operations and addresses, and usually results in a one-to-one translation of program instructions int
 machine instructions
-cf. fifth-generation language, fourth-generation language, high order language, machine languag
+cf. fifth-generation language, fourth-generation language, high order language, machine language
 3.247
 assertion
 1. logical expression specifying a program state that must exist or a set of conditions that program variables must
@@ -5756,7 +5756,7 @@ principal, it causes a state of affairs to come into existence outside the objec
 declarative language
 1. nonprocedural language that permits the user to declare a set of facts and to express queries or problems that
 use these facts
-cf. interactive language, rule-based languag
+cf. interactive language, rule-based language
 3.1076
 decompile
 1. to translate a compiled computer program from its machine language version into a form that resembles, but is
@@ -8856,7 +8856,7 @@ the instruction at location E
 fourth-generation language (4GL)
 1. computer language designed to improve the productivity achieved by high-order (third-generation) language
 and, often, to make computing power available to non-programmer
-cf. machine language, assembly language, high order language, fifth-generation languag
+cf. machine language, assembly language, high order language, fifth-generation language
 Note 1 to entry: Features typically include an integrated database management system, query language, report generator, screen
 definition facility, graphics generator, decision support function, financial modeling, spreadsheet capability, and statistical
 analysis functions.
@@ -9676,9 +9676,9 @@ Software and system engineering — High-level Petri nets — Part 1: Concepts, 
 2.1.12]
 3.1809
 high-order language (HOL)
-high-level languag
+high-level language
 higher order language
-third-generation languag
+third-generation language
 1. programming language that requires little knowledge of the computer on which a program will run, can be
 translated into several different machine languages, allows symbolic naming of operations and addresses, provides
 features designed to facilitate expression of data structures and program logic, and usually results in several
@@ -9701,8 +9701,8 @@ historical information
 closed projects [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
 3.1813
 HLL
-1. high-level languag
-cf. high-order languag
+1. high-level language
+cf. high-order language
 3.1814
 HLPN
 1. High-level Petri Net [ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1:
@@ -9721,7 +9721,7 @@ HMI
 cf. user interface
 3.1818
 HOL
-1. high-order languag
+1. high-order language
 3.1819
 home page
 center page
@@ -10932,7 +10932,7 @@ cf. batch, conversational, online, real-tim
 interactive language
 1. nonprocedural language in which a program is created as a result of interactive dialog between the user and the
 computer system
-cf. declarative language, rule-based languag
+cf. declarative language, rule-based language
 Note 1 to entry: The system provides questions, forms, and so on, to aid the user in expressing the results to be achieved.
 3.2052
 interactive system
@@ -12156,8 +12156,8 @@ a computer
 cf. assembly code, compiler code, interpretive code
 3.2297
 machine language
-first-generation languag
-machine-oriented languag
+first-generation language
+machine-oriented language
 1. language that can be recognized by the processing unit of a computer
 cf. assembly language, fifth-generation language, fourth-generation language, high-order language, symbol
 language
@@ -13799,7 +13799,7 @@ Note 1 to entry: [key style]
 nonprocedural language
 1. language in which the user states what is to be achieved without having to state specific instructions that the
 computer must execute in a given sequence
-cf. procedural language, declarative language, interactive language, rule-based languag
+cf. procedural language, declarative language, interactive language, rule-based language
 3.2626
 nonprocedural programming language
 1. computer programming language used to express the parameters of a problem rather than the steps in a solution.
@@ -15870,7 +15870,7 @@ cf. coincidental cohesion, communicational cohesion, functional cohesion, logica
 temporal cohesion
 3.3033
 procedural language
-procedure-oriented languag
+procedure-oriented language
 1. programming language in which the user states a specific set of instructions that the computer must perform in
 a given sequence
 cf. nonprocedural language, algebraic language, algorithmic language, list processing language, logic programming
@@ -21047,7 +21047,7 @@ programs
 structured programming language
 1. programming language that provides the structured program constructs, namely, single-entry-single-ex
 sequences, branches, and loops, and facilitates the development of structured programs
-cf. block-structured languag
+cf. block-structured language
 3.4017
 structured walkthrough
 1. systematic examination of the requirements, design, or implementation of a system, or any part of it, by qualified
