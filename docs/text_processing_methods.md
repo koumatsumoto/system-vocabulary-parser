@@ -4,7 +4,7 @@ data/input.txt のテキストを以下の手順で処理する。
 
 1. テキストの行分割とトリム
 2. 単語エントリの抽出
-3. 説明文の処理
+3. 単語エントリごとの本文の処理
 4. 定義文の処理
 5. 最終データの出力
 
@@ -27,7 +27,7 @@ data/input.txt のテキストを以下の手順で処理する。
 interface WordEntry {
   number: string;
   name: string;
-  descriptionLines: string;
+  contentLines: string;
 }
 ```
 
@@ -44,19 +44,19 @@ interface WordEntry {
 - 単語名は単語番号の次の行である
 - この行は必ず存在する
 
-3. 説明文の行を検出する
+3. 本文の行を検出する
 
 - 単語名の次の行から、次の単語番号の行までの間の全ての行
-- 説明文は複数行にまたがることがある
-- 説明文の複数行の処理は後続処理で行うため、ここでは単純に配列に追加する
+- 本文は複数行にまたがることがある
+- 本文の複数行の処理は後続処理で行うため、ここでは単純に配列に追加する
 
-## 3. 説明文の処理
+## 3. 単語エントリごとの本文の処理
 
-次に、単語エントリごとの説明文の処理を行う。
-前の処理で複数行の文字列として抽出された説明文を処理して、以下のスキーマに変換する。
+次に、単語エントリごとの本文の処理を行う。
+前の処理で複数行の文字列として抽出された本文を処理して、以下のスキーマに変換する。
 
 ```ts
-interface WordDescription {
+interface WordContent {
   definition: string;
   alias?: string;
   confer?: string;
@@ -65,7 +65,7 @@ interface WordDescription {
 }
 ```
 
-説明文の行は以下のパターンがある。これらを場合分けして処理する。
+本文の行は以下のパターンがある。これらを場合分けして処理する。
 
 1. 特別なプレフィックスを持つ行
 
@@ -91,7 +91,7 @@ interface WordDescription {
 
 ## 4. 定義文の処理
 
-上記処理で取得した `WordDescription.definition` の文字列を処理して、以下のデータに変換する。
+上記処理で取得した `WordContent.definition` の文字列を処理して、以下のデータに変換する。
 
 ```ts
 type WordDefinition = {
@@ -127,7 +127,7 @@ type WordDefinition = {
 
 ## 5. 最終データの出力
 
-上記で処理した `WordEntry`, `WordDescription`, `WordDefinition` を合成して、最終データに変換する。
+上記で処理した `WordEntry`, `WordContent`, `WordDefinition` を合成して、最終データに変換する。
 最終的な出力 `Output` は以下となる。
 
 ```ts

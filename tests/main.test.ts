@@ -1,7 +1,7 @@
 import { expect, test, describe, vi, beforeEach, afterEach } from "vitest";
 import { main } from "../src/main.mts";
 import { readTextFile, writeJsonFile } from "../src/file.mts";
-import { extractWordsAndDescriptions } from "../src/parse.mts";
+import { extractWordsAndContent } from "../src/parse.mts";
 
 // Mock the file operations and parse function
 vi.mock("../src/file.mts");
@@ -28,16 +28,16 @@ describe("main function", () => {
       {
         number: "3.1",
         name: "word1",
-        description: {
-          definition: "1. definition1",
-        },
+        definitions: [
+          { text: "definition1" }
+        ],
       },
     ];
 
     // Setup mocks
     vi.mocked(readTextFile).mockResolvedValue(mockInput);
     vi.mocked(writeJsonFile).mockResolvedValue();
-    vi.mocked(extractWordsAndDescriptions).mockReturnValue(mockWords);
+    vi.mocked(extractWordsAndContent).mockReturnValue(mockWords);
     const consoleSpy = vi.spyOn(console, "log");
 
     // Execute main
@@ -46,7 +46,7 @@ describe("main function", () => {
     // Verify file operations
     expect(readTextFile).toHaveBeenCalledWith(expect.stringContaining("input.txt"));
     expect(writeJsonFile).toHaveBeenCalledWith(expect.stringContaining("output.json"), mockWords);
-    expect(extractWordsAndDescriptions).toHaveBeenCalledWith(mockInput);
+    expect(extractWordsAndContent).toHaveBeenCalledWith(mockInput);
     expect(consoleSpy).toHaveBeenCalledWith("Successfully processed 1 words and saved to output.json");
   });
 

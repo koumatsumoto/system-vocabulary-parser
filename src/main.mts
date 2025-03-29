@@ -1,4 +1,4 @@
-import { extractWordsAndDescriptions } from "./parse.mts";
+import { extractWordsAndContent } from "./parse.mts";
 import { readTextFile, writeJsonFile } from "./file.mts";
 import path from "path";
 
@@ -8,7 +8,7 @@ export async function main(): Promise<void> {
     const inputText = await readTextFile(path.join("data", "input.txt"));
 
     // Process the text
-    const words = extractWordsAndDescriptions(inputText);
+    const words = extractWordsAndContent(inputText);
 
     // Write output to JSON file
     await writeJsonFile(path.join("data", "output.json"), words);

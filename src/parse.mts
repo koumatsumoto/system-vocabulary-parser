@@ -1,10 +1,10 @@
 /**
- * Interface representing a word entry with its number, name and description lines
+ * Interface representing a word entry with its number, name and content lines
  */
 interface WordEntry {
   number: string;
   name: string;
-  descriptionLines: string[];
+  contentLines: string[];
 }
 
 /**
@@ -16,9 +16,9 @@ interface WordDefinition {
 }
 
 /**
- * Interface representing processed word description
+ * Interface representing processed word content
  */
-interface WordDescription {
+interface WordContent {
   definition?: string;
   alias?: string | undefined;
   confer?: string | undefined;
@@ -44,7 +44,7 @@ interface Word {
  */
 function processDefinitionText(definitionText: string): WordDefinition[] {
   const definitions: WordDefinition[] = [];
-  
+
   // 最初の定義を検出
   if (!definitionText.startsWith("1. ")) {
     return [];
@@ -52,13 +52,13 @@ function processDefinitionText(definitionText: string): WordDefinition[] {
 
   // 定義を分割（最初の定義は特別扱い）
   const parts = definitionText.split(/ (?=\d+\. )/);
-  
+
   for (const part of parts) {
     const trimmedPart = part.trim();
     if (!trimmedPart) continue;
 
     // Remove numbering prefix
-    let text = trimmedPart.replace(/^\d+\.\s+/, '');
+    let text = trimmedPart.replace(/^\d+\.\s+/, "");
     let reference: string | undefined;
 
     // Extract reference if exists
@@ -75,33 +75,31 @@ function processDefinitionText(definitionText: string): WordDefinition[] {
 }
 
 /**
- * Combine WordEntry and WordDescription into final Word format
+ * Combine WordEntry and WordContent into final Word format
  */
-function combineWordData(entry: WordEntry, description: WordDescription): Word {
-  const definitions = description.definition 
-    ? processDefinitionText(description.definition)
-    : [];
+function combineWordData(entry: WordEntry, content: WordContent): Word {
+  const definitions = content.definition ? processDefinitionText(content.definition) : [];
 
   return {
     number: entry.number,
     name: entry.name,
-    alias: description.alias,
+    alias: content.alias,
     definitions,
-    confer: description.confer,
-    example: description.example,
-    note: description.note,
+    confer: content.confer,
+    example: content.example,
+    note: content.note,
   };
 }
 
 /**
- * Process description lines according to new schema
+ * Process content lines according to new schema
  *
- * @param lines - Array of description lines to process
- * @returns Processed description object
+ * @param lines - Array of content lines to process
+ * @returns Processed content object
  */
-function processDescriptionLines(lines: string[]): WordDescription {
-  const result = {} as WordDescription;
-  let currentSection: keyof WordDescription | null = null;
+function processContentLines(lines: string[]): WordContent {
+  const result = {} as WordContent;
+  let currentSection: keyof WordContent | null = null;
   let aliasLines: string[] = [];
   let definitionLines: string[] = [];
 
@@ -157,21 +155,21 @@ function processDescriptionLines(lines: string[]): WordDescription {
 }
 
 /**
- * Extract words and their descriptions from the text.
+ * Extract words and their content from the text.
  *
  * The text format should be:
  * 3.1
  * word_name
- * description line(s)
+ * content line(s)
  * 3.2
  * word_name
- * description line(s)
+ * content line(s)
  * ...
  *
  * @param text - Input text to parse
- * @returns Tuple of WordEntry array and WordDescription array
+ * @returns Array of Word objects
  */
-export function extractWordsAndDescriptions(text: string): Word[] {
+export function extractWordsAndContent(text: string): Word[] {
   const words: Word[] = [];
   const lines = text
     .split("\n")
@@ -180,7 +178,7 @@ export function extractWordsAndDescriptions(text: string): Word[] {
 
   let currentWordNumber: string | null = null;
   let currentWord: string | null = null;
-  let currentDescriptionLines: string[] = [];
+  let currentContentLines: string[] = [];
 
   // Regex pattern for word numbers (e.g., "3.1", "3.2", etc.)
   const wordNumberPattern = /^3\.\d+$/;
@@ -191,19 +189,19 @@ export function extractWordsAndDescriptions(text: string): Word[] {
     // Check if line matches word number pattern
     if (wordNumberPattern.test(line)) {
       // Save previous entry if exists
-      if (currentWordNumber && currentWord && currentDescriptionLines.length > 0) {
+      if (currentWordNumber && currentWord && currentContentLines.length > 0) {
         const entry = {
           number: currentWordNumber,
           name: currentWord,
-          descriptionLines: currentDescriptionLines,
+          contentLines: currentContentLines,
         };
-        const description = processDescriptionLines(currentDescriptionLines);
-        words.push(combineWordData(entry, description));
+        const content = processContentLines(currentContentLines);
+        words.push(combineWordData(entry, content));
       }
 
       // Start new entry
       currentWordNumber = line;
-      currentDescriptionLines = [];
+      currentContentLines = [];
 
       // Get word from next line if available
       if (i + 1 < lines.length) {
@@ -214,19 +212,19 @@ export function extractWordsAndDescriptions(text: string): Word[] {
       }
     } else if (currentWordNumber && currentWord) {
       // Add to current description
-      currentDescriptionLines.push(line);
+      currentContentLines.push(line);
     }
   }
 
   // Add last entry if exists
-  if (currentWordNumber && currentWord && currentDescriptionLines.length > 0) {
+  if (currentWordNumber && currentWord && currentContentLines.length > 0) {
     const entry = {
       number: currentWordNumber,
       name: currentWord,
-      descriptionLines: currentDescriptionLines,
+      contentLines: currentContentLines,
     };
-    const description = processDescriptionLines(currentDescriptionLines);
-    words.push(combineWordData(entry, description));
+    const content = processContentLines(currentContentLines);
+    words.push(combineWordData(entry, content));
   }
 
   console.log(`\nExtracted ${words.length} words`);

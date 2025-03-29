@@ -1,13 +1,13 @@
 import { expect, test, describe } from "vitest";
-import { extractWordsAndDescriptions } from "../src/parse.mts";
+import { extractWordsAndContent } from "../src/parse.mts";
 
-describe("extractWordsAndDescriptions", () => {
+describe("extractWordsAndContent", () => {
   test("extracts single word entry correctly", () => {
     const input = `3.1
 test word
 1. This is a description`;
 
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(1);
     expect(words[0]).toEqual({
       number: "3.1",
@@ -26,7 +26,7 @@ first word
 second word
 1. This is second description`;
 
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(2);
     expect(words[0]).toEqual({
       number: "3.1",
@@ -57,7 +57,7 @@ another word
 
 1. Another description`;
 
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(2);
   });
 
@@ -70,7 +70,7 @@ cf. Reference note
 EXAMPLE: This is an example
 Note 1 to entry: Additional note`;
 
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(1);
     expect(words[0]).toEqual({
       number: "3.1",
@@ -94,7 +94,7 @@ alternative name 2
 Second line continues definition
 Third line adds more detail`;
 
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(1);
     expect(words[0]).toEqual({
       number: "3.1",
@@ -108,13 +108,13 @@ Third line adds more detail`;
 
   test("handles invalid input gracefully", () => {
     const input = "";
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(0);
 
     const invalidInput = `not a word number
 some text
 more text`;
-    const invalidWords = extractWordsAndDescriptions(invalidInput);
+    const invalidWords = extractWordsAndContent(invalidInput);
     expect(invalidWords).toHaveLength(0);
   });
 
@@ -125,7 +125,7 @@ test word
  2. Second definition
  3. Third definition`;
 
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(1);
     expect(words[0].definitions).toEqual([
       { text: "First definition" },
@@ -140,7 +140,7 @@ test word
 1. Definition with reference [REF1]
  2. Another definition [REF2]`;
 
-    const words = extractWordsAndDescriptions(input);
+    const words = extractWordsAndContent(input);
     expect(words).toHaveLength(1);
     expect(words[0].definitions).toEqual([
       { text: "Definition with reference", reference: "REF1" },
