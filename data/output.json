@@ -40326,8 +40326,8 @@
     "name": "requested change",
     "definitions": [
       {
-        "text": "",
-        "reference": "a formally documented change request that is submitted for approval to the integrated change control process [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
+        "text": "a formally documented change request that is submitted for approval to the integrated change control process",
+        "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
     ]
   },

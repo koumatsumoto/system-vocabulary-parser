@@ -17966,7 +17966,7 @@ request form
 (CORBA) — Part 1: Interfaces, 5.3.2]
 3.3428
 requested change
-1. [a formally documented change request that is submitted for approval to the integrated change control process
+1. a formally documented change request that is submitted for approval to the integrated change control process
 [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
 3.3429
 required inputs
