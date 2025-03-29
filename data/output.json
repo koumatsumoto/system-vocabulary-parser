@@ -25261,7 +25261,11 @@
   {
     "number": "3.2134",
     "name": "ISR",
-    "definitions": []
+    "definitions": [
+      {
+        "text": "interrupt service routine"
+      }
+    ]
   },
   {
     "number": "3.2135",
