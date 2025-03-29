@@ -152,3 +152,4 @@ interface Word {
   example?: string;
   note?: string;
 }
+```

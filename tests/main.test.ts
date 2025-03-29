@@ -28,9 +28,7 @@ describe("main function", () => {
       {
         number: "3.1",
         name: "word1",
-        definitions: [
-          { text: "definition1" }
-        ],
+        definitions: [{ text: "definition1" }],
       },
     ];
 

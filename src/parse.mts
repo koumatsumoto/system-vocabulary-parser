@@ -80,7 +80,10 @@ function processDefinitionText(definitionText: string): WordDefinition[] {
 function processConferText(conferText: string | undefined): [string, ...string[]] | undefined {
   if (!conferText) return undefined;
 
-  const values = conferText.split(",").map(v => v.trim()).filter(v => v.length > 0);
+  const values = conferText
+    .split(",")
+    .map((v) => v.trim())
+    .filter((v) => v.length > 0);
   if (values.length === 0) return undefined;
 
   return values as [string, ...string[]];

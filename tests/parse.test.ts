@@ -12,9 +12,7 @@ test word
     expect(words[0]).toEqual({
       number: "3.1",
       name: "test word",
-      definitions: [
-        { text: "This is a description" }
-      ],
+      definitions: [{ text: "This is a description" }],
     });
   });
 
@@ -31,16 +29,12 @@ second word
     expect(words[0]).toEqual({
       number: "3.1",
       name: "first word",
-      definitions: [
-        { text: "This is first description" }
-      ],
+      definitions: [{ text: "This is first description" }],
     });
     expect(words[1]).toEqual({
       number: "3.2",
       name: "second word",
-      definitions: [
-        { text: "This is second description" }
-      ],
+      definitions: [{ text: "This is second description" }],
     });
   });
 
@@ -76,9 +70,7 @@ Note 1 to entry: Additional note`;
       number: "3.1",
       name: "test word",
       alias: ["alternative name"] as [string, ...string[]],
-      definitions: [
-        { text: "Basic description" }
-      ],
+      definitions: [{ text: "Basic description" }],
       confer: ["Reference note"] as [string, ...string[]],
       example: "This is an example",
       note: "Additional note",
@@ -100,9 +92,7 @@ Third line adds more detail`;
       number: "3.1",
       name: "test word",
       alias: ["alternative name 1", "alternative name 2"] as [string, ...string[]],
-      definitions: [
-        { text: "First line of definition Second line continues definition Third line adds more detail" }
-      ],
+      definitions: [{ text: "First line of definition Second line continues definition Third line adds more detail" }],
     });
   });
 
@@ -130,7 +120,7 @@ test word
     expect(words[0].definitions).toEqual([
       { text: "First definition" },
       { text: "Second definition" },
-      { text: "Third definition" }
+      { text: "Third definition" },
     ]);
   });
 
@@ -144,7 +134,7 @@ test word
     expect(words).toHaveLength(1);
     expect(words[0].definitions).toEqual([
       { text: "Definition with reference", reference: "REF1" },
-      { text: "Another definition", reference: "REF2" }
+      { text: "Another definition", reference: "REF2" },
     ]);
   });
 });
