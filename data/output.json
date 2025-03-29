@@ -2264,7 +2264,7 @@
       "specification language",
       "query language"
     ],
-    "example": "a language for computer-assisted instruction or hardware desig"
+    "example": "a language for computer-assisted instruction or hardware design"
   },
   {
     "number": "3.195",
@@ -31789,7 +31789,7 @@
     "name": "OOD",
     "definitions": [
       {
-        "text": "object-oriented desig"
+        "text": "object-oriented design"
       }
     ]
   },
@@ -32318,7 +32318,7 @@
       }
     ],
     "confer": [
-      "data structure-centered desig"
+      "data structure-centered design"
     ]
   },
   {
@@ -51375,7 +51375,7 @@
       }
     ],
     "alias": [
-      "transaction-centered desig"
+      "transaction-centered design"
     ],
     "confer": [
       "data structure-centered design",
@@ -51500,7 +51500,7 @@
     ],
     "alias": [
       "transformation analysis",
-      "transform-centered desig"
+      "transform-centered design"
     ],
     "confer": [
       "data structure-centered design",
