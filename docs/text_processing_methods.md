@@ -6,7 +6,8 @@ data/input.txt のテキストを以下の手順で処理する。
 2. 単語エントリの抽出
 3. 単語エントリごとの本文の処理
 4. 定義文の処理
-5. 最終データの出力
+5. confer の処理
+6. 最終データの出力
 
 それぞれの手順について以下に詳細を記述する。
 
@@ -126,7 +127,15 @@ type WordDefinition = {
 
 - 定義の文字列のうち "[]" で囲まれた部分のみを抽出する
 
-## 5. 最終データの出力
+## 5. confer の処理
+
+confer には複数の値が "," 区切りで含まれている場合がある。confer のフィールドがある場合は以下の処理を行い配列に変換する。
+
+1. confer の値があるかどうかをチェック
+2. confer の値がある場合は "," で split する
+3. split した値を trim する
+
+## 6. 最終データの出力
 
 上記で処理した `WordEntry`, `WordContent`, `WordDefinition` を合成して、最終データに変換する。
 最終的な出力 `Output` は以下となる。
@@ -139,7 +148,7 @@ interface Word {
   name: WordEntry["name"];
   alias?: [string, ...string[]];
   definitions: WordDefinition[];
-  confer?: string;
+  confer?: [string, ...string[]];
   example?: string;
   note?: string;
 }

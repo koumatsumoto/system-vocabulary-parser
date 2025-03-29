@@ -21,7 +21,7 @@ interface WordDefinition {
 interface WordContent {
   definition?: string;
   alias?: [string, ...string[]];
-  confer?: string | undefined;
+  confer?: string;
   example?: string | undefined;
   note?: string | undefined;
 }
@@ -34,7 +34,7 @@ interface Word {
   name: WordEntry["name"];
   alias?: [string, ...string[]];
   definitions: WordDefinition[];
-  confer?: string | undefined;
+  confer?: [string, ...string[]];
   example?: string | undefined;
   note?: string | undefined;
 }
@@ -75,6 +75,18 @@ function processDefinitionText(definitionText: string): WordDefinition[] {
 }
 
 /**
+ * Convert confer string to array of strings
+ */
+function processConferText(conferText: string | undefined): [string, ...string[]] | undefined {
+  if (!conferText) return undefined;
+
+  const values = conferText.split(",").map(v => v.trim()).filter(v => v.length > 0);
+  if (values.length === 0) return undefined;
+
+  return values as [string, ...string[]];
+}
+
+/**
  * Combine WordEntry and WordContent into final Word format
  */
 function combineWordData(entry: WordEntry, content: WordContent): Word {
@@ -90,7 +102,10 @@ function combineWordData(entry: WordEntry, content: WordContent): Word {
     result.alias = content.alias;
   }
   if (content.confer !== undefined) {
-    result.confer = content.confer;
+    const conferArray = processConferText(content.confer);
+    if (conferArray) {
+      result.confer = conferArray;
+    }
   }
   if (content.example !== undefined) {
     result.example = content.example;

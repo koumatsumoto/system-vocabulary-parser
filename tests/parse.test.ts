@@ -79,7 +79,7 @@ Note 1 to entry: Additional note`;
       definitions: [
         { text: "Basic description" }
       ],
-      confer: "Reference note",
+      confer: ["Reference note"] as [string, ...string[]],
       example: "This is an example",
       note: "Additional note",
     });

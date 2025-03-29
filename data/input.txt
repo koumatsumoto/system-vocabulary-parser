@@ -681,7 +681,7 @@ cf. developmental configuration, functional baseline, product baseline, allocate
 allocated configuration identification
 1. in configuration management, the current approved specifications governing the development of configuration
 items that are part of a higher-level configuration ite
-cf. functional configuration identification, product configuration identification. allocated baseline
+cf. functional configuration identification, product configuration identification, allocated baseline
 Note 1 to entry: Each specification defines the functional characteristics that are allocated from those of the higher-level
 configuration item, establishes the tests required to demonstrate achievement of its allocated functional characteristics,
 delineates necessary interface requirements with other associated configuration items, and establishes design constraints, if
@@ -880,7 +880,7 @@ Counting Practices Manual, 10] 3. cohesive collection of automated procedures an
 objective, consisting of one or more components, modules, or subsystems [ISO/IEC 20926:2009 Software and
 systems engineering — Software measurement — IFPUG functional size measurement method 2009, 3.2]
 cf. information system
-EXAMPLE accounts payable, accounts receivable, payroll, procurement, shop production, assembly line control,
+EXAMPLE: accounts payable, accounts receivable, payroll, procurement, shop production, assembly line control,
 air search radar, target tracking, weapons firing, flight line scheduling and passenger reservations
 Note 1 to entry: The term application is generally used when referring to a component of software that can be executed. It
 consists of one or more components, modules, or subsystems.
@@ -8843,13 +8843,13 @@ FOSS
 3.1650
 four-address instruction
 1. computer instruction that contains four address fields
-cf. one-address instruction, two-address instruction, three-address instruction, zero-address instruc
+cf. one-address instruction, two-address instruction, three-address instruction, zero-address instruction
 EXAMPLE: an instruction to add the contents of locations A, B, and C, and place the result in location D
 3.1651
 four-plus-one address instruction
 1. computer instruction that contains five address fields, the fifth containing the address of the instruction to be
 executed next
-cf. one-plus-one address instruction, two-plus-one address instruction, three-plus-one address instr
+cf. one-plus-one address instruction, two-plus-one address instruction, three-plus-one address instruction
 EXAMPLE: an instruction to add the contents of locations A, B, and C, place the results in location D, then execute
 the instruction at location E
 3.1652
@@ -13484,7 +13484,7 @@ functions and components in a given system or structure.
 3.2560
 n-address instruction
 1. computer instruction that contains n address fields, where n is any non-negative intege
-cf. one-address instruction, two-address instruction, n-plus-one address instruc
+cf. one-address instruction, two-address instruction, n-plus-one address instruction
 3.2561
 N-ary relationship
 1. relationship with arity (degree) n > 2 [ISO/IEC 15474-1:2002 Information technology — CDIF framework — Part
@@ -14113,7 +14113,7 @@ cf. repetitive addressing
 one-plus-one address instruction
 1. computer instruction that contains two address fields, the second containing the address of the instruction to be
 executed next
-cf. two-plus-one address instruction, three-plus-one address instruction, four-plus-one address instr
+cf. two-plus-one address instruction, three-plus-one address instruction, four-plus-one address instruction
 EXAMPLE: an instruction to load the contents of location A, then execute the instruction at location B
 3.2687
 one-time programming (OTP)
@@ -22564,13 +22564,13 @@ Note 1 to entry: It results in a vulnerability assessment.
 3.4291
 three-address instruction
 1. computer instruction that contains three address fields
-cf. one-address instruction, two-address instruction, four-address instruction, zero-address instruc
+cf. one-address instruction, two-address instruction, four-address instruction, zero-address instruction
 EXAMPLE: an instruction to add the contents of locations A and B, and place the results in location C
 3.4292
 three-plus-one address instruction
 1. computer instruction that contains four address fields, the fourth containing the address of the instruction to be
 executed next
-cf. one-plus-one address instruction, two-plus-one address instruction, four-plus-one address instr
+cf. one-plus-one address instruction, two-plus-one address instruction, four-plus-one address instruction
 EXAMPLE: an instruction to add the contents of locations A and B, place the results in location C, then execute the
 instruction at location D
 Note 1 to entry: for example,
@@ -23108,7 +23108,7 @@ and developers of user documentation, 4.51]
 two-address instruction
 double-operand instructio
 1. computer instruction that contains two address fields.
-cf. one-address instruction, three-address instruction, four-address instruction, zero-address instruc
+cf. one-address instruction, three-address instruction, four-address instruction, zero-address instruction
 EXAMPLE: an instruction to add the contents of A to the contents of B
 3.4400
 two-level address
@@ -23130,7 +23130,7 @@ greatest (the beginning) to a point where the uncertainties are significantly re
 two-plus-one address instruction
 1. computer instruction that contains three address fields, the third containing the address of the instruction to be
 executed next
-cf. one-plus-one address instruction, three-plus-one address instruction, four-plus-one address instr
+cf. one-plus-one address instruction, three-plus-one address instruction, four-plus-one address instruction
 EXAMPLE: an instruction to add the contents of A to the contents of B, then execute the instruction at location C
 3.4404
 type
@@ -24448,4 +24448,4 @@ Edition]
 3.4633
 zero-address instruction
 1. computer instruction that contains no address fields
-cf. one-address instruction, two-address instruction, three-address instruction, four-address instruc
+cf. one-address instruction, two-address instruction, three-address instruction, four-address instruction
