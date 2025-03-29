@@ -8174,7 +8174,7 @@ extending use case can be optionally inserted into the behavior defined for the 
 extendability
 extensibility
 1. ease with which a system or component can be modified to increase its storage or functional capacity
-cf.: expandability, flexibility, maintainability
+cf. expandability, flexibility, maintainability
 3.1528
 extended component
 1. component that offers any type of port [ISO/IEC 19500-3:2012 Information technology — Object Management
@@ -20230,7 +20230,7 @@ cf. requirements verification, requirements validation
 3.3855
 software safety
 1. freedom from software hazards [IEEE 1228-1994 (R2002) IEEE Standard for Software Safety Plans, 3.1.6]
-cf.: system safety
+cf. system safety
 3.3856
 software safety program
 1. systematic approach to reducing software risks [IEEE 1228-1994 (R2002) IEEE Standard for Software Safety Plans,
@@ -21556,7 +21556,7 @@ Information technology — Vocabulary]
 system hazard
 1. system condition that is a prerequisite to an accident [IEEE 1228-1994 (R2002) IEEE Standard for Software
 Safety Plans, 3.1.8]
-cf.: software hazard
+cf. software hazard
 3.4104
 system integration
 1. progressive assembling of system components into the whole system [ISO/IEC 2382:2015, Information technology

@@ -18064,11 +18064,16 @@
     "name": "extendability",
     "definitions": [
       {
-        "text": "ease with which a system or component can be modified to increase its storage or functional capacity cf.: expandability, flexibility, maintainability"
+        "text": "ease with which a system or component can be modified to increase its storage or functional capacity"
       }
     ],
     "alias": [
       "extensibility"
+    ],
+    "confer": [
+      "expandability",
+      "flexibility",
+      "maintainability"
     ]
   },
   {
@@ -45372,8 +45377,12 @@
     "name": "software safety",
     "definitions": [
       {
-        "text": "freedom from software hazards [IEEE 1228-1994 (R2002) IEEE Standard for Software Safety Plans, 3.1.6] cf.: system safety"
+        "text": "freedom from software hazards",
+        "reference": "IEEE 1228-1994 (R2002) IEEE Standard for Software Safety Plans, 3.1.6"
       }
+    ],
+    "confer": [
+      "system safety"
     ]
   },
   {
@@ -48368,8 +48377,12 @@
     "name": "system hazard",
     "definitions": [
       {
-        "text": "system condition that is a prerequisite to an accident [IEEE 1228-1994 (R2002) IEEE Standard for Software Safety Plans, 3.1.8] cf.: software hazard"
+        "text": "system condition that is a prerequisite to an accident",
+        "reference": "IEEE 1228-1994 (R2002) IEEE Standard for Software Safety Plans, 3.1.8"
       }
+    ],
+    "confer": [
+      "software hazard"
     ]
   },
   {
