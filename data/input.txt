@@ -20066,7 +20066,7 @@ and has a set of specific licensing requirements
 software packager
 1. entity that packages or bundles software created by others [ISO/IEC 19770-5:2015 Information technology — IT
 asset management — Part 5: Overview and vocabulary, 3.45]
-EXAMPLE a value -added reseller who bundles a software package to work with an embedded system, or a software
+EXAMPLE: a value -added reseller who bundles a software package to work with an embedded system, or a software
 reseller who is licensed to combine a number of different software products into a single bundle
 3.3828
 software piracy
@@ -23512,7 +23512,7 @@ SQuaRE, 4.40] 9. individual or group that benefits from a ready to use software 
 [ISO/IEC 25051:2014 Software engineering — Software product Quality Requirements and Evaluation (SQuaRE) —
 Requirements for quality of Ready to Use Software Product (RUSP) and instructions for testing, 4.1.26]
 cf. developer, end user, functional user, indirect user, operator, secondary user
-EXAMPLE operators, recipients of the results of operating the system or software; a bank customer who visits a
+EXAMPLE: operators, recipients of the results of operating the system or software; a bank customer who visits a
 branch, receives a paper statement, or carries out telephone banking using a call center
 Note 1 to entry: The user can perform other roles such as acquirer or maintainer. The role of user and the role of operator can
 be vested, simultaneously or sequentially, in the same individual or organization,
