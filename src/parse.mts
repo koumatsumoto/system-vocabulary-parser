@@ -57,7 +57,8 @@ function processDefinitionText(definitionText: string): WordDefinition[] {
     const trimmedPart = part.trim();
     if (!trimmedPart) continue;
 
-    let text = trimmedPart;
+    // Remove numbering prefix
+    let text = trimmedPart.replace(/^\d+\.\s+/, '');
     let reference: string | undefined;
 
     // Extract reference if exists

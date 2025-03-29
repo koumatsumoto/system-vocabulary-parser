@@ -13,7 +13,7 @@ test word
       number: "3.1",
       name: "test word",
       definitions: [
-        { text: "1. This is a description" }
+        { text: "This is a description" }
       ],
     });
   });
@@ -32,14 +32,14 @@ second word
       number: "3.1",
       name: "first word",
       definitions: [
-        { text: "1. This is first description" }
+        { text: "This is first description" }
       ],
     });
     expect(words[1]).toEqual({
       number: "3.2",
       name: "second word",
       definitions: [
-        { text: "1. This is second description" }
+        { text: "This is second description" }
       ],
     });
   });
@@ -77,7 +77,7 @@ Note 1 to entry: Additional note`;
       name: "test word",
       alias: "alternative name",
       definitions: [
-        { text: "1. Basic description" }
+        { text: "Basic description" }
       ],
       confer: "Reference note",
       example: "This is an example",
@@ -101,7 +101,7 @@ Third line adds more detail`;
       name: "test word",
       alias: "alternative name 1 alternative name 2",
       definitions: [
-        { text: "1. First line of definition Second line continues definition Third line adds more detail" }
+        { text: "First line of definition Second line continues definition Third line adds more detail" }
       ],
     });
   });
@@ -128,9 +128,9 @@ test word
     const words = extractWordsAndDescriptions(input);
     expect(words).toHaveLength(1);
     expect(words[0].definitions).toEqual([
-      { text: "1. First definition" },
-      { text: "2. Second definition" },
-      { text: "3. Third definition" }
+      { text: "First definition" },
+      { text: "Second definition" },
+      { text: "Third definition" }
     ]);
   });
 
@@ -143,8 +143,8 @@ test word
     const words = extractWordsAndDescriptions(input);
     expect(words).toHaveLength(1);
     expect(words[0].definitions).toEqual([
-      { text: "1. Definition with reference", reference: "REF1" },
-      { text: "2. Another definition", reference: "REF2" }
+      { text: "Definition with reference", reference: "REF1" },
+      { text: "Another definition", reference: "REF2" }
     ]);
   });
 });
