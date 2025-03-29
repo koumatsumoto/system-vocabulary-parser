@@ -20,7 +20,7 @@ interface WordDefinition {
  */
 interface WordContent {
   definition?: string;
-  alias?: string[];
+  alias?: [string, ...string[]];
   confer?: string | undefined;
   example?: string | undefined;
   note?: string | undefined;
@@ -32,7 +32,7 @@ interface WordContent {
 interface Word {
   number: WordEntry["number"];
   name: WordEntry["name"];
-  alias?: string[];
+  alias?: [string, ...string[]];
   definitions: WordDefinition[];
   confer?: string | undefined;
   example?: string | undefined;
@@ -157,9 +157,9 @@ function processContentLines(lines: string[]): WordContent {
     result.definition = result.definition + " " + definitionLines.join(" ");
   }
 
-  // Set aliases only if there are any
+  // Set aliases only if there is at least one
   if (aliasLines.length > 0) {
-    result.alias = aliasLines;
+    result.alias = aliasLines as [string, ...string[]];
   }
 
   return result;

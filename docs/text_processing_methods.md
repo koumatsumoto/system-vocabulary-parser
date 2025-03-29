@@ -58,7 +58,7 @@ interface WordEntry {
 ```ts
 interface WordContent {
   definition: string;
-  alias?: string[];
+  alias?: [string, ...string[]];
   confer?: string;
   example?: string;
   note?: string;
@@ -137,7 +137,7 @@ type Output = Word[];
 interface Word {
   number: WordEntry["number"];
   name: WordEntry["name"];
-  alias?: string[];
+  alias?: [string, ...string[]];
   definitions: WordDefinition[];
   confer?: string;
   example?: string;
