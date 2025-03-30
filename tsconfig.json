@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*.(?m)ts"],
+  "include": ["src/**/*.mts"],
   "exclude": ["node_modules"],
   "compilerOptions": {
     "target": "es2024",
