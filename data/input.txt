@@ -436,7 +436,6 @@ actual cost of work performed (ACWP)
 1. the realized cost incurred for the work performed on an activity during a specific time period [A Guide to the
 Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
 cf. earned value management, earned value technique
-EXAMPLE: 1
 3.82
 actual depreciation
 1. true loss in value of an asset, determined only when the asset is sold
@@ -4831,7 +4830,7 @@ cf. subroutine
 corporate board or equivalent body
 1. person or group of people who assumes legal responsibility for conducting or controlling an organization at the
 highest level [ISO/IEC 19770-1:2012 Information technology — Software asset management — Part 1: Processes and
-tiered assessment of conformance, 3. 3]
+tiered assessment of conformance, 3.3]
 3.888
 corporate governance of IT
 1. at the level of top management, establishment of strategy and policy for the use of IT, and organizational control
@@ -6642,7 +6641,7 @@ Distributed Processing — Reference Model: Foundations, 3.2.2]
 distribution copy
 1. copy of the software definitive master version, for the purposes of installation onto other hardware, which
 resides, for example, on a server or on physical media such as CDs [ISO/IEC 19770-1:2012 Information technology
-— Software asset management — Part 1: Processes and tiered assessment of conformance, 3. 5]
+— Software asset management — Part 1: Processes and tiered assessment of conformance, 3.5]
 3.1243
 distribution transparency
 1. property of hiding from the user some specific aspects of the system's complexity needed to support distribution
@@ -15153,7 +15152,7 @@ technology — Vocabulary]
 personnel
 1. individual expected to perform duties on behalf of the organization, including officers, employees, and contractors
 [ISO/IEC 19770-1:2012 Information technology — Software asset management — Part 1: Processes and tiered
-assessment of conformance, 3. 8]
+assessment of conformance, 3.8]
 3.2890
 personnel management
 1. management of activities involving hiring, retaining, promoting, training, and terminating personnel
@@ -15889,7 +15888,7 @@ procedure
 15289:2015 Systems and software engineering — Content of life-cycle information products (documentation), 5.19] 2.
 portion of a computer program that is named and that performs a specific action 3. routine that does not return a
 value 4. specified way to carry out an activity or process [ISO/IEC 19770-1:2012 Information technology — Software
-asset management — Part 1: Processes and tiered assessment of conformance, 3. 9] 5. an established method of
+asset management — Part 1: Processes and tiered assessment of conformance, 3.9] 5. an established method of
 accomplishing a consistent performance or result. A procedure typically can be described as the sequence of steps
 that will be used to execute a process [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) —
 Fifth Edition]
@@ -18853,7 +18852,7 @@ Entitlement schema, 3.2]
 SAM owner
 1. individual at a senior organization-wide level who is identified as being responsible for SAM [ISO/IEC 19770
 1:2012 Information technology — Software asset management — Part 1: Processes and tiered assessment of
-conformance, 3. 11]
+conformance, 3.11]
 3.3593
 SAM practitioner
 1. individual involved in the practice or role of managing software assets [ISO/IEC 19770-5:2015 Information
@@ -23197,7 +23196,7 @@ cf. addressing exception, data exception, operation exception, overflow exceptio
 underlying license
 1. license for software use as originally purchased or procured, and which can typically be linked directly to
 purchase records [ISO/IEC 19770-1:2012 Information technology — Software asset management — Part 1: Processes
-and tiered assessment of conformance, 3. 15]
+and tiered assessment of conformance, 3.15]
 Note 1 to entry: An underlying license can have conditions associated with it, requiring it to be used in combination with another
 license or licenses to create an effective full license. It can also have capacity or permission to use future versions of the software,
 or specify ways or limitations to how it can be upgraded or replaced by a new version, or how the license can be upgraded by
