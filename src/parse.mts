@@ -1,7 +1,7 @@
 /**
  * Interface representing a word entry with its number, name and content lines
  */
-interface WordEntry {
+export interface WordEntry {
   number: string;
   name: string;
   contentLines: string[];
@@ -10,7 +10,7 @@ interface WordEntry {
 /**
  * Interface representing a definition with text and optional reference
  */
-interface WordDefinition {
+export interface WordDefinition {
   text: string;
   reference?: string | undefined;
 }
@@ -18,7 +18,7 @@ interface WordDefinition {
 /**
  * Interface representing processed word content
  */
-interface WordContent {
+export interface WordContent {
   definition?: string;
   alias?: [string, ...string[]];
   confer?: string;
@@ -29,7 +29,7 @@ interface WordContent {
 /**
  * Interface representing final output word data
  */
-interface Word {
+export interface Word {
   number: WordEntry["number"];
   name: WordEntry["name"];
   alias?: [string, ...string[]];
