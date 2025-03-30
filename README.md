@@ -21,6 +21,7 @@ node src/check.mts
 ```
 
 This command will validate the generated `data/output.json` file and report any issues such as:
+
 - Duplicate definition texts within a word
 - Invalid cross-references (when a word's confer section references non-existent words)
 

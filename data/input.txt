@@ -2029,6 +2029,7 @@ Reference model: Overview; ISO/IEC 19793:2015 Information technology — Open Di
 UML for ODP system specifications, 4]
 3.371
 beta test
+beta testing
 1. second stage of testing when a product is in limited production use
 cf. alpha testing
 Note 1 to entry: often performed at a customer site
