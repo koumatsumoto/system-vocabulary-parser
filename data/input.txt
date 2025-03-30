@@ -1305,7 +1305,7 @@ cf. loaded origin, offset (1), starting address
 assembler
 1. computer program that translates programs expressed in assembly language into their machine language
 equivalents
-cf. absolute assembler, compiler, cross-assembler, interpreter, relocating assemble
+cf. absolute assembler, compiler, cross-assembler, interpreter, relocating assembler
 3.244
 assembly
 1. collection of units in which ports on different units are compatibly interconnected so behaviors of one unit can
@@ -1731,7 +1731,7 @@ cf. mutation testing
 background
 1. in job scheduling, the computing environment in which low-priority processes or those not requiring user
 interaction are executed
-cf. foreground. background processing
+cf. foreground, background processing
 3.319
 background processing
 1. execution of a low-priority process while higher priority processes are not using computer resources, or the
@@ -1929,7 +1929,7 @@ batch
 1. pertaining to a system or mode of operation in which inputs are collected and processed all at one time, rather
 than being processed as they arrive, and a job, once started, proceeds to completion without additional input or
 user interaction
-cf. conversational, interactive, online, real time
+cf. conversational, interactive, online, real-time
 3.354
 bathtub curve
 1. graph of the number of failures in a system or component as a function of time
@@ -3667,7 +3667,7 @@ computer program
 compiler
 1. computer program that translates programs expressed in a high-order language into their machine language
 equivalents
-cf. assembler, interpreter, cross-compiler, incremental compiler, root compile
+cf. assembler, interpreter, cross-compiler, incremental compiler, root compiler
 3.682
 compiler code
 1. computer instructions and data definitions expressed in a form that can be recognized and processed by a
@@ -4761,7 +4761,7 @@ cf. practice, standard
 conversational
 1. pertaining to an interactive system or mode of operation in which the interaction between the user and the
 system resembles a human dialog
-cf. batch, interactive, online, real time
+cf. batch, interactive, online, real-time
 3.875
 conversion
 1. modification of existing software to enable it to operate with similar functional capability in a different
@@ -8445,7 +8445,7 @@ fault masking
 3.1573
 fault secure
 1. pertaining to a system or component in which no failures are produced from a prescribed set of faults
-cf. fault tolerance, fail-safe, fail soft
+cf. fault tolerance, fail safe, fail soft
 3.1574
 fault tolerance
 1. degree to which a system, product or component operates as intended despite the presence of hardware or
@@ -10645,7 +10645,7 @@ rapid prototyping
 Note 1 to entry: A refinement called hierarchical input-process-output identifies the steps, inputs, and outputs at both general
 and detailed levels of detail
 3.1999
-input-process-output (IPO) chart
+input-process-output chart (IPO chart)
 1. diagram of a software system or module, consisting of a rectangle on the left listing inputs, a rectangle in the
 center listing processing steps, a rectangle on the right listing outputs, and arrows connecting inputs to processing
 steps and processing steps to outputs
@@ -12172,7 +12172,7 @@ cf. machine-independent
 machine-independent
 1. pertaining to software that does not rely on features unique to a particular type of computer, and therefore
 executes on computers of more than one type
-cf. machine-dependent, portabilit
+cf. machine-dependent, portability
 3.2300
 machine-readable
 1. pertaining to data in a form that can be automatically input to a computer
@@ -12939,6 +12939,7 @@ microarchitecture
 microprogrammed computer
 3.2448
 microcode
+micro code
 1. collection of microinstructions, comprising part of or all of microprograms [IEEE 1012-2012 IEEE Standard for
 System and Software Verification and Validation, 3.1]
 3.2449
@@ -14103,8 +14104,7 @@ one-address instruction
 single-address instruction
 single-operand instruction
 1. computer instruction that contains one address field
-cf. multiaddress instruction, two-address instruction, three-address instruction, four-address instruction, z
-address instruction
+cf. multiaddress instruction, two-address instruction, three-address instruction, four-address instruction, zero-address instruction
 EXAMPLE: an instruction to load the contents of location A
 3.2685
 one-ahead addressing
@@ -14132,7 +14132,7 @@ online
 origin or output data are transmitted directly to the point where they are used 2. pertaining to a device or process
 that is under the direct control of the central processing unit of a computer 3. pertaining to the operation of a
 functional unit when under the control of a computer [ISO/IEC 2382:2015, Information technology — Vocabulary]
-cf. batch, conversational, real time
+cf. batch, conversational, real-time
 EXAMPLE: an airline reservation system
 3.2690
 online documentation
@@ -16391,7 +16391,7 @@ Note 1 to entry: Each procedure part consists of one or more operations to be pe
 program design language (PDL)
 1. specification language with special constructs and, sometimes, verification protocols, used to develop, analyze,
 and document a program design
-cf. hardware design language, pseudo code
+cf. hardware design language, pseudocode
 3.3126
 Program Evaluation and Review Technique (PERT)
 1. a technique for estimating that applies a weighted average of optimistic, pessimistic, and most likely estimates
@@ -17217,7 +17217,7 @@ TR 24766:2009 Information technology — Systems and software engineering — Gu
 tool capabilities, 3.5] 3. a condition or capability that will be used to assess conformance by validating the
 acceptability of an attribute for the quality of a result [A Guide to the Project Management Body of Knowledge
 (PMBOK® Guide) — Fifth Edition]
-cf. non-functional requirement
+cf. nonfunctional requirement
 3.3288
 quality subfactor
 1. decomposition of a quality factor or quality subfactor to its technical components [IEEE 1061-1998 (R2004) IEEE
@@ -19529,8 +19529,9 @@ Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDE
 cf. bag, list
 3.3725
 set-up time
+setup time
 1. period of time during which a system or component is being prepared for a specific operation
-cf. busy time, down time, idle time, setup time, up time
+cf. busy time, down time, idle time, up time
 3.3726
 SETA
 1. systems engineering and technical assistance [IEEE 15288.2:2014 IEEE Standard for Technical Reviews and Audits
@@ -23425,10 +23426,10 @@ software engineering — Systems and software Quality Requirements and Evaluatio
 Format (CIF) for Usability — Evaluation Report, 3.19]
 3.4458
 usability test
-fitness-for-use te
+usability testing
+fitness-for-use test
 1. test to determine whether an implemented system fulfils its functional purpose as determined by its users
 [ISO/IEC 2382:2015, Information technology — Vocabulary]
-cf. usability testing
 3.4459
 usability walkthrough
 1. usability evaluation in which one or more evaluators step through a scenario playing the role of a user and

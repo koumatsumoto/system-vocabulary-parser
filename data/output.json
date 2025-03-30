@@ -2833,7 +2833,7 @@
       "compiler",
       "cross-assembler",
       "interpreter",
-      "relocating assemble"
+      "relocating assembler"
     ]
   },
   {
@@ -3743,7 +3743,8 @@
       }
     ],
     "confer": [
-      "foreground. background processing"
+      "foreground",
+      "background processing"
     ]
   },
   {
@@ -4163,7 +4164,7 @@
       "conversational",
       "interactive",
       "online",
-      "real time"
+      "real-time"
     ]
   },
   {
@@ -8056,7 +8057,7 @@
       "interpreter",
       "cross-compiler",
       "incremental compiler",
-      "root compile"
+      "root compiler"
     ]
   },
   {
@@ -10418,7 +10419,7 @@
       "batch",
       "interactive",
       "online",
-      "real time"
+      "real-time"
     ]
   },
   {
@@ -18629,7 +18630,7 @@
     ],
     "confer": [
       "fault tolerance",
-      "fail-safe",
+      "fail safe",
       "fail soft"
     ]
   },
@@ -23670,7 +23671,7 @@
   },
   {
     "number": "3.1999",
-    "name": "input-process-output (IPO) chart",
+    "name": "input-process-output chart (IPO chart)",
     "definitions": [
       {
         "text": "diagram of a software system or module, consisting of a rectangle on the left listing inputs, a rectangle in the center listing processing steps, a rectangle on the right listing outputs, and arrows connecting inputs to processing steps and processing steps to outputs"
@@ -27189,7 +27190,7 @@
     ],
     "confer": [
       "machine-dependent",
-      "portabilit"
+      "portability"
     ]
   },
   {
@@ -28947,6 +28948,9 @@
         "text": "collection of microinstructions, comprising part of or all of microprograms",
         "reference": "IEEE 1012-2012 IEEE Standard for System and Software Verification and Validation, 3.1"
       }
+    ],
+    "alias": [
+      "micro code"
     ]
   },
   {
@@ -31704,7 +31708,7 @@
       "two-address instruction",
       "three-address instruction",
       "four-address instruction",
-      "z address instruction"
+      "zero-address instruction"
     ],
     "example": "an instruction to load the contents of location A"
   },
@@ -31772,7 +31776,7 @@
     "confer": [
       "batch",
       "conversational",
-      "real time"
+      "real-time"
     ],
     "example": "an airline reservation system"
   },
@@ -36848,7 +36852,7 @@
     ],
     "confer": [
       "hardware design language",
-      "pseudo code"
+      "pseudocode"
     ]
   },
   {
@@ -38683,7 +38687,7 @@
       }
     ],
     "confer": [
-      "non-functional requirement"
+      "nonfunctional requirement"
     ]
   },
   {
@@ -43857,11 +43861,13 @@
         "text": "period of time during which a system or component is being prepared for a specific operation"
       }
     ],
+    "alias": [
+      "setup time"
+    ],
     "confer": [
       "busy time",
       "down time",
       "idle time",
-      "setup time",
       "up time"
     ]
   },
@@ -52526,10 +52532,8 @@
       }
     ],
     "alias": [
-      "fitness-for-use te"
-    ],
-    "confer": [
-      "usability testing"
+      "usability testing",
+      "fitness-for-use test"
     ]
   },
   {
