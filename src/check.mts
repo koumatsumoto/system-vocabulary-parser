@@ -20,6 +20,7 @@ async function main() {
   }
 
   // Check for duplicate definitions and invalid confer references
+  let invalidReferenceCount = 0;
   for (const word of words) {
     // Check for duplicate definitions
     const texts = new Set<string>();
@@ -35,10 +36,13 @@ async function main() {
       for (const conferValue of word.confer) {
         if (!wordNames.has(conferValue)) {
           console.log(`Word ${word.number} has invalid confer reference: ${conferValue}`);
+          invalidReferenceCount++;
         }
       }
     }
   }
+
+  console.log(`Total invalid confer references: ${invalidReferenceCount}`);
 }
 
 main().catch(console.error);
