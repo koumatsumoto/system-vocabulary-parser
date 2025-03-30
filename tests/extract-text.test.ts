@@ -45,14 +45,14 @@ describe("extract-text", () => {
     expect(mockWriteFile).toHaveBeenCalledWith("data/text_en.csv", expect.any(String), "utf-8");
 
     // Verify written content
-    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split('\n');
+    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split("\n");
     expect(writtenContent[0]).toBe("text_en");
     expect(writtenContent.slice(1)).toEqual([
       "Another definition",
       "Definition 1",
       "Definition 2",
       "Example text",
-      "Note text"
+      "Note text",
     ]);
   });
 
@@ -96,13 +96,13 @@ describe("extract-text", () => {
 
     await extractTextsForTranslation();
 
-    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split('\n');
+    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split("\n");
     expect(writtenContent[0]).toBe("text_en");
     expect(writtenContent.slice(1)).toEqual([
       "Another definition",
       "Common definition",
       "Test note",
-      "Unique definition"
+      "Unique definition",
     ]);
   });
 
@@ -114,7 +114,7 @@ describe("extract-text", () => {
     await extractTextsForTranslation();
 
     // Verify empty array output with header
-    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split('\n');
+    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split("\n");
     expect(writtenContent).toEqual(["text_en"]);
   });
 });

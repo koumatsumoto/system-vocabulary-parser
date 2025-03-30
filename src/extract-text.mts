@@ -31,7 +31,7 @@ async function extractTextsForTranslation(): Promise<void> {
     const extractedTexts = Array.from(textSet).sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
 
     // Create CSV content with header
-    const csvContent = ['text_en', ...extractedTexts].join('\n');
+    const csvContent = ["text_en", ...extractedTexts].join("\n");
 
     // Save extracted texts to CSV file
     await fs.writeFile("data/text_en.csv", csvContent, "utf-8");
