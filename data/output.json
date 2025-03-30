@@ -19122,7 +19122,20 @@
     "definitions": [
       {
         "text": "larger and faster programmable ROM which allows data to be electrically erased from memory and rewritten many times"
-      },
+      }
+    ],
+    "alias": [
+      "NVRAM",
+      "non-volatile random access memory"
+    ],
+    "confer": [
+      "EEPROM"
+    ]
+  },
+  {
+    "number": "3.1617.1",
+    "name": "flexibility",
+    "definitions": [
       {
         "text": "ease with which a system or component can be modified for use in applications or environments other than those for which it was specifically designed"
       },
@@ -19130,10 +19143,6 @@
         "text": "degree to which a product or system can be used with effectiveness, efficiency, freedom from risk and satisfaction in contexts beyond those initially specified in the requirements",
         "reference": "ISO/IEC 25010:2011 Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models, 4.1.5.2"
       }
-    ],
-    "alias": [
-      "NVRAM",
-      "non-volatile random access memory"
     ],
     "confer": [
       "adaptability",

@@ -137,4 +137,56 @@ test word
       { text: "Another definition", reference: "REF2" },
     ]);
   });
+
+  test("handles extended number format (3.x.y) correctly", () => {
+    const input = `3.1.1
+first word
+1. This is first description
+3.2.3
+second word
+1. This is second description`;
+
+    const words = extractWordsAndContent(input);
+    expect(words).toHaveLength(2);
+    expect(words[0]).toEqual({
+      number: "3.1.1",
+      name: "first word",
+      definitions: [{ text: "This is first description" }],
+    });
+    expect(words[1]).toEqual({
+      number: "3.2.3",
+      name: "second word",
+      definitions: [{ text: "This is second description" }],
+    });
+  });
+
+  test("handles mixed number formats (3.x and 3.x.y) correctly", () => {
+    const input = `3.1
+first word
+1. First description
+3.2.1
+second word
+1. Second description
+3.3
+third word
+1. Third description`;
+
+    const words = extractWordsAndContent(input);
+    expect(words).toHaveLength(3);
+    expect(words[0]).toEqual({
+      number: "3.1",
+      name: "first word",
+      definitions: [{ text: "First description" }],
+    });
+    expect(words[1]).toEqual({
+      number: "3.2.1",
+      name: "second word",
+      definitions: [{ text: "Second description" }],
+    });
+    expect(words[2]).toEqual({
+      number: "3.3",
+      name: "third word",
+      definitions: [{ text: "Third description" }],
+    });
+  });
 });

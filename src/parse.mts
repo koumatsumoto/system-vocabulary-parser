@@ -209,8 +209,8 @@ export function extractWordsAndContent(text: string): Word[] {
   let currentWord: string | null = null;
   let currentContentLines: string[] = [];
 
-  // Regex pattern for word numbers (e.g., "3.1", "3.2", etc.)
-  const wordNumberPattern = /^3\.\d+$/;
+  // Regex pattern for word numbers (e.g., "3.1", "3.2", "3.1.1", "3.2.3", etc.)
+  const wordNumberPattern = /^3\.\d+(\.\d+)?$/;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]!;

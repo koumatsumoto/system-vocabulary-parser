@@ -8654,6 +8654,7 @@ non-volatile random access memory
 1. larger and faster programmable ROM which allows data to be electrically erased from memory and rewritten
 many times
 cf. EEPROM
+3.1617.1
 flexibility
 1. ease with which a system or component can be modified for use in applications or environments other than those
 for which it was specifically designed 2. degree to which a product or system can be used with effectiveness,
