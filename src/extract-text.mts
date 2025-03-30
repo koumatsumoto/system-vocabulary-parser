@@ -1,10 +1,6 @@
 import type { Word } from "./parse.mjs";
 import fs from "fs/promises";
 
-interface ExtractedText {
-  texts: string[];
-}
-
 async function extractTextsForTranslation(): Promise<void> {
   try {
     // Read the input file
@@ -34,12 +30,11 @@ async function extractTextsForTranslation(): Promise<void> {
     // Convert to array and sort alphabetically
     const extractedTexts = Array.from(textSet).sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
 
-    // Save extracted texts to output file
-    const output: ExtractedText = {
-      texts: extractedTexts,
-    };
+    // Create CSV content with header
+    const csvContent = ['text_en', ...extractedTexts].join('\n');
 
-    await fs.writeFile("data/output-extract-text.json", JSON.stringify(output, null, 2), "utf-8");
+    // Save extracted texts to CSV file
+    await fs.writeFile("data/text_en.csv", csvContent, "utf-8");
 
     console.log(`Extracted ${extractedTexts.length} texts for translation`);
   } catch (error) {
@@ -50,7 +45,6 @@ async function extractTextsForTranslation(): Promise<void> {
 
 // Export for testing purposes
 export { extractTextsForTranslation };
-export type { ExtractedText };
 
 // Execute main function if this file is run directly
 if (import.meta.url === `file://${process.argv[1]}`) {

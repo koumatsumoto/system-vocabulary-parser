@@ -42,13 +42,18 @@ describe("extract-text", () => {
     expect(mockReadFile).toHaveBeenCalledWith("data/output.json", "utf-8");
 
     // Verify file write
-    expect(mockWriteFile).toHaveBeenCalledWith("data/output-extract-text.json", expect.any(String), "utf-8");
+    expect(mockWriteFile).toHaveBeenCalledWith("data/text_en.csv", expect.any(String), "utf-8");
 
     // Verify written content
-    const writtenContent = JSON.parse(mockWriteFile.mock.calls[0]![1] as string);
-    expect(writtenContent).toEqual({
-      texts: ["Another definition", "Definition 1", "Definition 2", "Example text", "Note text"],
-    });
+    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split('\n');
+    expect(writtenContent[0]).toBe("text_en");
+    expect(writtenContent.slice(1)).toEqual([
+      "Another definition",
+      "Definition 1",
+      "Definition 2",
+      "Example text",
+      "Note text"
+    ]);
   });
 
   it("should handle file read errors", async () => {
@@ -91,10 +96,14 @@ describe("extract-text", () => {
 
     await extractTextsForTranslation();
 
-    const writtenContent = JSON.parse(mockWriteFile.mock.calls[0]![1] as string);
-    expect(writtenContent).toEqual({
-      texts: ["Another definition", "Common definition", "Test note", "Unique definition"],
-    });
+    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split('\n');
+    expect(writtenContent[0]).toBe("text_en");
+    expect(writtenContent.slice(1)).toEqual([
+      "Another definition",
+      "Common definition",
+      "Test note",
+      "Unique definition"
+    ]);
   });
 
   it("should handle empty input", async () => {
@@ -104,10 +113,8 @@ describe("extract-text", () => {
 
     await extractTextsForTranslation();
 
-    // Verify empty array output
-    const writtenContent = JSON.parse(mockWriteFile.mock.calls[0]![1] as string);
-    expect(writtenContent).toEqual({
-      texts: [],
-    });
+    // Verify empty array output with header
+    const writtenContent = (mockWriteFile.mock.calls[0]![1] as string).split('\n');
+    expect(writtenContent).toEqual(["text_en"]);
   });
 });
