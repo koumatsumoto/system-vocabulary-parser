@@ -45,7 +45,7 @@ Open Distributed Processing — Reference Model: Foundations, 10.1]
 technology — Open Distributed Processing — Reference Model: Architecture, 8.1.11]
 Note 1 to entry: An <x> interceptor performs checks to enforce or monitor policies on permitted interactions between basic
 engineering objects in different domains; performs transformations to mask differences in interpretation of data by basic
-engineering objects in different domains. An inter-subnetwork relay is an example of an intercepto
+engineering objects in different domains. An inter-subnetwork relay is an example of an interceptor
 3.12
 <x> pattern
 1. abstract specification of a composition of objects that results in any instance of the composition having a given
@@ -64,7 +64,7 @@ A-profile
 model: Overview]
 3.15
 ABC
-1. activity-based costin
+1. activity-based costing
 3.16
 abend
 1. abnormal end
@@ -322,7 +322,7 @@ some activation of the function [IEEE 1320.1-1998 (R2004) IEEE Standard for Func
 and Semantics for IDEF0, 2.1.4]
 3.61
 active area
-1. (on-screen documentation) area that responds to user inpu
+1. (on-screen documentation) area that responds to user input
 EXAMPLE: a window, icon or text field
 3.62
 active enterprise object
@@ -763,7 +763,7 @@ express algorithms
 EXAMPLE: systems engineer, business analyst
 3.144
 analytic hierarchy process (AHP)
-1. use of matrixes to manage pair-wise relationships in decision-maki
+1. use of matrixes to manage pair-wise relationships in decision-making
 cf. additive weighting, nondimensional scaling, compensatory decision technique
 3.145
 analytical techniques
@@ -1089,7 +1089,7 @@ software assurance — Part 1: Concepts and vocabulary, 3.5.2]
 Note 1 to entry: The approval authority can include multiple entities, e.g. individuals or organizations. These can include different
 entitles with different levels of approval and/or different areas of interest. In two-party situations, approval authority often rests
 with the acquirer. In regulatory situations, the approval authority can be a third party such as a governmental organization or
-its agent. In other situations, e.g. the purchase of off-the-shelf products developed by a single-party, the independence of t
+its agent. In other situations, e.g. the purchase of off-the-shelf products developed by a single-party, the independence of the
 approval authority can be a relevant issue to the acquirer.
 3.204
 approved change request
@@ -1193,7 +1193,7 @@ architecture-driven modernization (ADM)
 1. process of understanding and evolving existing software assets of a system of interest [ISO/IEC 19506:2012
 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge
 Discovery Meta-Model (KDM), 4]
-Note 1 to entry: ADM does not preclude source-to-source migrations (where appropriate), but encourages user organizations t
+Note 1 to entry: ADM does not preclude source-to-source migrations (where appropriate), but encourages user organizations to
 consider modernization from an analysis and design perspective.
 3.222
 archival page
@@ -1272,7 +1272,7 @@ ASIC
 3.236
 ask
 1. combination of a specific activity; a demanded execution time, defined by a specific timeliness function; a specific
-task mode [ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computerbased software systems, 4.19]
+task mode [ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computer-based software systems, 4.19]
 3.237
 ASO
 1. Application Service Object [ISO/IEC 10746-1:1998 Information technology — Open Distributed Processing —
@@ -1470,7 +1470,7 @@ association management facility
 interactions, 3.3.3]
 3.272
 associative class
-1. class introduced to resolve a many-to-many relationship [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptua
+1. class introduced to resolve a many-to-many relationship [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual
 Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.7]
 3.273
 associative entity
@@ -1479,7 +1479,7 @@ CDIF framework — Part 1: Overview, 4.2]
 Note 1 to entry: An associative entity is used when a relationship does not otherwise provide sufficient mechanisms.
 3.274
 associative entity type
-1. entity type that contains attributes which further describe a many-to-many relationship between two other entit
+1. entity type that contains attributes which further describe a many-to-many relationship between two other entity
 types [ISO/IEC 20926:2009 Software and systems engineering — Software measurement — IFPUG functional size
 measurement method 2009, 3.6]
 cf. entity type
@@ -1510,7 +1510,7 @@ Concepts and vocabulary, 3.1.3] 2. representation of a claim or claims, and the 
 2014 IEEE Standard for Software Quality Assurance Processes, 3.2]
 Note 1 to entry: An assurance case contains the following and their relationships: one or more claims about properties;
 arguments that logically link the evidence and any assumptions to the claim(s); a body of evidence and possibly assumptions
-supporting these arguments for the claim(s); justification of the choice of top-level claim and the method of reasonin
+supporting these arguments for the claim(s); justification of the choice of top-level claim and the method of reasoning
 3.280
 assure
 1. to promise or state with certainty by one person to another person or group [IEEE 730-2014 IEEE Standard for
@@ -1649,7 +1649,7 @@ Systems and software engineering — Systems and software Quality Requirements a
 and software quality models, 4.2.6.5]
 3.303
 authoring language
-1. high-level programming language used to develop courseware for computer-assisted instructi
+1. high-level programming language used to develop courseware for computer-assisted instruction
 cf. authoring system
 3.304
 authoring system
@@ -1787,7 +1787,7 @@ bag
 cf. list, set
 3.329
 ball grid array (BGA)
-1. surface-mounted integrated circuit package with multiple connections in a grid pattern on the bottom surfac
+1. surface-mounted integrated circuit package with multiple connections in a grid pattern on the bottom surface
 Note 1 to entry: provides more connections than on packages with connectors on the edges only
 3.330
 bar chart
@@ -1800,7 +1800,7 @@ cf. Gantt chart
 base address
 1. address used as a reference point to which a relative address is added to determine the address of the storage
 location to be accessed
-cf. indexed address, relative address, self-relative addres
+cf. indexed address, relative address, self-relative address
 3.332
 base class
 1. relationship between a template class CB of instances of B and template class CA of instances of A, where template
@@ -1934,7 +1934,7 @@ cf. conversational, interactive, online, real time
 bathtub curve
 1. graph of the number of failures in a system or component as a function of time
 Note 1 to entry: The name is derived from the usual shape of the graph: a period of decreasing failures (the early-failure period),
-followed by a relatively steady period (the constant-failure period), followed by a period of increasing failures (the wearou
+followed by a relatively steady period (the constant-failure period), followed by a period of increasing failures (the wearout
 failure period).
 3.355
 Bayes' rule
@@ -1947,7 +1947,7 @@ BCWS
 3.357
 behavior
 1. observable activity of a system, measurable in terms of quantifiable effects on the environment whether arising
-from internal or external stimulus [IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool InterconnectionsClassification and Description, 3.1] 2. peculiar reaction of a thing under given circumstances [IEEE 1175.1-2002
+from internal or external stimulus [IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections-Classification and Description, 3.1] 2. peculiar reaction of a thing under given circumstances [IEEE 1175.1-2002
 (R2007) IEEE Guide for CASE Tool Interconnections-Classification and Description, 3.1] 3. aspect of an instance's
 specification that is determined by the state-changing operations it can perform [IEEE 1320.2-1998 (R2004) IEEE
 Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.12] 4. of an object,
@@ -2020,7 +2020,7 @@ engineering — Information technology project performance benchmarking framewor
 definitions, 2.5]
 3.369
 benefit cost analysis
-1. in not-for-profit decision analysis, evaluating the desirability of an alternative on the ratio of the net benefits t
+1. in not-for-profit decision analysis, evaluating the desirability of an alternative on the ratio of the net benefits to
 the population to the net costs to the sponsor
 3.370
 BEO
@@ -2125,7 +2125,7 @@ bit steering
 immediate control
 1. microprogramming technique in which the meaning of a field in a microinstruction is dependent on the value of
 another field in the microinstruction
-cf. residual control, two-level encodin
+cf. residual control, two-level encoding
 3.390
 black box
 1. system or component whose inputs, outputs, and general function are known but whose contents or
@@ -2145,7 +2145,7 @@ system resources chart
 show the relationships of the blocks [ISO/IEC 2382:2015, Information technology — Vocabulary] 2. diagram of a
 system, computer, or device in which the principal parts are represented by suitably annotated geometrical figures
 to show both the functions of the parts and their functional relationships
-cf. box diagram, bubble chart, flowchart, graph, input-process-output chart, structure cha
+cf. box diagram, bubble chart, flowchart, graph, input-process-output chart, structure chart
 3.393
 block-structured language
 1. design or programming language in which sequences of statements, called blocks, are defined, usually with begin
@@ -2330,7 +2330,7 @@ processes — Requirements engineering, 4.2]
 bubble chart
 1. data flow, data structure, or other diagram in which entities are depicted with circles (bubbles) and
 relationships are represented by links drawn between the circles
-cf. block diagram, box diagram, flowchart, graph, input-process-output chart, structure cha
+cf. block diagram, box diagram, flowchart, graph, input-process-output chart, structure chart
 3.428
 budget
 1. the approved estimate for the project or any work breakdown structure component or any schedule activity [A
@@ -3128,7 +3128,7 @@ the values of an unambiguously defined property — called the claim's property 
 of the property's values falling within these limitations during the claim's duration of applicability under stated
 conditions [ISO/IEC 15026-1:2013 Systems and software engineering — Systems and software assurance — Part 1:
 Concepts and vocabulary, 3.1.2] 3. proposition representing a requirement of the system-of-interest that enables th
-system-of-interest to achieve tolerable risk if it were met [ISO/IEC 15026-3:2015 Systems and software engineerin
+system-of-interest to achieve tolerable risk if it were met [ISO/IEC 15026-3:2015 Systems and software engineering
 — Systems and software assurance — Part 3: System integrity levels, 3.2]
 Note 1 to entry: Claims usually relate to specified versions of a product. The statement of a claim does not mean that the only
 possible intent or desire is to show it is true. Sometimes claims are made for the purpose of evaluating whether they are true or
@@ -3533,7 +3533,7 @@ common coupling
 cf. content coupling, control coupling, data coupling, hybrid coupling, pathological coupling
 3.655
 commonality
-1. set of functional and non-functional characteristics that is shared by all applications belonging to the product lin
+1. set of functional and non-functional characteristics that is shared by all applications belonging to the product line
 [ISO/IEC 26550:2015 Software and systems engineering — Reference model for product line engineering and
 management, 3.9]
 3.656
@@ -3759,7 +3759,7 @@ encapsulates its own template, so that the template can be interrogated by inter
 specific, named collection of features that can be described by an IDL component definition or a corresponding
 structure in an interface repository [ISO/IEC 19500-3:2012 Information technology — Object Management Group —
 Common Architecture Request Broker Architecture (CORBA) — Part 3: Components, 4.1] 5. functionally or logically
-distinct part of a system [ISO/IEC 19506:2012 Information technology — Object Management Group ArchitectureDriven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4]
+distinct part of a system [ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4]
 cf. element, unit
 Note 1 to entry: A component can be hardware or software and can be subdivided into other components. Component refers to
 a part of a whole, such as a component of a software product or a component of a software identification tag. The terms module,
@@ -4032,7 +4032,7 @@ the latter case, the concept of operations in the plan covers a series of connec
 in succession. The concept is designed to give an overall picture of the organization operations.
 3.748
 concept of operations (ConOps) document
-1. user-oriented document that describes a system's operational characteristics from the end user's viewpoin
+1. user-oriented document that describes a system's operational characteristics from the end user's viewpoint
 cf. operational concept description (OCD)
 3.749
 concept phase
@@ -4453,7 +4453,7 @@ Engineering - Lifecycle Processes - Framework for Product Quality Achievement, 3
 content coupling
 1. type of coupling in which some or all of the contents of one software module are included in the contents of
 another module
-cf. common-environment coupling, control coupling, data coupling, hybrid coupling, pathological couplin
+cf. common-environment coupling, control coupling, data coupling, hybrid coupling, pathological coupling
 3.817
 content management
 1. control of units of information with their metadata, to allow selective reuse in documents or information items
@@ -4658,7 +4658,7 @@ baseline [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) �
 control coupling
 1. type of coupling in which one software module communicates information to another module for the explicit
 purpose of influencing the latter module's execution
-cf. common-environment coupling, content coupling, data coupling, hybrid coupling, pathological couplin
+cf. common-environment coupling, content coupling, data coupling, hybrid coupling, pathological coupling
 3.854
 control data
 1. data that select an operating mode, direct the sequential flow of a program, or otherwise directly influence the
@@ -5336,9 +5336,9 @@ data communication
 coordination of the exchange [ISO/IEC 2382:2015, Information technology — Vocabulary]
 3.994
 data coupling
-input-output couplin
+input-output coupling
 1. type of coupling in which output from one software module serves as input to another module
-cf. common-environment coupling, content coupling, control coupling, hybrid coupling, pathological couplin
+cf. common-environment coupling, content coupling, control coupling, hybrid coupling, pathological coupling
 3.995
 data date
 as-of dat
@@ -6070,7 +6070,7 @@ design concept
 EXAMPLE: information hiding
 3.1131
 design concern
-1. area of interest with respect to a software design [IEEE 1016-2009 IEEE standard for Information TechnologySystems Design-Software Design Descriptions, 3.2]
+1. area of interest with respect to a software design [IEEE 1016-2009 IEEE standard for Information Technology-Systems Design-Software Design Descriptions, 3.2]
 3.1132
 design constraint
 1. element of a design view that names and specifies a rule or restriction on a design entity, design attribute, or
@@ -6165,7 +6165,7 @@ Note 1 to entry: Types include critical design review, preliminary design review
 3.1148
 design stakeholder
 1. individual, organization, or group (or classes thereof playing the same role) having an interest in, or design
-concerns relative to, the design of some software item [IEEE 1016-2009 IEEE standard for Information TechnologySystems Design-Software Design Descriptions, 3.9]
+concerns relative to, the design of some software item [IEEE 1016-2009 IEEE standard for Information Technology-Systems Design-Software Design Descriptions, 3.9]
 cf. design concern
 3.1149
 design standard
@@ -7334,7 +7334,7 @@ enabling (a transition)
 1. transition is enabled in a particular mode and net marking, when the following conditions are met: (1) the
 marking of each input place of the transition satisfies the demand imposed on it by its arc annotation evaluated for
 the particular transition mode; (2) the demand is satisfied when the place's marking contains (at least) the multiset
-of tokens indicated by the evaluated arc annotation [ISO/IEC 15909-1:2004 Software and system engineering — Highlevel Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.9]
+of tokens indicated by the evaluated arc annotation [ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.9]
 Note 1 to entry: The determination of transition modes guarantees that the transition condition is satisfied.
 3.1381
 enabling system
@@ -7378,7 +7378,7 @@ end item
 1. entity that is ready for use
 3.1388
 end of period convention
-1. representation of discrete cash-flow instances at the end of the period in which they occur (in contrast to showin
+1. representation of discrete cash-flow instances at the end of the period in which they occur (in contrast to showing
 them at the beginning)
 Note 1 to entry: The initial investment is shown at the end of period zero.
 3.1389
@@ -8699,7 +8699,7 @@ annotated geometrical figures are used to represent operations, data, or equipme
 the sequential flow from one to another 4. the depiction in a diagram format of the inputs, process actions, and
 outputs of one or more processes within a system [A Guide to the Project Management Body of Knowledge (PMBOK®
 Guide) — Fifth Edition]
-cf. block diagram, box diagram, bubble chart, graph, input-process-output chart, structure cha
+cf. block diagram, box diagram, bubble chart, graph, input-process-output chart, structure chart
 3.1622
 flowcharter
 1. software tool that accepts as input a design or code representation of a program and produces as output a
@@ -9666,7 +9666,7 @@ high-level net
 1. algebraic structure comprising a set of places; a set of transitions; a set of types; a function associating a type to
 each place, and a set of modes (a type) to each transition; pre-function imposing token demands (multisets of
 tokens) on places for each transition mode; post function determining output tokens (multisets of tokens) for places
-for each transition mode; and an initial marking [ISO/IEC 15909-1:2004 Software and system engineering — Highlevel Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.11]
+for each transition mode; and an initial marking [ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.11]
 3.1808
 high-level Petri Net graph
 1. net graph and its associated annotations comprising place types, arc annotations and transition conditions, and
@@ -9834,7 +9834,7 @@ Note 1 to entry: A hybrid computer can use or produce analog data and discrete d
 hybrid coupling
 1. type of coupling in which different subsets of the range of values that a data item can assume are used for
 different and unrelated purposes in different software modules
-cf. common-environment coupling, content coupling, control coupling, data coupling, pathological couplin
+cf. common-environment coupling, content coupling, control coupling, data coupling, pathological coupling
 3.1840
 I/O
 1. input/output
@@ -9848,7 +9848,7 @@ IIC
 1. inter-integrated circuit bu
 3.1843
 IAP
-1. in-application programmin
+1. in-application programming
 3.1844
 IBa
 1. issue benchmarks activity [ISO/IEC 29155-2:2013: Systems and software engineering — Information technology
@@ -9989,7 +9989,7 @@ IETF
 1. Internet Engineering Task Force
 3.1873
 if-then-else
-1. single-entry, single-exit two-way branch that defines a condition, specifies the processing to be performed if t
+1. single-entry, single-exit two-way branch that defines a condition, specifies the processing to be performed if the
 condition is met and, optionally, if it is not, and returns control in both instances to the statement immediately
 following the overall construct
 cf. case, jump, go to, dyadic selective construct, monadic selective construct
@@ -10104,7 +10104,7 @@ cf. developer
 3.1895
 implied addressing
 1. method of addressing in which the operation field of a computer instruction implies the address of the operands
-cf. direct address, indirect address, one-ahead addressing, relative address, repetitive addressin
+cf. direct address, indirect address, one-ahead addressing, relative address, repetitive addressing
 EXAMPLE: If a computer has only one accumulator, an instruction that refers to the accumulator needs no address
 information describing it.
 3.1896
@@ -10143,7 +10143,7 @@ Programs, 3.2]
 3.1903
 in-application programming (IAP)
 1. capability of a microcontroller unit to fetch new program code and reprogram itself while the system is operating
-cf. in-system programmin
+cf. in-system programming
 3.1904
 in-circuit emulator (ICE)
 1. hardware device used to debug the software of an embedded system
@@ -10151,7 +10151,7 @@ in-circuit emulator (ICE)
 in-system programming (ISP)
 1. capability of a microcontroller unit to allow the user to download new code (reprogram the unit), activated by
 restarting the unit
-cf. in-application programmin
+cf. in-application programming
 incentive fee
 1. a set of financial incentives related to cost, schedule, or technical performance of the seller [A Guide to the Project
 Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
@@ -10626,7 +10626,7 @@ input loopback
 (R2004) IEEE Standard for Functional Modeling Language - Syntax and Semantics for IDEF0, 2.1.64]
 3.1995
 input place (of a transition)
-1. place connected to the transition by an input arc [ISO/IEC 15909-1:2004 Software and system engineering — Highlevel Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.20.1]
+1. place connected to the transition by an input arc [ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.20.1]
 3.1996
 input primitive
 1. effort to develop software products, expressed in units of staff-hour
@@ -10946,7 +10946,7 @@ interchange reference point
 3.2054
 interconnection
 1. association between a computing system tool and something in the environment that affects both endpoints,
-though not necessarily in the same way [IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool InterconnectionsClassification and Description, 3.7]
+though not necessarily in the same way [IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections-Classification and Description, 3.7]
 3.2055
 interconnection feature
 1. property by which members of an interconnection perspective are characterized [IEEE 1175.2-2006 IEEE
@@ -11324,7 +11324,7 @@ IP
 of websites for systems, software, and services information, 5]
 3.2122
 IPO chart
-1. input-process-output cha
+1. input-process-output chart
 3.2123
 IPR
 1. intellectual property rights [ISO/IEC/IEEE 23026:2015 Systems and software engineering — Engineering and
@@ -11365,7 +11365,7 @@ equally-sized, adjacent intervals in time [ISO/IEC 10746-2:2009 Information tech
 Processing — Reference Model: Foundations, 11.3.2]
 3.2133
 ISP
-1. in-system programmin
+1. in-system programming
 3.2134
 ISR
 1. interrupt service routine
@@ -11955,7 +11955,7 @@ cf. internationalization
 Note 1 to entry: Localization can be carried out separately from the translation process.
 3.2252
 location facility
-1. set of service primitives that allow a client-side binder object to ask a server-side if it will accept requests carryin
+1. set of service primitives that allow a client-side binder object to ask a server-side if it will accept requests carrying
 invocations to a particular (computational) server object [ISO/IEC 14752:2000 Information technology — Open
 Distributed Processing — Protocol support for computational interactions, 3.3.9]
 Note 1 to entry: The server-side can confirm or reject the proposal or suggest an alternative server-side that is capable o
@@ -12857,13 +12857,13 @@ containing detailed definitions of the meta-entities, meta-relationships and met
 in the model section of a CDIF transfer [ISO/IEC 15474-1:2002 Information technology — CDIF framework — Part 1:
 Overview, 4.2] 4. specification of the concepts, relationships and rules that are used to define a methodology [ISO/IEC
 24744:2014 Software Engineering — Metamodel for development methodologies, 3.4] 5. model defining the concepts
-and their relations for some modeling notation [ISO/IEC 15909-2:2011 Software and system engineering — Highlevel Petri nets — Part 2: Transfer format, 4.1.6] 6. special kind of model that specifies the abstract syntax of a
+and their relations for some modeling notation [ISO/IEC 15909-2:2011 Software and system engineering — High-level Petri nets — Part 2: Transfer format, 4.1.6] 6. special kind of model that specifies the abstract syntax of a
 modeling language [ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven
 Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4]
 3.2434
 metamodel element
 1. element of a meta-model from which model elements are instantiated [ISO/IEC 19506:2012 Information
-technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery MetaModel (KDM), 4]
+technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4]
 3.2435
 method
 1. implementation of an operation [ISO/IEC 19500-2:2012 Information technology — Object Management Group —
@@ -13416,7 +13416,7 @@ multiple readers and writers
 mutually exclusive access to update the repository
 3.2546
 multiple-criteria decision making (MCDM)
-multi-attribute decision makin
+multi-attribute decision making
 1. making preference decisions (e.g., evaluation, prioritization, and selection) of available alternatives characterized
 by multiple criteria [ISO/IEC 33003:2015 Information technology — Process assessment — Requirements for process
 measurement frameworks, 3.9]
@@ -14139,7 +14139,7 @@ Note 1 to entry: can be context-sensitiv
 3.2691
 ontology
 1. logical structure of the terms used to describe a domain of knowledge, including both the definitions of the
-applicable terms and their relationships [IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool InterconnectionsClassification and Description, 3.9]
+applicable terms and their relationships [IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections-Classification and Description, 3.9]
 3.2692
 OOD
 1. object-oriented design
@@ -14913,7 +14913,7 @@ cf. branch testing, statement testing
 3.2840
 pathological coupling
 1. type of coupling in which one software module affects or depends upon the internal implementation of another
-cf. common-environment coupling, content coupling, control coupling, data coupling, hybrid couplin
+cf. common-environment coupling, content coupling, control coupling, data coupling, hybrid coupling
 3.2841
 pause
 1. to suspend the execution of a computer program
@@ -17815,7 +17815,7 @@ over a short period of time. Repeatability is expressed quantitatively in terms 
 repetitive addressing
 1. method of implied addressing in which the operation field of a computer instruction is understood to address
 the operands of the last instruction executed
-cf. one-ahead addressin
+cf. one-ahead addressing
 3.3405
 replaceability
 1. degree to which a product can replace another specified software product for the same purpose in the same
@@ -18148,7 +18148,7 @@ cf. clear, initialize
 residual control
 1. microprogramming technique in which the meaning of a field in a microinstruction depends on the value in an
 auxiliary register
-cf. bit steering, two-level encodin
+cf. bit steering, two-level encoding
 3.3460
 residual risk
 1. a risk that remains after risk responses have been implemented [A Guide to the Project Management Body of
@@ -19195,7 +19195,7 @@ take place between those domains [ISO/IEC 10746-3:2009 Information technology �
 Reference Model: Architecture, 15.1.4]
 3.3659
 security kernel
-1. small, self-contained collection of key security-related statements that works as a privileged part of an operatin
+1. small, self-contained collection of key security-related statements that works as a privileged part of an operating
 system, specifying and enforcing criteria that must be met for programs and data to be accessed
 3.3660
 security policy
@@ -19672,7 +19672,7 @@ processing — Specification of single-hit decision tables, 3.2]
 single-level encoding
 1. microprogramming technique in which different microoperations are encoded as different values in the same
 field of a microinstruction
-cf. two-level encodin
+cf. two-level encoding
 3.3756
 single-step operation
 single-step executio
@@ -19813,7 +19813,7 @@ available for use.
 3.3785
 software artifact
 1. tangible machine-readable document created during software development [ISO/IEC 19506:2012 Information
-technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery MetaModel (KDM), 4]
+technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4]
 3.3786
 software asset
 1. description of a partial solution (such as a component or design document) or knowledge (such as requirements
@@ -20274,7 +20274,7 @@ performing initial software development to the organization performing software 
 Software Engineering - Software Life Cycle Processes - Maintenance, 3.10]
 3.3864
 software unit
-1. atomic-level software component of the software architecture that can be subjected to standalone testin
+1. atomic-level software component of the software architecture that can be subjected to standalone testing
 [ISO/IEC TS 24748-1:2016 Systems and software engineering — Life cycle management — Part 1: Guide for life cycle
 management, 2.49] 2. separately compilable piece of code [ISO/IEC 12207:2008 Systems and software engineering
 — Software life cycle processes, 4.43]
@@ -20314,7 +20314,7 @@ Note 1 to entry: An element can contain sub elements or other software/system el
 element.
 3.3871
 SOI
-1. system-of-interest [ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.2
+1. system-of-interest [ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.2]
 3.3872
 SOIC
 1. small outline integrated circuit
@@ -20450,8 +20450,8 @@ specification tree
 1. diagram that depicts the specifications for a given system and shows their relationships to one another.
 3.3900
 specification-based testing
-black-box testin
-closed-box testin
+black-box testing
+closed-box testing
 1. testing in which the principal test basis is the external inputs and outputs of the test item, commonly based on a
 specification, rather than its implementation in source code or executable software [ISO/IEC/IEEE 29119-1:2013
 Software and systems engineering — Software testing — Part 1: Concepts and definitions, 4.39]
@@ -21001,10 +21001,10 @@ StRS
 processes — Requirements engineering, 4.2]
 3.4009
 structural testing
-glass-box testin
-white-box testin
+glass-box testing
+white-box testing
 1. testing that takes into account the internal mechanism of a system or component
-cf. functional testing (1), structure-based testin
+cf. functional testing (1), structure-based testing
 Note 1 to entry: Types include branch testing, path testing, statement testing.
 3.4010
 structure chart
@@ -21679,7 +21679,7 @@ stakeholder needs, expectations, and constraints into a solution, and to support
 [ISO/IEC 15940:2013 Systems and software engineering — Software Engineering Environment Services, 2.6; ISO/IEC
 TS 24748-1:2016 Systems and software engineering — Life cycle management — Part 1: Guide for life cycle
 management, 2.56; ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.1.49]
-Note 1 to entry: System engineering is used when there is a single system-of-interest; systems engineering is for the disciplin
+Note 1 to entry: System engineering is used when there is a single system-of-interest; systems engineering is for the discipline
 in general. It includes the definition of technical performance measures; the integration of engineering specialties toward the
 establishment of an architecture; and the definition of supporting lifecycle processes that balance cost, performance, and
 schedule objectives.
@@ -21856,7 +21856,7 @@ task inversion
 task mode
 1. indication of whether the user's preparation time begins immediately with the task submission of the preceding
 task (value = 0, i.e., "NO WAIT") or begins when the preceding task has been completed (task completion) (value =
-1, i.e., "WAIT")[ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computerbased software systems, 4.21]
+1, i.e., "WAIT")[ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computer-based software systems, 4.21]
 Note 1 to entry: mode of "Dialog" or "Batch" in UNIX-based systems
 3.4161
 task priority criteria
@@ -23118,7 +23118,7 @@ two-level encoding
 1. microprogramming technique in which different microoperations can be encoded identically into the same field
 of a microinstruction, and the one that is executed depends upon the value in another field internal or external to
 the microinstruction.
-cf. bit steering, residual control, single-level encodin
+cf. bit steering, residual control, single-level encoding
 3.4402
 two-phase acquisition
 1. segmenting a project into an early phase that focuses on gathering requirements, addressing major risks, and
@@ -23314,7 +23314,7 @@ cf. closed loop, WHILE, trailing decision
 3.4439
 unwind
 1. in programming, to state explicitly and in full all of the instructions involved in multiple executions of a loop
-cf. straight-line codin
+cf. straight-line coding
 3.4440
 UOD
 1. Universe of Discourse [ISO/IEC 19793:2015 Information technology — Open Distributed Processing — Use of UML

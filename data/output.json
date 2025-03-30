@@ -113,7 +113,7 @@
         "reference": "ISO/IEC 10746-3:2009 Information technology — Open Distributed Processing — Reference Model: Architecture, 8.1.11"
       }
     ],
-    "note": "An <x> interceptor performs checks to enforce or monitor policies on permitted interactions between basic engineering objects in different domains; performs transformations to mask differences in interpretation of data by basic engineering objects in different domains. An inter-subnetwork relay is an example of an intercepto"
+    "note": "An <x> interceptor performs checks to enforce or monitor policies on permitted interactions between basic engineering objects in different domains; performs transformations to mask differences in interpretation of data by basic engineering objects in different domains. An inter-subnetwork relay is an example of an interceptor"
   },
   {
     "number": "3.12",
@@ -150,7 +150,7 @@
     "name": "ABC",
     "definitions": [
       {
-        "text": "activity-based costin"
+        "text": "activity-based costing"
       }
     ]
   },
@@ -718,7 +718,7 @@
     "name": "active area",
     "definitions": [
       {
-        "text": "(on-screen documentation) area that responds to user inpu"
+        "text": "(on-screen documentation) area that responds to user input"
       }
     ],
     "example": "a window, icon or text field"
@@ -1686,7 +1686,7 @@
     "name": "analytic hierarchy process (AHP)",
     "definitions": [
       {
-        "text": "use of matrixes to manage pair-wise relationships in decision-maki"
+        "text": "use of matrixes to manage pair-wise relationships in decision-making"
       }
     ],
     "confer": [
@@ -2362,7 +2362,7 @@
         "reference": "ISO/IEC 15026-1:2013 Systems and software engineering — Systems and software assurance — Part 1: Concepts and vocabulary, 3.5.2"
       }
     ],
-    "note": "The approval authority can include multiple entities, e.g. individuals or organizations. These can include different entitles with different levels of approval and/or different areas of interest. In two-party situations, approval authority often rests with the acquirer. In regulatory situations, the approval authority can be a third party such as a governmental organization or its agent. In other situations, e.g. the purchase of off-the-shelf products developed by a single-party, the independence of t approval authority can be a relevant issue to the acquirer."
+    "note": "The approval authority can include multiple entities, e.g. individuals or organizations. These can include different entitles with different levels of approval and/or different areas of interest. In two-party situations, approval authority often rests with the acquirer. In regulatory situations, the approval authority can be a third party such as a governmental organization or its agent. In other situations, e.g. the purchase of off-the-shelf products developed by a single-party, the independence of the approval authority can be a relevant issue to the acquirer."
   },
   {
     "number": "3.204",
@@ -2571,7 +2571,7 @@
         "reference": "ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4"
       }
     ],
-    "note": "ADM does not preclude source-to-source migrations (where appropriate), but encourages user organizations t consider modernization from an analysis and design perspective."
+    "note": "ADM does not preclude source-to-source migrations (where appropriate), but encourages user organizations to consider modernization from an analysis and design perspective."
   },
   {
     "number": "3.222",
@@ -2745,7 +2745,7 @@
     "definitions": [
       {
         "text": "combination of a specific activity; a demanded execution time, defined by a specific timeliness function; a specific task mode",
-        "reference": "ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computer\u0002based software systems, 4.19"
+        "reference": "ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computer-based software systems, 4.19"
       }
     ]
   },
@@ -3176,7 +3176,7 @@
     "definitions": [
       {
         "text": "class introduced to resolve a many-to-many relationship",
-        "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptua Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.7"
+        "reference": "IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.7"
       }
     ]
   },
@@ -3196,7 +3196,7 @@
     "name": "associative entity type",
     "definitions": [
       {
-        "text": "entity type that contains attributes which further describe a many-to-many relationship between two other entit types",
+        "text": "entity type that contains attributes which further describe a many-to-many relationship between two other entity types",
         "reference": "ISO/IEC 20926:2009 Software and systems engineering — Software measurement — IFPUG functional size measurement method 2009, 3.6"
       }
     ],
@@ -3258,7 +3258,7 @@
         "reference": "IEEE 730- 2014 IEEE Standard for Software Quality Assurance Processes, 3.2"
       }
     ],
-    "note": "An assurance case contains the following and their relationships: one or more claims about properties; arguments that logically link the evidence and any assumptions to the claim(s); a body of evidence and possibly assumptions supporting these arguments for the claim(s); justification of the choice of top-level claim and the method of reasonin"
+    "note": "An assurance case contains the following and their relationships: one or more claims about properties; arguments that logically link the evidence and any assumptions to the claim(s); a body of evidence and possibly assumptions supporting these arguments for the claim(s); justification of the choice of top-level claim and the method of reasoning"
   },
   {
     "number": "3.280",
@@ -3558,7 +3558,7 @@
     "name": "authoring language",
     "definitions": [
       {
-        "text": "high-level programming language used to develop courseware for computer-assisted instructi"
+        "text": "high-level programming language used to develop courseware for computer-assisted instruction"
       }
     ],
     "confer": [
@@ -3868,7 +3868,7 @@
     "name": "ball grid array (BGA)",
     "definitions": [
       {
-        "text": "surface-mounted integrated circuit package with multiple connections in a grid pattern on the bottom surfac"
+        "text": "surface-mounted integrated circuit package with multiple connections in a grid pattern on the bottom surface"
       }
     ],
     "note": "provides more connections than on packages with connectors on the edges only"
@@ -3897,7 +3897,7 @@
     "confer": [
       "indexed address",
       "relative address",
-      "self-relative addres"
+      "self-relative address"
     ]
   },
   {
@@ -4174,7 +4174,7 @@
         "text": "graph of the number of failures in a system or component as a function of time"
       }
     ],
-    "note": "The name is derived from the usual shape of the graph: a period of decreasing failures (the early-failure period), followed by a relatively steady period (the constant-failure period), followed by a period of increasing failures (the wearou failure period)."
+    "note": "The name is derived from the usual shape of the graph: a period of decreasing failures (the early-failure period), followed by a relatively steady period (the constant-failure period), followed by a period of increasing failures (the wearout failure period)."
   },
   {
     "number": "3.355",
@@ -4203,7 +4203,7 @@
     "definitions": [
       {
         "text": "observable activity of a system, measurable in terms of quantifiable effects on the environment whether arising from internal or external stimulus",
-        "reference": "IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections\u0002Classification and Description, 3.1"
+        "reference": "IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections-Classification and Description, 3.1"
       },
       {
         "text": "peculiar reaction of a thing under given circumstances",
@@ -4351,7 +4351,7 @@
     "name": "benefit cost analysis",
     "definitions": [
       {
-        "text": "in not-for-profit decision analysis, evaluating the desirability of an alternative on the ratio of the net benefits t the population to the net costs to the sponsor"
+        "text": "in not-for-profit decision analysis, evaluating the desirability of an alternative on the ratio of the net benefits to the population to the net costs to the sponsor"
       }
     ]
   },
@@ -4586,7 +4586,7 @@
     ],
     "confer": [
       "residual control",
-      "two-level encodin"
+      "two-level encoding"
     ]
   },
   {
@@ -4642,7 +4642,7 @@
       "flowchart",
       "graph",
       "input-process-output chart",
-      "structure cha"
+      "structure chart"
     ]
   },
   {
@@ -5068,7 +5068,7 @@
       "flowchart",
       "graph",
       "input-process-output chart",
-      "structure cha"
+      "structure chart"
     ]
   },
   {
@@ -6816,7 +6816,7 @@
       },
       {
         "text": "proposition representing a requirement of the system-of-interest that enables th system-of-interest to achieve tolerable risk if it were met",
-        "reference": "ISO/IEC 15026-3:2015 Systems and software engineerin — Systems and software assurance — Part 3: System integrity levels, 3.2"
+        "reference": "ISO/IEC 15026-3:2015 Systems and software engineering — Systems and software assurance — Part 3: System integrity levels, 3.2"
       }
     ],
     "note": "Claims usually relate to specified versions of a product. The statement of a claim does not mean that the only possible intent or desire is to show it is true. Sometimes claims are made for the purpose of evaluating whether they are true or false or undertaking an effort to establish what is true. In its entirety, a claim is an unambiguous declaration of an assertion with any associated conditionality, giving explicit details including limitations on values and uncertainty. It could be about the future, present, or past. A safety goal is an instance of a claim."
@@ -7748,7 +7748,7 @@
     "name": "commonality",
     "definitions": [
       {
-        "text": "set of functional and non-functional characteristics that is shared by all applications belonging to the product lin",
+        "text": "set of functional and non-functional characteristics that is shared by all applications belonging to the product line",
         "reference": "ISO/IEC 26550:2015 Software and systems engineering — Reference model for product line engineering and management, 3.9"
       }
     ]
@@ -8253,7 +8253,7 @@
       },
       {
         "text": "functionally or logically distinct part of a system",
-        "reference": "ISO/IEC 19506:2012 Information technology — Object Management Group Architecture\u0002Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4"
+        "reference": "ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4"
       }
     ],
     "confer": [
@@ -8849,7 +8849,7 @@
     "name": "concept of operations (ConOps) document",
     "definitions": [
       {
-        "text": "user-oriented document that describes a system's operational characteristics from the end user's viewpoin"
+        "text": "user-oriented document that describes a system's operational characteristics from the end user's viewpoint"
       }
     ],
     "confer": [
@@ -9758,7 +9758,7 @@
       "control coupling",
       "data coupling",
       "hybrid coupling",
-      "pathological couplin"
+      "pathological coupling"
     ]
   },
   {
@@ -10162,7 +10162,7 @@
       "content coupling",
       "data coupling",
       "hybrid coupling",
-      "pathological couplin"
+      "pathological coupling"
     ]
   },
   {
@@ -11734,14 +11734,14 @@
       }
     ],
     "alias": [
-      "input-output couplin"
+      "input-output coupling"
     ],
     "confer": [
       "common-environment coupling",
       "content coupling",
       "control coupling",
       "hybrid coupling",
-      "pathological couplin"
+      "pathological coupling"
     ]
   },
   {
@@ -13369,7 +13369,7 @@
     "definitions": [
       {
         "text": "area of interest with respect to a software design",
-        "reference": "IEEE 1016-2009 IEEE standard for Information Technology\u0002Systems Design-Software Design Descriptions, 3.2"
+        "reference": "IEEE 1016-2009 IEEE standard for Information Technology-Systems Design-Software Design Descriptions, 3.2"
       }
     ]
   },
@@ -13589,7 +13589,7 @@
     "definitions": [
       {
         "text": "individual, organization, or group (or classes thereof playing the same role) having an interest in, or design concerns relative to, the design of some software item",
-        "reference": "IEEE 1016-2009 IEEE standard for Information Technology\u0002Systems Design-Software Design Descriptions, 3.9"
+        "reference": "IEEE 1016-2009 IEEE standard for Information Technology-Systems Design-Software Design Descriptions, 3.9"
       }
     ],
     "confer": [
@@ -16294,7 +16294,7 @@
     "definitions": [
       {
         "text": "transition is enabled in a particular mode and net marking, when the following conditions are met: (1) the marking of each input place of the transition satisfies the demand imposed on it by its arc annotation evaluated for the particular transition mode; (2) the demand is satisfied when the place's marking contains (at least) the multiset of tokens indicated by the evaluated arc annotation",
-        "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High\u0002level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.9"
+        "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.9"
       }
     ],
     "note": "The determination of transition modes guarantees that the transition condition is satisfied."
@@ -16389,7 +16389,7 @@
     "name": "end of period convention",
     "definitions": [
       {
-        "text": "representation of discrete cash-flow instances at the end of the period in which they occur (in contrast to showin them at the beginning)"
+        "text": "representation of discrete cash-flow instances at the end of the period in which they occur (in contrast to showing them at the beginning)"
       }
     ],
     "note": "The initial investment is shown at the end of period zero."
@@ -19208,7 +19208,7 @@
       "bubble chart",
       "graph",
       "input-process-output chart",
-      "structure cha"
+      "structure chart"
     ]
   },
   {
@@ -21407,7 +21407,7 @@
     "definitions": [
       {
         "text": "algebraic structure comprising a set of places; a set of transitions; a set of types; a function associating a type to each place, and a set of modes (a type) to each transition; pre-function imposing token demands (multisets of tokens) on places for each transition mode; post function determining output tokens (multisets of tokens) for places for each transition mode; and an initial marking",
-        "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High\u0002level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.11"
+        "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.11"
       }
     ]
   },
@@ -21786,7 +21786,7 @@
       "content coupling",
       "control coupling",
       "data coupling",
-      "pathological couplin"
+      "pathological coupling"
     ]
   },
   {
@@ -21824,7 +21824,7 @@
     "name": "IAP",
     "definitions": [
       {
-        "text": "in-application programmin"
+        "text": "in-application programming"
       }
     ]
   },
@@ -22154,7 +22154,7 @@
     "name": "if-then-else",
     "definitions": [
       {
-        "text": "single-entry, single-exit two-way branch that defines a condition, specifies the processing to be performed if t condition is met and, optionally, if it is not, and returns control in both instances to the statement immediately following the overall construct"
+        "text": "single-entry, single-exit two-way branch that defines a condition, specifies the processing to be performed if the condition is met and, optionally, if it is not, and returns control in both instances to the statement immediately following the overall construct"
       }
     ],
     "confer": [
@@ -22443,7 +22443,7 @@
       "indirect address",
       "one-ahead addressing",
       "relative address",
-      "repetitive addressin"
+      "repetitive addressing"
     ],
     "example": "If a computer has only one accumulator, an instruction that refers to the accumulator needs no address information describing it."
   },
@@ -22528,7 +22528,7 @@
       }
     ],
     "confer": [
-      "in-system programmin"
+      "in-system programming"
     ]
   },
   {
@@ -22553,7 +22553,7 @@
       }
     ],
     "confer": [
-      "in-application programmin incentive fee"
+      "in-application programming incentive fee"
     ]
   },
   {
@@ -23613,7 +23613,7 @@
     "definitions": [
       {
         "text": "place connected to the transition by an input arc",
-        "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High\u0002level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.20.1"
+        "reference": "ISO/IEC 15909-1:2004 Software and system engineering — High-level Petri nets — Part 1: Concepts, definitions and graphical notation, 2.1.20.1"
       }
     ]
   },
@@ -24310,7 +24310,7 @@
     "definitions": [
       {
         "text": "association between a computing system tool and something in the environment that affects both endpoints, though not necessarily in the same way",
-        "reference": "IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections\u0002Classification and Description, 3.7"
+        "reference": "IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections-Classification and Description, 3.7"
       }
     ]
   },
@@ -25142,7 +25142,7 @@
     "name": "IPO chart",
     "definitions": [
       {
-        "text": "input-process-output cha"
+        "text": "input-process-output chart"
       }
     ]
   },
@@ -25250,7 +25250,7 @@
     "name": "ISP",
     "definitions": [
       {
-        "text": "in-system programmin"
+        "text": "in-system programming"
       }
     ]
   },
@@ -26611,7 +26611,7 @@
     "name": "location facility",
     "definitions": [
       {
-        "text": "set of service primitives that allow a client-side binder object to ask a server-side if it will accept requests carryin invocations to a particular (computational) server object",
+        "text": "set of service primitives that allow a client-side binder object to ask a server-side if it will accept requests carrying invocations to a particular (computational) server object",
         "reference": "ISO/IEC 14752:2000 Information technology — Open Distributed Processing — Protocol support for computational interactions, 3.3.9"
       }
     ],
@@ -28745,7 +28745,7 @@
       },
       {
         "text": "model defining the concepts and their relations for some modeling notation",
-        "reference": "ISO/IEC 15909-2:2011 Software and system engineering — High\u0002level Petri nets — Part 2: Transfer format, 4.1.6"
+        "reference": "ISO/IEC 15909-2:2011 Software and system engineering — High-level Petri nets — Part 2: Transfer format, 4.1.6"
       },
       {
         "text": "special kind of model that specifies the abstract syntax of a modeling language",
@@ -28759,7 +28759,7 @@
     "definitions": [
       {
         "text": "element of a meta-model from which model elements are instantiated",
-        "reference": "ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta\u0002Model (KDM), 4"
+        "reference": "ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4"
       }
     ]
   },
@@ -30070,7 +30070,7 @@
       }
     ],
     "alias": [
-      "multi-attribute decision makin"
+      "multi-attribute decision making"
     ],
     "note": "An MCDM with one alternative is the same as the development of a composite measure."
   },
@@ -31776,7 +31776,7 @@
     "definitions": [
       {
         "text": "logical structure of the terms used to describe a domain of knowledge, including both the definitions of the applicable terms and their relationships",
-        "reference": "IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections\u0002Classification and Description, 3.9"
+        "reference": "IEEE 1175.1-2002 (R2007) IEEE Guide for CASE Tool Interconnections-Classification and Description, 3.9"
       }
     ]
   },
@@ -33566,7 +33566,7 @@
       "content coupling",
       "control coupling",
       "data coupling",
-      "hybrid couplin"
+      "hybrid coupling"
     ]
   },
   {
@@ -40031,7 +40031,7 @@
       }
     ],
     "confer": [
-      "one-ahead addressin"
+      "one-ahead addressing"
     ]
   },
   {
@@ -40724,7 +40724,7 @@
     ],
     "confer": [
       "bit steering",
-      "two-level encodin"
+      "two-level encoding"
     ]
   },
   {
@@ -43069,7 +43069,7 @@
     "name": "security kernel",
     "definitions": [
       {
-        "text": "small, self-contained collection of key security-related statements that works as a privileged part of an operatin system, specifying and enforcing criteria that must be met for programs and data to be accessed"
+        "text": "small, self-contained collection of key security-related statements that works as a privileged part of an operating system, specifying and enforcing criteria that must be met for programs and data to be accessed"
       }
     ]
   },
@@ -44190,7 +44190,7 @@
       }
     ],
     "confer": [
-      "two-level encodin"
+      "two-level encoding"
     ]
   },
   {
@@ -44524,7 +44524,7 @@
     "definitions": [
       {
         "text": "tangible machine-readable document created during software development",
-        "reference": "ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta\u0002Model (KDM), 4"
+        "reference": "ISO/IEC 19506:2012 Information technology — Object Management Group Architecture-Driven Modernization (ADM) — Knowledge Discovery Meta-Model (KDM), 4"
       }
     ]
   },
@@ -45482,7 +45482,7 @@
     "name": "software unit",
     "definitions": [
       {
-        "text": "atomic-level software component of the software architecture that can be subjected to standalone testin",
+        "text": "atomic-level software component of the software architecture that can be subjected to standalone testing",
         "reference": "ISO/IEC TS 24748-1:2016 Systems and software engineering — Life cycle management — Part 1: Guide for life cycle management, 2.49"
       },
       {
@@ -45567,7 +45567,8 @@
     "name": "SOI",
     "definitions": [
       {
-        "text": "system-of-interest [ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.2"
+        "text": "system-of-interest",
+        "reference": "ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.2"
       }
     ]
   },
@@ -45904,8 +45905,8 @@
       }
     ],
     "alias": [
-      "black-box testin",
-      "closed-box testin"
+      "black-box testing",
+      "closed-box testing"
     ],
     "confer": [
       "functional testing"
@@ -47187,12 +47188,12 @@
       }
     ],
     "alias": [
-      "glass-box testin",
-      "white-box testin"
+      "glass-box testing",
+      "white-box testing"
     ],
     "confer": [
       "functional testing (1)",
-      "structure-based testin"
+      "structure-based testing"
     ],
     "note": "Types include branch testing, path testing, statement testing."
   },
@@ -48664,7 +48665,7 @@
         "reference": "ISO/IEC 15940:2013 Systems and software engineering — Software Engineering Environment Services, 2.6; ISO/IEC TS 24748-1:2016 Systems and software engineering — Life cycle management — Part 1: Guide for life cycle management, 2.56; ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.1.49"
       }
     ],
-    "note": "System engineering is used when there is a single system-of-interest; systems engineering is for the disciplin in general. It includes the definition of technical performance measures; the integration of engineering specialties toward the establishment of an architecture; and the definition of supporting lifecycle processes that balance cost, performance, and schedule objectives."
+    "note": "System engineering is used when there is a single system-of-interest; systems engineering is for the discipline in general. It includes the definition of technical performance measures; the integration of engineering specialties toward the establishment of an architecture; and the definition of supporting lifecycle processes that balance cost, performance, and schedule objectives."
   },
   {
     "number": "3.4128",
@@ -49035,7 +49036,7 @@
     "definitions": [
       {
         "text": "indication of whether the user's preparation time begins immediately with the task submission of the preceding task (value = 0, i.e., \"NO WAIT\") or begins when the preceding task has been completed (task completion) (value = 1, i.e., \"WAIT\")",
-        "reference": "ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computer\u0002based software systems, 4.21"
+        "reference": "ISO/IEC 14756:1999 Information technology — Measurement and rating of performance of computer-based software systems, 4.21"
       }
     ],
     "note": "mode of \"Dialog\" or \"Batch\" in UNIX-based systems"
@@ -51826,7 +51827,7 @@
     "confer": [
       "bit steering",
       "residual control",
-      "single-level encodin"
+      "single-level encoding"
     ]
   },
   {
@@ -52287,7 +52288,7 @@
       }
     ],
     "confer": [
-      "straight-line codin"
+      "straight-line coding"
     ]
   },
   {
