@@ -13,7 +13,7 @@ management of websites for systems, software, and services information]
 3.4
 3GL
 1. third-generation language
-cf. high order language
+cf. high-order language
 3.5
 4GL
 1. fourth-generation language
@@ -1328,7 +1328,7 @@ second-generation language
 1. programming language that corresponds closely to the instruction set of a given computer, allows symbolic
 naming of operations and addresses, and usually results in a one-to-one translation of program instructions int
 machine instructions
-cf. fifth-generation language, fourth-generation language, high order language, machine language
+cf. fifth-generation language, fourth-generation language, high-order language, machine language
 3.247
 assertion
 1. logical expression specifying a program state that must exist or a set of conditions that program variables must
@@ -8855,7 +8855,7 @@ the instruction at location E
 fourth-generation language (4GL)
 1. computer language designed to improve the productivity achieved by high-order (third-generation) language
 and, often, to make computing power available to non-programmer
-cf. machine language, assembly language, high order language, fifth-generation language
+cf. machine language, assembly language, high-order language, fifth-generation language
 Note 1 to entry: Features typically include an integrated database management system, query language, report generator, screen
 definition facility, graphics generator, decision support function, financial modeling, spreadsheet capability, and statistical
 analysis functions.
@@ -21392,7 +21392,7 @@ symbolic language
 1. programming language that expresses operations and addresses in symbols convenient to humans rather than in
 machine language
 cf. machine language
-EXAMPLE: assembly language, high order language
+EXAMPLE: assembly language, high-order language
 3.4076
 symbolic trace
 1. record of the source statements and branch outcomes that are encountered when a computer program is

@@ -42,7 +42,7 @@
       }
     ],
     "confer": [
-      "high order language"
+      "high-order language"
     ]
   },
   {
@@ -2880,7 +2880,7 @@
     "confer": [
       "fifth-generation language",
       "fourth-generation language",
-      "high order language",
+      "high-order language",
       "machine language"
     ]
   },
@@ -19578,7 +19578,7 @@
     "confer": [
       "machine language",
       "assembly language",
-      "high order language",
+      "high-order language",
       "fifth-generation language"
     ],
     "note": "Features typically include an integrated database management system, query language, report generator, screen definition facility, graphics generator, decision support function, financial modeling, spreadsheet capability, and statistical analysis functions."
@@ -48038,7 +48038,7 @@
     "confer": [
       "machine language"
     ],
-    "example": "assembly language, high order language"
+    "example": "assembly language, high-order language"
   },
   {
     "number": "3.4076",
