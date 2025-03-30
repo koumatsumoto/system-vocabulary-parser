@@ -1156,7 +1156,7 @@
     ],
     "confer": [
       "n-address instruction",
-      "n-plus-one address instruct"
+      "n-plus-one address instruction"
     ]
   },
   {
@@ -2477,7 +2477,7 @@
         "text": "physical or logical layout of the components of a system design and their internal and external connections"
       }
     ],
-    "example": "function-oriented (structured) design, object-oriented design, and data structure-oriented des"
+    "example": "function-oriented (structured) design, object-oriented design, and data structure-oriented design"
   },
   {
     "number": "3.215",
@@ -4617,7 +4617,7 @@
     ],
     "confer": [
       "block-structured language",
-      "delimite"
+      "delimiter"
     ]
   },
   {
@@ -4779,9 +4779,10 @@
       }
     ],
     "confer": [
-      "top-down. critical piece firs"
+      "top-down",
+      "critical piece first"
     ],
-    "example": "bottom-up design, bottom-up testi"
+    "example": "bottom-up design, bottom-up testing"
   },
   {
     "number": "3.406",
@@ -4897,7 +4898,8 @@
       "flowchart",
       "graph",
       "input-process-output chart",
-      "program structure diagram structure chart"
+      "program structure diagram",
+      "structure chart"
     ]
   },
   {
@@ -4988,7 +4990,7 @@
       "case",
       "jump",
       "go to",
-      "if-then-el"
+      "if-then-else"
     ],
     "note": "Every branch is identified by a tag. Often, a branch identifies the file versions that have been or will be released as a product release. It can denote unbundling of arrow meaning, i.e., the separation of object types from an object type set. Also refers to an arrow segment into which a root arrow segment has been divided."
   },
@@ -5322,7 +5324,7 @@
       "down time",
       "idle time",
       "set-up time",
-      "up tim"
+      "up time"
     ],
     "note": "operational, in service, and in use"
   },
@@ -5754,7 +5756,8 @@
     "confer": [
       "go to",
       "jump",
-      "if-then-else. multiple inclusive selective constru"
+      "if-then-else",
+      "multiple inclusive selective construct"
     ]
   },
   {
@@ -6077,7 +6080,7 @@
         "reference": "ISO/IEC 15474-1:2002 Information technology — CDIF framework — Part 1: Overview, 4.2"
       }
     ],
-    "note": "Specifically, the CDIF meta-metamodel defines an Entity-Relationship-Attribute model that is used to constru and define both metamodels and the CDIF meta-metamodel itself"
+    "note": "Specifically, the CDIF meta-metamodel defines an Entity-Relationship-Attribute model that is used to construct and define both metamodels and the CDIF meta-metamodel itself"
   },
   {
     "number": "3.513",
@@ -6889,7 +6892,7 @@
       }
     ],
     "confer": [
-      "instance-level responsibilit"
+      "instance-level responsibility"
     ],
     "example": "The total registeredVoterCount would be a class-level property of the class registeredVoter; there would be only one value of registeredVoterCount for the class as a whole."
   },
@@ -7504,7 +7507,7 @@
       }
     ],
     "confer": [
-      "scalar-valued clas"
+      "scalar-valued class"
     ]
   },
   {
@@ -7520,7 +7523,7 @@
       "collection property"
     ],
     "confer": [
-      "scalar-valued propert"
+      "scalar-valued property"
     ]
   },
   {
@@ -7562,7 +7565,7 @@
       }
     ],
     "confer": [
-      "command-drive"
+      "command-driven"
     ]
   },
   {
@@ -7574,7 +7577,7 @@
       }
     ],
     "confer": [
-      "menu-drive"
+      "menu-driven"
     ]
   },
   {
@@ -8946,7 +8949,8 @@
       }
     ],
     "confer": [
-      "parallel. simultaneous"
+      "parallel",
+      "simultaneous"
     ],
     "note": "A concurrent system or application has many threads of control."
   },
@@ -9336,7 +9340,7 @@
       "configuration identification",
       "configuration index",
       "configuration item",
-      "development record."
+      "development record"
     ],
     "note": "This information includes a listing of the approved configuration identification, the status of proposed changes to the configuration, and the implementation status of approved changes."
   },
@@ -9589,7 +9593,7 @@
     "confer": [
       "early-failure period",
       "wearout-failure period",
-      "bathtub cur"
+      "bathtub curve"
     ]
   },
   {
@@ -10216,7 +10220,7 @@
       "call graph",
       "structure chart"
     ],
-    "note": "Types include box diagram, flowchart, input-process-output chart, state diagra"
+    "note": "Types include box diagram, flowchart, input-process-output chart, state diagram"
   },
   {
     "number": "3.858",
@@ -10381,7 +10385,7 @@
     "name": "controller area network (CAN)",
     "definitions": [
       {
-        "text": "high-integrity bus system for networking intelligent devices within a syste"
+        "text": "high-integrity bus system for networking intelligent devices within a system"
       }
     ],
     "note": "commonly used in embedded networks for vehicles or medical equipment"
@@ -11205,7 +11209,7 @@
     ],
     "confer": [
       "bottom-up",
-      "top-do"
+      "top-down"
     ],
     "note": "The critical piece can be defined in terms of services provided, degree of risk, difficulty, or other criteria."
   },
@@ -11962,7 +11966,7 @@
     "definitions": [
       {
         "text": "a distinct, non-empty, non-ordered and non-redundant set of data elements",
-        "reference": "ISO/IEC 29881:2010 Informati technology — Software and systems engineering — FiSMA 1.1 functional size measurement method, A.5"
+        "reference": "ISO/IEC 29881:2010 Information technology — Software and systems engineering — FiSMA 1.1 functional size measurement method, A.5"
       },
       {
         "text": "a distinct, non-empty, non-ordered and non-redundant set of data attributes where each included data attribute describes complementary aspect of the same object of interest",
@@ -12214,7 +12218,7 @@
     ],
     "confer": [
       "data flow diagram",
-      "entity-relationship diagra"
+      "entity-relationship diagram"
     ]
   },
   {
@@ -12308,10 +12312,10 @@
       }
     ],
     "alias": [
-      "pattern-sensitive faul"
+      "pattern-sensitive fault"
     ],
     "confer": [
-      "program-sensitive faul"
+      "program-sensitive fault"
     ]
   },
   {
@@ -12698,7 +12702,7 @@
     "name": "decompile",
     "definitions": [
       {
-        "text": "to translate a compiled computer program from its machine language version into a form that resembles, but is not necessarily identical to, the original high-order language progra"
+        "text": "to translate a compiled computer program from its machine language version into a form that resembles, but is not necessarily identical to, the original high-order language program"
       }
     ],
     "confer": [
@@ -13708,7 +13712,7 @@
     "name": "desk checking",
     "definitions": [
       {
-        "text": "manual simulation of program execution to detect faults through step-by-step examination of the source progra for errors in function or syntax.",
+        "text": "manual simulation of program execution to detect faults through step-by-step examination of the source program for errors in function or syntax.",
         "reference": "ISO/IEC 2382:2015, Information technology — Vocabulary"
       },
       {
@@ -13717,7 +13721,7 @@
     ],
     "confer": [
       "inspection",
-      "walk-throug"
+      "walk-through"
     ]
   },
   {
@@ -14352,7 +14356,7 @@
       "immediate data",
       "indirect address",
       "n-level address",
-      "direct instructio"
+      "direct instruction"
     ]
   },
   {
@@ -15173,7 +15177,7 @@
       "busy time",
       "idle time",
       "mean time to repair",
-      "set-up tim"
+      "set-up time"
     ]
   },
   {
@@ -15432,7 +15436,7 @@
     "name": "dyadic selective construct",
     "definitions": [
       {
-        "text": "if-then-else construct in which processing is specified for both outcomes of the bran"
+        "text": "if-then-else construct in which processing is specified for both outcomes of the branch"
       }
     ],
     "confer": [
@@ -15664,7 +15668,7 @@
     "name": "E-R diagram",
     "definitions": [
       {
-        "text": "entity-relationship diagra"
+        "text": "entity-relationship diagram"
       }
     ]
   },
@@ -15712,7 +15716,7 @@
     "confer": [
       "constant-failure period",
       "wearout-failure period",
-      "bathtub cur"
+      "bathtub curve"
     ]
   },
   {
@@ -18623,7 +18627,7 @@
     "confer": [
       "fault tolerance",
       "fail-safe",
-      "fail sof"
+      "fail soft"
     ]
   },
   {
@@ -19064,7 +19068,7 @@
       }
     ],
     "confer": [
-      "fixed-effectiveness analysi"
+      "fixed-effectiveness analysis"
     ]
   },
   {
@@ -19076,7 +19080,7 @@
       }
     ],
     "confer": [
-      "fixed-cost analysi"
+      "fixed-cost analysis"
     ]
   },
   {
@@ -19948,7 +19952,7 @@
     ],
     "confer": [
       "object-oriented design",
-      "data-structure-oriented des"
+      "data-structure-oriented design"
     ]
   },
   {
@@ -20794,7 +20798,7 @@
     "confer": [
       "call",
       "case",
-      "if-then-else bran"
+      "if-then-else branch"
     ]
   },
   {
@@ -22117,7 +22121,7 @@
       "busy time",
       "down time",
       "set-up time",
-      "up tim"
+      "up time"
     ]
   },
   {
@@ -22269,7 +22273,7 @@
       "direct address",
       "indirect address",
       "n-level address",
-      "immediate instructio"
+      "immediate instruction"
     ]
   },
   {
@@ -23650,7 +23654,7 @@
       "modular decomposition",
       "object-oriented desi rapid prototyping"
     ],
-    "note": "A refinement called hierarchical input-process-output identifies the steps, inputs, and outputs at both genera and detailed levels of detail"
+    "note": "A refinement called hierarchical input-process-output identifies the steps, inputs, and outputs at both general and detailed levels of detail"
   },
   {
     "number": "3.1999",
@@ -23829,7 +23833,7 @@
       }
     ],
     "confer": [
-      "class-level responsibilit"
+      "class-level responsibility"
     ]
   },
   {
@@ -24109,7 +24113,7 @@
         "reference": "IEEE 1012-2012 IEEE Standard for System and Software Verification and Validation, 3.1.15"
       },
       {
-        "text": "degree to which software complies or must comply with a set of stakeholder-selected software and/or software-based syste characteristics defined to reflect the importance of the software to its stakeholders"
+        "text": "degree to which software complies or must comply with a set of stakeholder-selected software and/or software-based system characteristics defined to reflect the importance of the software to its stakeholders"
       },
       {
         "text": "symbolic value representing a degree of compliance within an integrity level scheme"
@@ -24266,7 +24270,7 @@
       "batch",
       "conversational",
       "online",
-      "real-tim"
+      "real-time"
     ]
   },
   {
@@ -25659,7 +25663,7 @@
     "name": "kernel entity",
     "definitions": [
       {
-        "text": "classification used for a meta-entity whose instances can exist without the occurrences of other meta-entiti",
+        "text": "classification used for a meta-entity whose instances can exist without the occurrences of other meta-entities",
         "reference": "ISO/IEC 15474-1:2002 Information technology — CDIF framework — Part 1: Overview, 4.2"
       }
     ],
@@ -27160,7 +27164,7 @@
       }
     ],
     "confer": [
-      "machine-independen"
+      "machine-independent"
     ]
   },
   {
@@ -27233,7 +27237,7 @@
       }
     ],
     "alias": [
-      "macro-generating progra"
+      "macro-generating program"
     ]
   },
   {
@@ -28562,7 +28566,7 @@
     ],
     "confer": [
       "menu by-pass",
-      "command-driv"
+      "command-driven"
     ]
   },
   {
@@ -28671,7 +28675,7 @@
     "definitions": [
       {
         "text": "generic term for meta-entities, meta-relationships and meta-attributes",
-        "reference": "ISO/IEC 15474-1:2002 Informati technology — CDIF framework — Part 1: Overview, 4.2"
+        "reference": "ISO/IEC 15474-1:2002 Information technology — CDIF framework — Part 1: Overview, 4.2"
       }
     ]
   },
@@ -29026,7 +29030,7 @@
     "confer": [
       "microarchitecture",
       "microcomputer",
-      "microprogrammable computer."
+      "microprogrammable computer"
     ]
   },
   {
@@ -29621,7 +29625,7 @@
       "input-process-output",
       "modular decomposition",
       "object-oriented design",
-      "ra prototyping",
+      "rapid prototyping",
       "stepwise refinement",
       "structured design",
       "transaction analysis",
@@ -29999,7 +30003,7 @@
       }
     ],
     "confer": [
-      "single-valued propert"
+      "single-valued property"
     ]
   },
   {
@@ -30011,10 +30015,10 @@
       }
     ],
     "alias": [
-      "multiple-address instructio"
+      "multiple-address instruction"
     ],
     "confer": [
-      "one-address instructio"
+      "one-address instruction"
     ]
   },
   {
@@ -30271,7 +30275,7 @@
     "confer": [
       "one-plus-one address instruction",
       "two-plus-one address instruction",
-      "n-address instru"
+      "n-address instruction"
     ]
   },
   {
@@ -30841,7 +30845,7 @@
     "name": "nonconformity",
     "definitions": [
       {
-        "text": "non-fulfillment of a requiremen"
+        "text": "non-fulfillment of a requirement"
       }
     ]
   },
@@ -31302,7 +31306,7 @@
       "input-process-output",
       "modular decomposition",
       "rapid prototyping",
-      "stepwi refinement",
+      "stepwise refinement",
       "structured design",
       "transaction analysis",
       "transform analysis"
@@ -31680,8 +31684,8 @@
       }
     ],
     "alias": [
-      "single-address instructio",
-      "single-operand instructio"
+      "single-address instruction",
+      "single-operand instruction"
     ],
     "confer": [
       "multiaddress instruction",
@@ -34965,7 +34969,7 @@
       "transportability"
     ],
     "confer": [
-      "machine-independen"
+      "machine-independent"
     ]
   },
   {
@@ -36958,7 +36962,7 @@
       }
     ],
     "confer": [
-      "data-sensitive faul"
+      "data-sensitive fault"
     ]
   },
   {
@@ -37708,7 +37712,7 @@
     "name": "PROM",
     "definitions": [
       {
-        "text": "programmable read-only memor"
+        "text": "programmable read-only memory"
       }
     ]
   },
@@ -38667,7 +38671,7 @@
       }
     ],
     "confer": [
-      "non-functional requiremen"
+      "non-functional requirement"
     ]
   },
   {
@@ -38782,7 +38786,7 @@
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       },
       {
-        "text": "random-access memor"
+        "text": "random-access memory"
       }
     ]
   },
@@ -38832,7 +38836,7 @@
       "data structure-centered design",
       "incremental development",
       "input-process-output",
-      "modul decomposition"
+      "modular decomposition"
     ]
   },
   {
@@ -39725,7 +39729,7 @@
       "absolute address",
       "base address",
       "indexed address",
-      "self-relative addres"
+      "self-relative address"
     ]
   },
   {
@@ -40163,7 +40167,7 @@
         "reference": "ISO/IEC 29155-1:2011 Systems and software engineering — Information technology project performance benchmarking framework — Part 1: Concepts and definitions, 2.9"
       },
       {
-        "text": "collection of all software-related artifacts belonging to a syste",
+        "text": "collection of all software-related artifacts belonging to a system",
         "reference": "IEEE 828-2012 IEEE Standard for Configuration Management in Systems and Software Engineering, 2.1"
       }
     ],
@@ -40266,7 +40270,7 @@
     ],
     "confer": [
       "change request",
-      "modification request."
+      "modification request"
     ],
     "note": "A change to a service includes the provision of a new service or the removal of a service which is no longer required."
   },
@@ -40924,7 +40928,7 @@
     "confer": [
       "port-to-port time",
       "think time",
-      "turnaround ti"
+      "turnaround time"
     ]
   },
   {
@@ -41952,7 +41956,7 @@
     "name": "ROM",
     "definitions": [
       {
-        "text": "read-only memor"
+        "text": "read-only memory"
       }
     ]
   },
@@ -41994,7 +41998,7 @@
     "name": "root compiler",
     "definitions": [
       {
-        "text": "compiler whose output is a machine independent, intermediate-level representation of a progra"
+        "text": "compiler whose output is a machine independent, intermediate-level representation of a program"
       }
     ],
     "note": "A root compiler, when combined with a code generator, comprises a full compiler."
@@ -42062,7 +42066,7 @@
     "name": "RTOS",
     "definitions": [
       {
-        "text": "real-time operating syste"
+        "text": "real-time operating system"
       }
     ]
   },
@@ -42463,7 +42467,7 @@
       }
     ],
     "confer": [
-      "collection-valued clas"
+      "collection-valued class"
     ]
   },
   {
@@ -42479,7 +42483,7 @@
       "scalar property"
     ],
     "confer": [
-      "collection-valued propert"
+      "collection-valued property"
     ]
   },
   {
@@ -43081,7 +43085,7 @@
         "text": "rules for need-to-know and access-to-information at each project organization level"
       },
       {
-        "text": "set of rules that constra one or more sets of activities of one or more sets of objects",
+        "text": "set of rules that constrains one or more sets of activities of one or more sets of objects",
         "reference": "ISO/IEC 10746-3:2009 Information technology — Open Distributed Processing — Reference Model: Architecture, 15.1.1"
       }
     ]
@@ -44203,7 +44207,7 @@
     ],
     "alias": [
       "single-step executio",
-      "step-by-step operati"
+      "step-by-step operation"
     ]
   },
   {
@@ -44216,7 +44220,7 @@
       }
     ],
     "confer": [
-      "multi-valued propert"
+      "multi-valued property"
     ]
   },
   {
@@ -45406,7 +45410,7 @@
       }
     ],
     "confer": [
-      "software-intensive syste"
+      "software-intensive system"
     ]
   },
   {
@@ -46426,7 +46430,7 @@
         "text": "pertaining to hardware or software that is capable of performing its function without being connected to other components"
       }
     ],
-    "example": "a stand-alone document processing syste"
+    "example": "a stand-alone document processing system"
   },
   {
     "number": "3.3949",
@@ -46445,7 +46449,7 @@
       "guide",
       "guideline"
     ],
-    "example": "[ISO/IEC TR 10000-1"
+    "example": "[ISO/IEC TR 10000-1]"
   },
   {
     "number": "3.3950",
@@ -46722,7 +46726,7 @@
     "confer": [
       "dynamic analysis",
       "inspection",
-      "walk-throug"
+      "walk-through"
     ]
   },
   {
@@ -46924,7 +46928,7 @@
       "input-process-output",
       "modular decomposition",
       "object-oriented design",
-      "ra prototyping",
+      "rapid prototyping",
       "structured design",
       "transaction analysis",
       "transform analysis"
@@ -47224,7 +47228,7 @@
     ],
     "confer": [
       "data structure-centered design",
-      "order clas"
+      "order clash"
     ]
   },
   {
@@ -47257,7 +47261,7 @@
       "input-process-output",
       "modular decomposition",
       "object-oriented design",
-      "ra prototyping."
+      "rapid prototyping"
     ]
   },
   {
@@ -50284,7 +50288,7 @@
     "name": "test target version",
     "definitions": [
       {
-        "text": "specific version of test target which is used for one-time execution of Dynamic Test Execution or Code Analysi",
+        "text": "specific version of test target which is used for one-time execution of Dynamic Test Execution or Code Analysis",
         "reference": "ISO/IEC 30130:2016 Software engineering — Capabilities of software testing tools"
       }
     ]
@@ -50483,7 +50487,7 @@
     "confer": [
       "port-to-port time",
       "response time",
-      "turnaround ti"
+      "turnaround time"
     ]
   },
   {
@@ -51016,9 +51020,9 @@
     ],
     "confer": [
       "bottom-up",
-      "critical piece firs"
+      "critical piece first"
     ],
-    "example": "top-down design, top-down testi"
+    "example": "top-down design, top-down testing"
   },
   {
     "number": "3.4334",
@@ -51376,7 +51380,7 @@
       "input-process-output",
       "modular decomposition",
       "object-oriented design",
-      "ra prototyping",
+      "rapid prototyping",
       "stepwise refinement",
       "structured design",
       "transform analysis"
@@ -51501,7 +51505,7 @@
       "input-process-output",
       "modular decomposition",
       "object-oriented design",
-      "ra prototyping",
+      "rapid prototyping",
       "stepwise refinement",
       "structured design",
       "transaction analysis"
@@ -51612,7 +51616,7 @@
     "name": "tree diagram",
     "definitions": [
       {
-        "text": "a systematic diagram of a decomposition hierarchy used to visualize as parent-to-child relationships a systemati set of rules",
+        "text": "a systematic diagram of a decomposition hierarchy used to visualize as parent-to-child relationships a systematic set of rules",
         "reference": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition"
       }
     ]
@@ -51752,7 +51756,7 @@
     "confer": [
       "port-to-port time",
       "response time",
-      "think ti"
+      "think time"
     ]
   },
   {
@@ -51794,7 +51798,7 @@
       }
     ],
     "alias": [
-      "double-operand instructio"
+      "double-operand instruction"
     ],
     "confer": [
       "one-address instruction",
@@ -52329,7 +52333,7 @@
       "busy time",
       "idle time",
       "mean time between failures",
-      "set-up tim"
+      "set-up time"
     ]
   },
   {
@@ -53938,7 +53942,7 @@
       }
     ],
     "confer": [
-      "non-volatile memor"
+      "non-volatile memory"
     ]
   },
   {
@@ -54120,7 +54124,7 @@
     "confer": [
       "constant-failure period",
       "early-failure period",
-      "bathtub cur"
+      "bathtub curve"
     ]
   },
   {

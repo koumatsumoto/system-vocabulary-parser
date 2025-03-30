@@ -527,7 +527,7 @@ address format
 1. number and arrangement of address fields in a computer instruction 2. number and arrangement of elements
 within an address, such as the elements needed to identify a particular channel, device, disk sector, and record in
 magnetic disk storage
-cf. n-address instruction, n-plus-one address instruct
+cf. n-address instruction, n-plus-one address instruction
 3.99
 address modification
 1. arithmetic, logical, or syntactic operation performed on an address
@@ -1143,7 +1143,7 @@ depicted in the software design descriptions
 3.214
 architectural structure
 1. physical or logical layout of the components of a system design and their internal and external connections
-EXAMPLE: function-oriented (structured) design, object-oriented design, and data structure-oriented des
+EXAMPLE: function-oriented (structured) design, object-oriented design, and data structure-oriented design
 3.215
 architectural style
 1. definition of a family of systems in terms of a pattern of structural organization 2. characterization of a family of
@@ -2136,7 +2136,7 @@ cf. glass box
 block
 1. group of contiguous storage locations, computer program statements, records, words, characters, or bits that
 are treated as a unit 2. to form a group
-cf. block-structured language, delimite
+cf. block-structured language, delimiter
 3.392
 block diagram
 configuration diagram
@@ -2201,8 +2201,8 @@ bottom-up
 1. pertaining to an activity that starts with the lowest-level components of a hierarchy and proceeds through
 progressively higher-levels 2. pertaining to a method or procedure that starts at the lowest level of abstraction and
 proceeds towards the highest level [ISO/IEC 2382:2015, Information technology — Vocabulary]
-cf. top-down. critical piece firs
-EXAMPLE: bottom-up design, bottom-up testi
+cf. top-down, critical piece first
+EXAMPLE: bottom-up design, bottom-up testing
 3.406
 bottom-up design
 1. design approach in which low-level pieces of a system are combined into an overall design. 2. process of designing
@@ -2255,7 +2255,7 @@ Chapin chart
 Nassi-Shneiderman char
 1. control flow diagram consisting of a rectangle that is subdivided to show sequential steps, if-then-els
 conditions, repetition, and case conditions
-cf. block diagram, bubble chart, flowchart, graph, input-process-output chart, program structure diagram
+cf. block diagram, bubble chart, flowchart, graph, input-process-output chart, program structure diagram,
 structure chart
 3.415
 box ICOM code
@@ -2293,7 +2293,7 @@ Engineering Body of Knowledge (SWEBOK), 6.1.3] 7. deviation from the main develo
 item, which allows different persons to work on the same item at the same time [ISO/IEC TR 18018:2010
 Information technology — Systems and software engineering — Guide for configuration management tool
 capabilities, 3.3]
-cf. case, jump, go to, if-then-el
+cf. case, jump, go to, if-then-else
 Note 1 to entry: Every branch is identified by a tag. Often, a branch identifies the file versions that have been or will be released
 as a product release. It can denote unbundling of arrow meaning, i.e., the separation of object types from an object type set. Also
 refers to an arrow segment into which a root arrow segment has been divided.
@@ -2455,7 +2455,7 @@ cf. down, idle, up
 busy time
 1. in computer performance engineering, the period of time during which a system or component is operational, in
 service, and in use
-cf. down time, idle time, set-up time, up tim
+cf. down time, idle time, set-up time, up time
 Note 1 to entry: operational, in service, and in use
 3.449
 buyer
@@ -2649,7 +2649,7 @@ multiple exclusive selective construct
 performed for each value of the control expression, and returns control in all instances to the statement immediately
 following the overall construct 2. Computer Aided Software Engineering [ISO/IEC 14102:2008 Information
 Technology - Guideline for the evaluation and selection of CASE tools, 4]
-cf. go to, jump, if-then-else. multiple inclusive selective constru
+cf. go to, jump, if-then-else, multiple inclusive selective construct
 3.484
 CASE needs
 1. organizational requirements which are met by CASE tool characteristics [ISO/IEC TR 14471:2007 Information
@@ -2786,7 +2786,7 @@ technology — CDIF framework — Part 1: Overview, 4.2]
 CDIF meta-metamodel
 1. description of the set of concepts and notations used to define a metamodel [ISO/IEC 15474-1:2002 Information
 technology — CDIF framework — Part 1: Overview, 4.2]
-Note 1 to entry: Specifically, the CDIF meta-metamodel defines an Entity-Relationship-Attribute model that is used to constru
+Note 1 to entry: Specifically, the CDIF meta-metamodel defines an Entity-Relationship-Attribute model that is used to construct
 and define both metamodels and the CDIF meta-metamodel itself
 3.513
 CDIF metaidentifier
@@ -3167,7 +3167,7 @@ class-level responsibility
 1. responsibility that represents some aspect of the knowledge, behavior, or rules of the class as a whole [IEEE
 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97
 (IDEFobject), 3.1.26]
-cf. instance-level responsibilit
+cf. instance-level responsibility
 EXAMPLE: The total registeredVoterCount would be a class-level property of the class registeredVoter; there would
 be only one value of registeredVoterCount for the class as a whole.
 3.582
@@ -3419,13 +3419,13 @@ Note 1 to entry: That is, having constituent parts.
 collection-valued class
 1. class in which each instance is a collection of values [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual
 Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.34]
-cf. scalar-valued clas
+cf. scalar-valued class
 3.635
 collection-valued property
 collection property
 1. property that maps to a collection class [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling
 Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.35]
-cf. scalar-valued propert
+cf. scalar-valued property
 3.636
 colocation
 1. an organizational placement strategy where the project team members are physically located close to one another
@@ -3444,11 +3444,11 @@ EXAMPLE: the 'logon' command to initiate a computer session
 3.639
 command language
 1. language used to express commands to a computer system
-cf. command-drive
+cf. command-driven
 3.640
 command-driven
 1. pertaining to a system or mode of operation in which the user directs the system through commands
-cf. menu-drive
+cf. menu-driven
 3.641
 comment
 1. information embedded within a computer program, job control statements, or a set of data that provides
@@ -4076,7 +4076,7 @@ concurrent
 1. pertaining to the occurrence of two or more activities within the same interval of time, achieved either by
 interleaving the activities or by simultaneous execution 2. problem, process, system, or application in which many
 activities happen in parallel, the order of incoming events is not usually predictable, and events often overlap
-cf. parallel. simultaneous
+cf. parallel, simultaneous
 Note 1 to entry: A concurrent system or application has many threads of control.
 3.757
 concurrent communication diagram
@@ -4255,7 +4255,7 @@ configuration status accounting (CSA)
 1. element of configuration management that consists of the recording and reporting of information needed to
 manage a configuration effectively [ISO/IEC TR 18018:2010 Information technology — Systems and software
 engineering — Guide for configuration management tool capabilities, 3.10]
-cf. configuration control, configuration identification, configuration index, configuration item, development record.
+cf. configuration control, configuration identification, configuration index, configuration item, development record
 Note 1 to entry: This information includes a listing of the approved configuration identification, the status of proposed changes
 to the configuration, and the implementation status of approved changes.
 3.784
@@ -4374,7 +4374,7 @@ cf. actual dollar analysis
 constant-failure period
 1. period of time in the life cycle of a system or component during which hardware failures occur at an
 approximately uniform rate
-cf. early-failure period, wearout-failure period, bathtub cur
+cf. early-failure period, wearout-failure period, bathtub curve
 3.805
 constituent configuration item
 1. individual item to be controlled that is a constituent (part) of a larger configuration item, such as a reference
@@ -4680,7 +4680,7 @@ control flow diagram
 1. diagram that depicts the set of all possible sequences in which operations can be performed during the
 execution of a system or program
 cf. data flow diagram, call graph, structure chart
-Note 1 to entry: Types include box diagram, flowchart, input-process-output chart, state diagra
+Note 1 to entry: Types include box diagram, flowchart, input-process-output chart, state diagram
 3.858
 control flow sub-path
 1. sequence of executable statements within a test item [ISO/IEC/IEEE 29119-4:2015 Software and systems
@@ -4749,7 +4749,7 @@ controller
 1. device or computer chip that interfaces with a peripheral device
 3.872
 controller area network (CAN)
-1. high-integrity bus system for networking intelligent devices within a syste
+1. high-integrity bus system for networking intelligent devices within a system
 Note 1 to entry: commonly used in embedded networks for vehicles or medical equipment
 3.873
 convention
@@ -5101,7 +5101,7 @@ the logical network paths within the schedule model [A Guide to the Project Mana
 3.947
 critical piece first
 1. system development approach in which the most critical aspects of a system are implemented first
-cf. bottom-up, top-do
+cf. bottom-up, top-down
 Note 1 to entry: The critical piece can be defined in terms of services provided, degree of risk, difficulty, or other criteria.
 3.948
 critical range
@@ -5433,7 +5433,7 @@ Knowledge (PMBOK® Guide) — Fifth Edition]
 3.1012
 data group
 data group type
-1. a distinct, non-empty, non-ordered and non-redundant set of data elements [ISO/IEC 29881:2010 Informati
+1. a distinct, non-empty, non-ordered and non-redundant set of data elements [ISO/IEC 29881:2010 Information
 technology — Software and systems engineering — FiSMA 1.1 functional size measurement method, A.5] 2. a distinct,
 non-empty, non-ordered and non-redundant set of data attributes where each included data attribute describes
 complementary aspect of the same object of interest [ISO/IEC 14143-1:2007 Information technology — Software
@@ -5555,7 +5555,7 @@ Note 1 to entry: The data structures are usually documented in technical and log
 3.1033
 data structure diagram
 1. diagram that depicts a set of data elements, their attributes, and the logical relationships among them
-cf. data flow diagram, entity-relationship diagra
+cf. data flow diagram, entity-relationship diagram
 3.1034
 data structure-centered design
 1. software design technique in which the architecture of a system is derived from analysis of the structure of the
@@ -5593,9 +5593,9 @@ Requirements and Evaluation (SQuaRE) - Measurement of data, 4.17]
 Note 1 to entry: Data quality refers to data itself, such as data domain values and possible restrictions.
 3.1040
 data-sensitive fault
-pattern-sensitive faul
+pattern-sensitive fault
 1. fault that causes a failure in response to some particular pattern of data
-cf. program-sensitive faul
+cf. program-sensitive fault
 3.1041
 data-structure-oriented design
 1. design methodology used for business applications by basing the design on the logical data structures of the
@@ -5760,7 +5760,7 @@ cf. interactive language, rule-based language
 3.1076
 decompile
 1. to translate a compiled computer program from its machine language version into a form that resembles, but is
-not necessarily identical to, the original high-order language progra
+not necessarily identical to, the original high-order language program
 cf. compile
 3.1077
 decompiler
@@ -6212,11 +6212,11 @@ positive consequence
 Systems and software engineering — Systems and software assurance — Part 1: Concepts and vocabulary, 3.4.3]
 3.1158
 desk checking
-1. manual simulation of program execution to detect faults through step-by-step examination of the source progra
+1. manual simulation of program execution to detect faults through step-by-step examination of the source program
 for errors in function or syntax. [ISO/IEC 2382:2015, Information technology — Vocabulary] 2. static analysis
 technique in which code listings, test results, or other documentation are visually examined, usually by the person
 who generated them, to identify errors, violations of development standards, or other problems
-cf. inspection, walk-throug
+cf. inspection, walk-through
 3.1159
 desktop publishing
 1. electronic publishing using a microcomputer [ISO/IEC 2382:2015, Information technology — Vocabulary]
@@ -6503,7 +6503,7 @@ DIP
 direct address
 one-level address
 1. address that identifies the storage location of an operand
-cf. immediate data, indirect address, n-level address, direct instructio
+cf. immediate data, indirect address, n-level address, direct instruction
 3.1214
 direct and manage project work
 1. the process of leading and performing the work defined in the project management plan and implementing
@@ -6873,7 +6873,7 @@ cf. up, busy, crash, idle
 3.1284
 down time
 1. period of time during which a system or component is not operational or has been taken out of service
-cf. up time, busy time, idle time, mean time to repair, set-up tim
+cf. up time, busy time, idle time, mean time to repair, set-up time
 3.1285
 downgrade right
 1. right granted to receive, install, or use an installation of a previous version of software than the currently granted
@@ -6972,7 +6972,7 @@ DVD
 Engineering, 2.2] 2. digital video disc
 3.1306
 dyadic selective construct
-1. if-then-else construct in which processing is specified for both outcomes of the bran
+1. if-then-else construct in which processing is specified for both outcomes of the branch
 cf. monadic selective construct
 3.1307
 dynamic
@@ -7065,7 +7065,7 @@ dynamic testing
 [ISO/IEC/IEEE 29119-2:2013 Software and systems engineering — Software testing — Part 2: Test processes, 4.4]
 3.1326
 E-R diagram
-1. entity-relationship diagra
+1. entity-relationship diagram
 3.1327
 EAC
 1. estimate at completion [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
@@ -7084,7 +7084,7 @@ early-failure period
 burn-in perio
 1. period of time in the life cycle of a system or component during which hardware failures occur at a decreasing rate as
 problems are detected and repaired
-cf. constant-failure period, wearout-failure period, bathtub cur
+cf. constant-failure period, wearout-failure period, bathtub curve
 3.1331
 earned value (EV)
 budgeted cost of work performed (BCWP)
@@ -8444,7 +8444,7 @@ fault masking
 3.1573
 fault secure
 1. pertaining to a system or component in which no failures are produced from a prescribed set of faults
-cf. fault tolerance, fail-safe, fail sof
+cf. fault tolerance, fail-safe, fail soft
 3.1574
 fault tolerance
 1. degree to which a system, product or component operates as intended despite the presence of hardware or
@@ -8628,11 +8628,11 @@ Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edit
 3.1612
 fixed-cost analysis
 1. analysis that seeks to maximize the effectiveness that can be attained from a fixed, maximum investment
-cf. fixed-effectiveness analysi
+cf. fixed-effectiveness analysis
 3.1613
 fixed-effectiveness analysis
 1. analysis that seeks to minimize the investment needed to attain a fixed, minimum degree of effectiveness
-cf. fixed-cost analysi
+cf. fixed-cost analysis
 3.1614
 fixed-price contract
 1. an agreement that sets the amount that will be paid for a defined scoped of work regardless of cost or effort to
@@ -9028,7 +9028,7 @@ Internal Logical File and External Interface File.
 3.1684
 function-oriented design
 1. partitioning of a design into subsystems and modules, with each one handling one or more functions
-cf. object-oriented design, data-structure-oriented des
+cf. object-oriented design, data-structure-oriented design
 3.1685
 functional analysis
 1. systematic investigation of the functions of a real or planned system [ISO/IEC 2382:2015, Information technology
@@ -9416,7 +9416,7 @@ glossary page
 3.1754
 go to
 1. computer program statement that causes a jump
-cf. call, case, if-then-else bran
+cf. call, case, if-then-else branch
 3.1755
 goal
 1. intended outcome [ISO/IEC TR 25060:2010 Systems and software engineering — Systems and software product
@@ -9975,7 +9975,7 @@ cf. busy, down, up
 idle time
 standby time
 1. period of time during which a system or component is operational and in service, but not in use
-cf. busy time, down time, set-up time, up tim
+cf. busy time, down time, set-up time, up time
 3.1870
 IEC
 1. International Electrotechnical Commission [ISO/IEC/IEEE 16326:2009 Systems and software engineering — Life
@@ -10038,7 +10038,7 @@ Information technology — Vocabulary]
 3.1883
 immediate data
 1. data contained in the address field of a computer instruction
-cf. direct address, indirect address, n-level address, immediate instructio
+cf. direct address, indirect address, n-level address, immediate instruction
 3.1884
 immediate instruction
 1. computer instruction whose address fields contain the values of the operands rather than the operands'
@@ -10640,7 +10640,7 @@ input-process-output
 identifying the inputs to and outputs from each step
 cf. data structure-centered design, input-process-output chart, modular decomposition, object-oriented desi
 rapid prototyping
-Note 1 to entry: A refinement called hierarchical input-process-output identifies the steps, inputs, and outputs at both genera
+Note 1 to entry: A refinement called hierarchical input-process-output identifies the steps, inputs, and outputs at both general
 and detailed levels of detail
 3.1999
 input-process-output (IPO) chart
@@ -10727,7 +10727,7 @@ for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject),
 instance-level responsibility
 1. responsibility that applies to each instance of the class individually [IEEE 1320.2-1998 (R2004) IEEE Standard
 for Conceptual Modeling Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.92]
-cf. class-level responsibilit
+cf. class-level responsibility
 3.2013
 instantiation
 1. process of substituting specific data, instructions, or both into a generic program unit to make it usable in a
@@ -10844,7 +10844,7 @@ integrity level
 1. value representing project-unique characteristic, such as complexity, criticality, risk, safety level, security level,
 desired performance, and reliability, that define the importance of the system, software, or hardware to the user
 [IEEE 1012-2012 IEEE Standard for System and Software Verification and Validation, 3.1.15] 2. degree to which
-software complies or must comply with a set of stakeholder-selected software and/or software-based syste
+software complies or must comply with a set of stakeholder-selected software and/or software-based system
 characteristics defined to reflect the importance of the software to its stakeholders 3. symbolic value representing
 a degree of compliance within an integrity level scheme 4. claim of a system, product, or element that includes
 limitations on a property's values, the claim's scope of applicability, and the allowable uncertainty regarding the
@@ -10926,7 +10926,7 @@ interactive
 1. pertaining to a system or mode of operation in which each user entry causes a response from or action by the
 system 2. when the user communicates with the computer in a conversational-type manner [ISO/IEC 20968:2002
 Software engineering — Mk II Function Point Analysis — Counting Practices Manual, 10]
-cf. batch, conversational, online, real-tim
+cf. batch, conversational, online, real-time
 3.2051
 interactive language
 1. nonprocedural language in which a program is created as a result of interactive dialog between the user and the
@@ -11542,7 +11542,7 @@ encapsulates an elementary function or functions of a system
 cf. nucleus
 3.2169
 kernel entity
-1. classification used for a meta-entity whose instances can exist without the occurrences of other meta-entiti
+1. classification used for a meta-entity whose instances can exist without the occurrences of other meta-entities
 [ISO/IEC 15474-1:2002 Information technology — CDIF framework — Part 1: Overview, 4.2]
 EXAMPLE: An instance of the meta-entity called Attribute, having a name, full description and brief description, is
 significant without the knowledge of the DataObject it describes.
@@ -12165,7 +12165,7 @@ Note 1 to entry: Such a language usually consists of patterns of 1s and 0s, with
 machine-dependent
 1. pertaining to software that relies on features unique to a particular type of computer and therefore executes
 only on computers of that type
-cf. machine-independen
+cf. machine-independent
 3.2299
 machine-independent
 1. pertaining to software that does not rely on features unique to a particular type of computer, and therefore
@@ -12190,7 +12190,7 @@ macroassembler
 1. assembler that includes, or performs the functions of, a macrogenerator
 3.2304
 macrogenerator
-macro-generating progra
+macro-generating program
 1. routine, often part of an assembler or compiler, that replaces each macroinstruction in a source program with the
 predefined sequence of instructions that the macroinstruction represents
 3.2305
@@ -12773,7 +12773,7 @@ guidelines for the application of Function Point Analysis]
 3.2418
 menu-driven
 1. pertaining to a system or mode of operation in which the user directs the system through menu selections
-cf. menu by-pass, command-driv
+cf. menu by-pass, command-driven
 3.2419
 merge
 1. to combine different changes to the same file
@@ -12823,7 +12823,7 @@ Note 1 to entry: Specifically, a meta-meta-relationship represents the definitio
 meta-entities
 3.2428
 meta-object
-1. generic term for meta-entities, meta-relationships and meta-attributes [ISO/IEC 15474-1:2002 Informati
+1. generic term for meta-entities, meta-relationships and meta-attributes [ISO/IEC 15474-1:2002 Information
 technology — CDIF framework — Part 1: Overview, 4.2]
 3.2429
 meta-object facility
@@ -12974,7 +12974,7 @@ microprogrammable computer
 microprogrammed computer
 1. computer in which machine language instructions are implemented by microprograms rather than by hard-wired
 logic
-cf. microarchitecture, microcomputer, microprogrammable computer.
+cf. microarchitecture, microcomputer, microprogrammable computer
 3.2457
 microprogramming
 1. process of designing and implementing the control logic of a computer by identifying the basic operations needed
@@ -13230,7 +13230,7 @@ packaging
 3.2506
 modular programming
 1. software development technique in which software is developed as a collection of modules
-cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, ra
+cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, rapid
 prototyping, stepwise refinement, structured design, transaction analysis, transform analysis
 3.2507
 modularity
@@ -13388,12 +13388,12 @@ cf. function
 multi-valued property
 1. a property with a multi-valued mapping [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling
 Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.118]
-cf. single-valued propert
+cf. single-valued property
 3.2541
 multiaddress instruction
-multiple-address instructio
+multiple-address instruction
 1. computer instruction that contains more than one address field
-cf. one-address instructio
+cf. one-address instruction
 3.2542
 multidimensional construct
 1. construct that consists of a number of unidimensional constructs [ISO/IEC 33003:2015 Information technology —
@@ -13501,7 +13501,7 @@ EXAMPLE: a two-level address
 n-plus-one address instruction
 1. computer instruction that contains n+1 address fields, the last containing the address of the instruction to be
 executed next
-cf. one-plus-one address instruction, two-plus-one address instruction, n-address instru
+cf. one-plus-one address instruction, two-plus-one address instruction, n-address instruction
 3.2564
 N/A
 1. not applicable [IEEE 1012-2012 IEEE Standard for System and Software Verification and Validation, 3.2] 2. not
@@ -13752,7 +13752,7 @@ non-conformance work will approach zero [A Guide to the Project Management Body 
 — Fifth Edition]
 3.2615
 nonconformity
-1. non-fulfillment of a requiremen
+1. non-fulfillment of a requirement
 3.2616
 nondelivered source statement
 1. source statement that is developed in support of the final product, but not delivered to the customer
@@ -13942,7 +13942,7 @@ designated by an arrow label.
 object-oriented design
 1. software development technique in which a system or component is expressed in terms of objects and
 connections between those objects
-cf. data structure-centered design, input-process-output, modular decomposition, rapid prototyping, stepwi
+cf. data structure-centered design, input-process-output, modular decomposition, rapid prototyping, stepwise
 refinement, structured design, transaction analysis, transform analysis
 3.2652
 object-oriented language
@@ -14098,8 +14098,8 @@ cf. printed documentation, embedded documentation
 EXAMPLE: pop-up help and help text on a scree
 3.2684
 one-address instruction
-single-address instructio
-single-operand instructio
+single-address instruction
+single-operand instruction
 1. computer instruction that contains one address field
 cf. multiaddress instruction, two-address instruction, three-address instruction, four-address instruction, z
 address instruction
@@ -15534,7 +15534,7 @@ transferred from one hardware, software or other operational or usage environmen
 (SQuaRE) — System and software quality models, 4.2.8] 4. property that the reference points of an object allow it to
 be adapted to a variety of configurations [ISO/IEC 10746-2:2009 Information technology — Open Distributed
 Processing — Reference Model: Foundations, 15.4.1]
-cf. machine-independen
+cf. machine-independent
 3.2969
 portability testing
 1. type of testing conducted to evaluate the ease with which a test item can be transferred from one hardware or
@@ -16441,7 +16441,7 @@ specification
 3.3137
 program-sensitive fault
 1. fault that causes a failure when some particular sequence of program steps is executed
-cf. data-sensitive faul
+cf. data-sensitive fault
 3.3138
 programmable breakpoint
 1. breakpoint that automatically invokes a previously specified debugging process when initiated
@@ -16777,7 +16777,7 @@ cf. epilog breakpoint, code breakpoint, data breakpoint, dynamic breakpoint, pro
 breakpoint
 3.3204
 PROM
-1. programmable read-only memor
+1. programmable read-only memory
 3.3205
 prompt
 1. symbol or message displayed by a computer system, requesting input from the user of the system 2. to display a
@@ -17215,7 +17215,7 @@ TR 24766:2009 Information technology — Systems and software engineering — Gu
 tool capabilities, 3.5] 3. a condition or capability that will be used to assess conformance by validating the
 acceptability of an attribute for the quality of a result [A Guide to the Project Management Body of Knowledge
 (PMBOK® Guide) — Fifth Edition]
-cf. non-functional requiremen
+cf. non-functional requirement
 3.3288
 quality subfactor
 1. decomposition of a quality factor or quality subfactor to its technical components [IEEE 1061-1998 (R2004) IEEE
@@ -17257,7 +17257,7 @@ responsible, accountable, consult, and inform statuses to define the involvement
 3.3298
 RAM
 1. responsibility assignment matrix [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth
-Edition] 2. random-access memor
+Edition] 2. random-access memory
 3.3299
 RAM-C
 1. reliability, availability, maintainability, and cost [IEEE 15288.2:2014 IEEE Standard for Technical Reviews and
@@ -17276,7 +17276,7 @@ data is stored and accessed sequentially.
 rapid prototyping
 1. type of prototyping in which emphasis is placed on developing prototypes early in the development process to
 permit early feedback and analysis in support of the development process
-cf. waterfall model, data structure-centered design, incremental development, input-process-output, modul
+cf. waterfall model, data structure-centered design, incremental development, input-process-output, modular
 decomposition
 3.3303
 rate-monotonic algorithm
@@ -17668,7 +17668,7 @@ technology — Open Distributed Processing — Type Repository Function, 3.2.2]
 relative address
 1. address that must be adjusted by the addition of an offset to determine the address of the storage location to be
 accessed
-cf. absolute address, base address, indexed address, self-relative addres
+cf. absolute address, base address, indexed address, self-relative address
 3.3380
 relative chain frequency
 1. relative frequency of using the l-th chain type by an emulated user of the i-th type [ISO/IEC 14756:199
@@ -17878,7 +17878,7 @@ Software engineering — Lifecycle profiles for Very Small Entities (VSEs) — P
 2. location/format in which such a collection is stored [IEEE 828-2012 IEEE Standard for Configuration Management
 in Systems and Software Engineering, 2.1] 3. organized and persistent data storage that allows data retrieval [ISO/IEC
 29155-1:2011 Systems and software engineering — Information technology project performance benchmarking
-framework — Part 1: Concepts and definitions, 2.9] 4. collection of all software-related artifacts belonging to a syste
+framework — Part 1: Concepts and definitions, 2.9] 4. collection of all software-related artifacts belonging to a system
 [IEEE 828-2012 IEEE Standard for Configuration Management in Systems and Software Engineering, 2.1]
 Note 1 to entry: Artifacts are, for example, the software engineering environment. Benchmarking repository is a repository which
 is designated for use as the source of comparative measures for the purpose of benchmarking.
@@ -17935,7 +17935,7 @@ request for change
 1. proposal for a change to be made to a system, service, component, or the service management system2. proposal
 for a functional or non-functional change to be made to an existing application [ISO/IEC 16350-2015 Information
 technology — Systems and software engineering — Application management, 4.30]
-cf. change request, modification request.
+cf. change request, modification request
 Note 1 to entry: A change to a service includes the provision of a new service or the removal of a service which is no longer
 required.
 3.3424
@@ -18242,7 +18242,7 @@ response), or it might be the occurrence of an internally controlled change to t
 response time
 1. elapsed time between the end of an inquiry or command to an interactive computer system and the beginning
 of the system's response
-cf. port-to-port time, think time, turnaround ti
+cf. port-to-port time, think time, turnaround time
 3.3477
 responsibility
 1. generalization of properties (attributes, participant properties, and operations) and constraints [IEEE 1320.2-
@@ -18710,7 +18710,7 @@ the work in the future is planned at a higher level [A Guide to the Project Mana
 Guide) — Fifth Edition]
 3.3562
 ROM
-1. read-only memor
+1. read-only memory
 3.3563
 root arrow segment
 root
@@ -18728,7 +18728,7 @@ A root cause may underlie more than one variance or defect or risk. [A Guide to 
 Knowledge (PMBOK® Guide) — Fifth Edition]
 3.3566
 root compiler
-1. compiler whose output is a machine independent, intermediate-level representation of a progra
+1. compiler whose output is a machine independent, intermediate-level representation of a program
 Note 1 to entry: A root compiler, when combined with a code generator, comprises a full compiler.
 3.3567
 root-cause analysis
@@ -18753,7 +18753,7 @@ RTM
 1. requirements traceability matrix
 3.3572
 RTOS
-1. real-time operating syste
+1. real-time operating system
 3.3573
 rule
 1. constraint on a system specification [ISO/IEC 10746-2:2009 Information technology — Open Distributed Processing
@@ -18927,13 +18927,13 @@ Note 1 to entry: That is, having no parts.
 scalar-valued class
 1. class in which each instance is a single value [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling
 Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.173]
-cf. collection-valued clas
+cf. collection-valued class
 3.3607
 scalar-valued property
 scalar property
 1. property that maps to a scalar-valued class [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling
 Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.174]
-cf. collection-valued propert
+cf. collection-valued property
 3.3608
 scale
 1. ordered set of values, continuous or discrete, or a set of categories to which the attribute is mapped [ISO/IEC/IEEE
@@ -19199,7 +19199,7 @@ security kernel
 system, specifying and enforcing criteria that must be met for programs and data to be accessed
 3.3660
 security policy
-1. rules for need-to-know and access-to-information at each project organization level 2. set of rules that constra
+1. rules for need-to-know and access-to-information at each project organization level 2. set of rules that constrains
 one or more sets of activities of one or more sets of objects [ISO/IEC 10746-3:2009 Information technology — Open
 Distributed Processing — Reference Model: Architecture, 15.1.1]
 3.3661
@@ -19676,14 +19676,14 @@ cf. two-level encoding
 3.3756
 single-step operation
 single-step executio
-step-by-step operati
+step-by-step operation
 1. debugging technique in which a single computer instruction, or part of an instruction, is executed in response to
 an external signal
 3.3757
 single-valued property
 1. property with a single-valued mapping [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling
 Language Syntax and Semantics for IDEF1X97 (IDEFobject), 3.1.179]
-cf. multi-valued propert
+cf. multi-valued property
 3.3758
 SIP
 1. system integration plan [IEEE 15288.1:2014 IEEE Standard for Application of Systems Engineering on Defense
@@ -20237,7 +20237,7 @@ software safety program
 3.3857
 software system
 1. system for which software is of primary importance to the stakeholders
-cf. software-intensive syste
+cf. software-intensive system
 3.3858
 software test environment (STE)
 1. facilities, hardware, software, firmware, procedures, and documentation needed to perform qualification or other
@@ -20672,7 +20672,7 @@ the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
 stand-alone
 1. pertaining to hardware or software that is capable of performing its function without being connected to other
 components
-EXAMPLE: a stand-alone document processing syste
+EXAMPLE: a stand-alone document processing system
 3.3949
 standard
 1. document, established by consensus and approved by a recognized body, that provides, for common and repeated
@@ -20682,7 +20682,7 @@ Entities (VSEs) — Part 1: Overview, 2.33] 2. a document that provides, for com
 guidelines or characteristics for activities or their results, aimed at the achievement of the optimum degree of order
 in a given context [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
 cf. guide, guideline
-EXAMPLE: [ISO/IEC TR 10000-1
+EXAMPLE: [ISO/IEC TR 10000-1]
 3.3950
 standard process
 1. set of definitions of the processes used to guide processes in an organization [ISO/IEC 33001:2015 Information
@@ -20805,7 +20805,7 @@ EXAMPLE: static analysis, static binding
 3.3970
 static analysis
 1. process of evaluating a system or component based on its form, structure, content, or documentation
-cf. dynamic analysis, inspection, walk-throug
+cf. dynamic analysis, inspection, walk-through
 3.3971
 static binding
 1. binding performed prior to the execution of a computer program and not subject to change during program
@@ -20887,7 +20887,7 @@ Note 1 to entry: A step contains one or more actions. Responses by the software 
 stepwise refinement
 1. software development technique in which data and processing steps are defined broadly at first and then
 further defined with increasing detail
-cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, ra
+cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, rapid
 prototyping, structured design, transaction analysis, transform analysis
 3.3987
 stimulus
@@ -21018,7 +21018,7 @@ Note 1 to entry: The result is not necessarily the same as that shown in a call 
 structure clash
 1. in software design, a situation in which a module must deal with two or more data sets that have incompatible
 data structures
-cf. data structure-centered design, order clas
+cf. data structure-centered design, order clash
 3.4012
 structure-based testing
 1. dynamic testing in which the tests are derived from an examination of the structure of the test item [ISO/IEC/IEEE
@@ -21031,8 +21031,8 @@ structured design
 1. disciplined approach to software design that adheres to specified rules based on principles such as modularity,
 top-down design, and stepwise refinement of data, system structures, and processing steps 2. result of applying the
 approach in (1)
-cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, ra
-prototyping.
+cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, rapid
+prototyping
 3.4014
 structured program
 1. computer program constructed of a basic set of control structures, each having one entry and one exit
@@ -22432,7 +22432,7 @@ Note 1 to entry: Depending on the life cycle model used, test sub-processes are 
 stages or test tasks.
 3.4267
 test target version
-1. specific version of test target which is used for one-time execution of Dynamic Test Execution or Code Analysi
+1. specific version of test target which is used for one-time execution of Dynamic Test Execution or Code Analysis
 [ISO/IEC 30130:2016 Software engineering — Capabilities of software testing tools]
 3.4268
 test traceability matrix
@@ -22528,7 +22528,7 @@ Extension to the PMBOK® Guide Fifth Edition]
 think time
 1. elapsed time between the end of a prompt or message generated by an interactive system and the beginning of
 a human user's response
-cf. port-to-port time, response time, turnaround ti
+cf. port-to-port time, response time, turnaround time
 3.4284
 third normal form
 1. result of a normalization process that transforms groups of data so that each non-key attribute does not depend
@@ -22768,8 +22768,8 @@ top-down
 1. pertaining to an activity that starts with the highest-level component of a hierarchy and proceeds through
 progressively lower-levels 2. pertaining to a method or procedure that starts at the highest level of abstraction and
 proceeds towards the lowest level [ISO/IEC 2382:2015, Information technology — Vocabulary]
-cf. bottom-up, critical piece firs
-EXAMPLE: top-down design, top-down testi
+cf. bottom-up, critical piece first
+EXAMPLE: top-down design, top-down testing
 3.4334
 top-down design
 top-down decompositio
@@ -22922,7 +22922,7 @@ transaction analysis
 transaction-centered design
 1. software development technique in which the structure of a system is derived from analyzing the transactions
 that the system is required to process
-cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, ra
+cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, rapid
 prototyping, stepwise refinement, structured design, transform analysis
 3.4364
 transaction file
@@ -22978,7 +22978,7 @@ transformation analysis
 transform-centered design
 1. software development technique in which the structure of a system is derived from analyzing the flow of data
 through the system and the transformations that must be performed on the data
-cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, ra
+cf. data structure-centered design, input-process-output, modular decomposition, object-oriented design, rapid
 prototyping, stepwise refinement, structured design, transaction analysis
 3.4374
 transient error
@@ -23025,7 +23025,7 @@ trap
 the location from which the jump occurred recorded 2. to perform the operation in (1)
 3.4382
 tree diagram
-1. a systematic diagram of a decomposition hierarchy used to visualize as parent-to-child relationships a systemati
+1. a systematic diagram of a decomposition hierarchy used to visualize as parent-to-child relationships a systematic
 set of rules [A Guide to the Project Management Body of Knowledge (PMBOK® Guide) — Fifth Edition]
 3.4383
 tree-structured chart
@@ -23089,7 +23089,7 @@ Note 1 to entry: Tuple can be used in place of record.
 3.4395
 turnaround time
 1. elapsed time between the submission of a job to a batch processing system and the return of completed output
-cf. port-to-port time, response time, think ti
+cf. port-to-port time, response time, think time
 3.4396
 turnkey
 1. pertaining to a hardware or software system delivered in a complete, operational state
@@ -23105,7 +23105,7 @@ the software or documentation [ISO/IEC 26514:2008 Systems and software engineeri
 and developers of user documentation, 4.51]
 3.4399
 two-address instruction
-double-operand instructio
+double-operand instruction
 1. computer instruction that contains two address fields.
 cf. one-address instruction, three-address instruction, four-address instruction, zero-address instruction
 EXAMPLE: an instruction to add the contents of A to the contents of B
@@ -23328,7 +23328,7 @@ Note 1 to entry: Such a system is either busy or idle.
 up time
 1. period of time during which a system or component is operational and in service; that is, the sum of busy time
 and idle time
-cf. down time, busy time, idle time, mean time between failures, set-up tim
+cf. down time, busy time, idle time, mean time between failures, set-up time
 3.4443
 updatable argument
 1. designation given to an operation argument that identifies an instance to which a request can be sent that will
@@ -24135,7 +24135,7 @@ product development [A Guide to the Project Management Body of Knowledge (PMBOK�
 3.4571
 volatile memory
 1. unit that stores data only while power is on
-cf. non-volatile memor
+cf. non-volatile memory
 3.4572
 volume testing
 1. type of performance efficiency testing conducted to evaluate the capability of the test item to process specified
@@ -24216,7 +24216,7 @@ WDT
 wearout-failure period
 1. period in the life cycle of a system or component during which hardware failures occur at an increasing rate due
 to deterioration
-cf. constant-failure period, early-failure period, bathtub cur
+cf. constant-failure period, early-failure period, bathtub curve
 3.4589
 web page
 1. coherent presentation of a set of content objects and associated interaction objects delivered to users through a
