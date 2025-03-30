@@ -6,9 +6,17 @@ async function main() {
   const words = JSON.parse(data) as Word[];
 
   // Create a Set of all word names
+  // If a word name contains "()" like "word name (xxx)", 
+  // both "word name (xxx)" and "word name" are added to the Set
   const wordNames = new Set<string>();
   for (const word of words) {
     wordNames.add(word.name);
+    
+    // Handle abbreviated forms in parentheses
+    const [, baseName] = word.name.match(/^(.*?)\s*\([^)]+\)\s*$/) || [];
+    if (baseName) {
+      wordNames.add(baseName.trim());
+    }
   }
 
   // Check for duplicate definitions and invalid confer references
