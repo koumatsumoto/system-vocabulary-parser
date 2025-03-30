@@ -6501,7 +6501,7 @@ DIP
 1. dual inline package
 3.1213
 direct address
-one-level addres
+one-level address
 1. address that identifies the storage location of an operand
 cf. immediate data, indirect address, n-level address, direct instructio
 3.1214
@@ -8538,7 +8538,7 @@ Note 1 to entry: a family of related standardized interfaces
 fifth-generation language (5GL)
 1. computer language that incorporates the concepts of knowledge-based systems, expert systems, inference
 engines, and natural language processing
-cf. assembly language, fourth-generation language, high-order language, machine langua
+cf. assembly language, fourth-generation language, high-order language, machine language
 3.1595
 figurative constant
 1. data name that is reserved for a specific constant in a programming language
@@ -9682,7 +9682,7 @@ third-generation language
 translated into several different machine languages, allows symbolic naming of operations and addresses, provides
 features designed to facilitate expression of data structures and program logic, and usually results in several
 machine instructions for each program statement
-cf. assembly language, fifth-generation language, fourth-generation language, machine langua
+cf. assembly language, fifth-generation language, fourth-generation language, machine language
 EXAMPLE: Ada, COBOL, FORTRAN, ALGOL, PASCAL
 3.1810
 higher-level management
@@ -10242,7 +10242,7 @@ independent
 1. performed by an organization free from control by the supplier, developer, operator, or maintainer
 3.1923
 independent entity
-identifier-independent entit
+identifier-independent entity
 1. entity for which each instance can be uniquely identified without determining its relationship to another entity
 [IEEE 1320.2-1998 (R2004) IEEE Standard for Conceptual Modeling Language Syntax and Semantics for IDEF1X97
 (IDEFobject), 3.1.84]
@@ -10272,7 +10272,7 @@ and Validation, 3.1]
 indexed address
 1. address that must be added to the contents of an index register to obtain the address of the storage location to be
 accessed
-cf. offset (2), relative address, self-relative addres
+cf. offset (2), relative address, self-relative address
 3.1929
 indicative function point count
 1. an indication denoting the estimated size of an application or project, based exclusively on a conceptual data
@@ -10297,7 +10297,7 @@ indigenous error
 indirect address
 multilevel address
 1. address that identifies the storage location of another address
-cf. direct address, immediate data, indirect instruction, n-level addres
+cf. direct address, immediate data, indirect instruction, n-level address
 Note 1 to entry: The designated storage location can contain the address of the desired operand or another indirect address; the
 chain of addresses eventually leads to the operand.
 3.1934
@@ -13496,7 +13496,7 @@ n-level address
 1. indirect address that specifies the first of a chain of n storage locations, the first n-1 of which contains the
 address of the next location in the chain and the last of which contains the desired operand
 cf. direct address, immediate data
-EXAMPLE: a two-level addres
+EXAMPLE: a two-level address
 3.2563
 n-plus-one address instruction
 1. computer instruction that contains n+1 address fields, the last containing the address of the instruction to be
@@ -21202,7 +21202,7 @@ subsystem
 3.4042
 subtype
 1. subset of a data type, obtained by constraining the set of possible values of the data type 2. meta-entity that
-inherits all of the meta-attributes and meta-relationships of its immediate and indirect supertype meta-entit
+inherits all of the meta-attributes and meta-relationships of its immediate and indirect supertype meta-entity
 [ISO/IEC 15474-2:2002 Information technology — CDIF framework — Part 2: Modelling and extensibility, 6.2.5] 3.
 relation of type A to type B when every <X> which satisfies A also satisfies B [ISO/IEC 10746-2:2009 Information
 technology — Open Distributed Processing — Reference Model: Foundations, 9.11]
@@ -23112,7 +23112,7 @@ EXAMPLE: an instruction to add the contents of A to the contents of B
 3.4400
 two-level address
 1. indirect address that specifies the storage location containing the address of the desired operand
-cf. n-level addres
+cf. n-level address
 3.4401
 two-level encoding
 1. microprogramming technique in which different microoperations can be encoded identically into the same field

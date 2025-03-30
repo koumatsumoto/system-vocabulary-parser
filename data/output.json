@@ -14346,7 +14346,7 @@
       }
     ],
     "alias": [
-      "one-level addres"
+      "one-level address"
     ],
     "confer": [
       "immediate data",
@@ -18858,7 +18858,7 @@
       "assembly language",
       "fourth-generation language",
       "high-order language",
-      "machine langua"
+      "machine language"
     ]
   },
   {
@@ -21438,7 +21438,7 @@
       "assembly language",
       "fifth-generation language",
       "fourth-generation language",
-      "machine langua"
+      "machine language"
     ],
     "example": "Ada, COBOL, FORTRAN, ALGOL, PASCAL"
   },
@@ -22760,7 +22760,7 @@
       }
     ],
     "alias": [
-      "identifier-independent entit"
+      "identifier-independent entity"
     ],
     "confer": [
       "dependent entity [key style]"
@@ -22821,7 +22821,7 @@
     "confer": [
       "offset (2)",
       "relative address",
-      "self-relative addres"
+      "self-relative address"
     ]
   },
   {
@@ -22882,7 +22882,7 @@
       "direct address",
       "immediate data",
       "indirect instruction",
-      "n-level addres"
+      "n-level address"
     ],
     "note": "The designated storage location can contain the address of the desired operand or another indirect address; the chain of addresses eventually leads to the operand."
   },
@@ -30258,7 +30258,7 @@
       "direct address",
       "immediate data"
     ],
-    "example": "a two-level addres"
+    "example": "a two-level address"
   },
   {
     "number": "3.2563",
@@ -47608,7 +47608,7 @@
         "text": "subset of a data type, obtained by constraining the set of possible values of the data type"
       },
       {
-        "text": "meta-entity that inherits all of the meta-attributes and meta-relationships of its immediate and indirect supertype meta-entit",
+        "text": "meta-entity that inherits all of the meta-attributes and meta-relationships of its immediate and indirect supertype meta-entity",
         "reference": "ISO/IEC 15474-2:2002 Information technology — CDIF framework — Part 2: Modelling and extensibility, 6.2.5"
       },
       {
@@ -51813,7 +51813,7 @@
       }
     ],
     "confer": [
-      "n-level addres"
+      "n-level address"
     ]
   },
   {
