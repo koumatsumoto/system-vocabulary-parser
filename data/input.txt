@@ -6063,8 +6063,7 @@ design characteristic
 [ISO/IEC TS 24748-1:2016 Systems and software engineering — Life cycle management — Part 1: Guide for life cycle
 management, 2.18] 2. design attributes or distinguishing features that pertain to a measurable description of a
 product or process [ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes,
-4.1.17] 3. design attributes or distinguishing features that pertain to a measurable description of a product or
-service [ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.1.17]
+4.1.17]
 3.1130
 design concept
 1. fundamental idea that can be applied to designing a system
@@ -22118,8 +22117,7 @@ test case
 exercise a particular program path or to verify compliance with a specific requirement [IEEE 1012-2012 IEEE
 Standard for System and Software Verification and Validation, 3.3.31] 2. documentation specifying inputs, predicted
 results, and a set of execution conditions for a test item [IEEE 1012-2012 IEEE Standard for System and Software
-Verification and Validation, 3.1.31] 2. documentation specifying inputs, predicted results, and a set of execution
-conditions for a test item 3. set of test case preconditions, inputs (including actions, where applicable), and expected
+Verification and Validation, 3.1.31] 3. set of test case preconditions, inputs (including actions, where applicable), and expected
 results, developed to drive the execution of a test item to meet test objectives, including correct implementation,
 error identification, checking quality, and other valued information [ISO/IEC/IEEE 29119-1:2013 Software and
 systems engineering — Software testing — Part 1: Concepts and definitions, 4.48]

@@ -13350,10 +13350,6 @@
       {
         "text": "design attributes or distinguishing features that pertain to a measurable description of a product or process",
         "reference": "ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.1.17"
-      },
-      {
-        "text": "design attributes or distinguishing features that pertain to a measurable description of a product or service",
-        "reference": "ISO/IEC/IEEE 15288:2015 Systems and software engineering — System life cycle processes, 4.1.17"
       }
     ]
   },
@@ -49607,9 +49603,6 @@
       {
         "text": "documentation specifying inputs, predicted results, and a set of execution conditions for a test item",
         "reference": "IEEE 1012-2012 IEEE Standard for System and Software Verification and Validation, 3.1.31"
-      },
-      {
-        "text": "documentation specifying inputs, predicted results, and a set of execution conditions for a test item"
       },
       {
         "text": "set of test case preconditions, inputs (including actions, where applicable), and expected results, developed to drive the execution of a test item to meet test objectives, including correct implementation, error identification, checking quality, and other valued information",
