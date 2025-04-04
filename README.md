@@ -46,3 +46,11 @@ npm run fmt
 ```
 
 Code formatting is handled by [Prettier](https://prettier.io/).
+
+## Updating data/name_ja_and_categories.json
+
+To update the name_ja_and_categories.json file, run:
+
+```bash
+curl -o data/name_ja_and_categories.json https://raw.githubusercontent.com/koumatsumoto/study-OpenAPI-responses-20250402/refs/heads/main/data/batch_result.json
+```
